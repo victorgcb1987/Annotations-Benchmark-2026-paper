@@ -15,7 +15,7 @@ FOLDER_TRANSLATE = {""}
 
 
 def main():
-    gaqet_logs = SERVER_RESULTS_FPATH.rglob("GAQET.log.txt")
+    gaqet_logs = list(SERVER_RESULTS_FPATH.rglob("GAQET.log.txt"))
     gaqet_logs.sort(key=os.path.getmtime)
     for filename in gaqet_logs:
         species = str(filename).split("/")[6]
