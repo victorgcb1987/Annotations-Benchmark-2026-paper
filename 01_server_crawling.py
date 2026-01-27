@@ -1,4 +1,6 @@
 import os
+import re
+
 
 from pathlib import Path
 
@@ -23,7 +25,8 @@ def main():
         if method == "01_BRAKER3":
             method = str(filename).split("/")[9]
         if "GeMoMa_" in method:
-            method = "_".join(method.split("_")[1:])
+            method = re.search(r'([^_]+_[^_]+)$', s)
+            method = method.group(1)
         print(species, method, filename)
         
 
