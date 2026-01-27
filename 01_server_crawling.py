@@ -15,6 +15,7 @@ FOLDER_TRANSLATE = {""}
 def main():
     for filename in SERVER_RESULTS_FPATH.rglob("GAQET.log.txt"):
         species = str(filename).split("/")[5]
+        print(species)
         
 
 
