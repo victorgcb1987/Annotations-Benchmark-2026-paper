@@ -1,3 +1,4 @@
+import yaml
 import os
 import re
 
@@ -44,7 +45,8 @@ def main():
             except IndexError:
                 print(filename)
 
-    print(annots)
+    with open('annotations_metada_2026_01_27.yml', 'w') as outfile:
+        yaml.dump(annots, outfile, default_flow_style=False)
         
 
 
