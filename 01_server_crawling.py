@@ -35,6 +35,8 @@ def main():
             method =  "NCBI_RefSeq"
         if "NCBI_GCA" in method:
             method = "NCBI_UserSubmitted"
+        if "HELIX" in method:
+            method = "_".join(method.split("_")[1:])
         if method not in annots[species]:
             try:
                 annots[species][method] = {"report": filename, 
