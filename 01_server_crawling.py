@@ -30,12 +30,17 @@ def main():
         if "GeMoMa_" in method:
             method = re.search(r'([^_]+_[^_]+)$', method)
             method = method.group(1)
+        if "NCBI_GCF" in method:
+            method =  "NCBI_RefSeq"
+        if "NCBI_GCA" in method:
+            method = "NCBI_UserSubmitted"
         if method not in annots[species]:
             try:
                 annots[species][method] = {"report": filename, 
                                           "gaqet_results": list(filename.parent.glob("*.stats.tsv"))[0]}
             except IndexError:
                 print(filename)
+
     print(annots)
         
 
