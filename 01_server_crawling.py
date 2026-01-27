@@ -25,7 +25,7 @@ def main():
         if method == "01_BRAKER3":
             method = str(filename).split("/")[9]
         if "GeMoMa_" in method:
-            method = re.search(r'([^_]+_[^_]+)$', s)
+            method = re.search(r'([^_]+_[^_]+)$', method)
             method = method.group(1)
         print(species, method, filename)
         
