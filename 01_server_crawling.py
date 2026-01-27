@@ -17,17 +17,22 @@ FOLDER_TRANSLATE = {""}
 
 
 def main():
+    annots = {}
     gaqet_logs = list(SERVER_RESULTS_FPATH.rglob("GAQET.log.txt"))
     gaqet_logs.sort(key=os.path.getmtime, reverse=True)
     for filename in gaqet_logs:
         species = str(filename).split("/")[6]
+        if species not in annots:
+            annots[species] = {}
         method = str(filename).split("/")[8]
         if method == "01_BRAKER3":
             method = str(filename).split("/")[9]
         if "GeMoMa_" in method:
             method = re.search(r'([^_]+_[^_]+)$', method)
             method = method.group(1)
-        print(species, method, filename)
+        if method not in annots[species]:
+            annots[species][method] = {"report": filename, "gaqet_results": filename.parent.glob("*.stats.tsv")}
+    print(annots)
         
 
 
