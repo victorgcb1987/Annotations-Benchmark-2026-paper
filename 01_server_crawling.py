@@ -31,9 +31,11 @@ def main():
             method = re.search(r'([^_]+_[^_]+)$', method)
             method = method.group(1)
         if method not in annots[species]:
-            print(filename.parent)
-            annots[species][method] = {"report": filename, 
-                                       "gaqet_results": list(filename.parent.glob("*.stats.tsv"))[0]}
+            try:
+                annots[species][method] = {"report": filename, 
+                                          "gaqet_results": list(filename.parent.glob("*.stats.tsv"))[0]}
+            except IndexError:
+                print(filename)
     print(annots)
         
 
