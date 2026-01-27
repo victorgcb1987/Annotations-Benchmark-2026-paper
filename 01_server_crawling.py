@@ -40,7 +40,7 @@ def main():
             method = "_".join(method.split("_")[1:])
         if method not in annots[species]:
             try:
-                annots[species][method] = {"report": filename, 
+                annots[species][method] = {"report": str(filename), 
                                           "gaqet_results": list(filename.parent.glob("*.stats.tsv"))[0]}
             except IndexError:
                 print(filename)
