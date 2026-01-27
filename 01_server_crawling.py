@@ -22,6 +22,8 @@ def main():
         method = str(filename).split("/")[8]
         if method == "01_BRAKER3":
             method = str(filename).split("/")[9]
+        if "GeMoMa_" in method:
+            method = "_".join(method.split("_")[1:])
         print(species, method, filename)
         
 
