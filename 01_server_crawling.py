@@ -20,6 +20,8 @@ def main():
     for filename in gaqet_logs:
         species = str(filename).split("/")[6]
         method = str(filename).split("/")[8]
+        if method == "01_BRAKER3":
+            method = str(filename).split("/")[9]
         print(species, method, filename)
         
 
