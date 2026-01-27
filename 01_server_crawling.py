@@ -1,3 +1,5 @@
+import os
+
 from pathlib import Path
 
 
@@ -13,7 +15,9 @@ FOLDER_TRANSLATE = {""}
 
 
 def main():
-    for filename in SERVER_RESULTS_FPATH.rglob("GAQET.log.txt"):
+    gaqet_logs = SERVER_RESULTS_FPATH.rglob("GAQET.log.txt")
+    gaqet_logs.sort(key=os.path.getmtime)
+    for filename in gaqet_logs:
         species = str(filename).split("/")[6]
         method = str(filename).split("/")[8]
         print(species, method, filename)
