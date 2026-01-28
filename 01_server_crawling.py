@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 
-from src.metadata import Species
+from src.metadata import get_taxonomic_data
 
 
 
@@ -24,7 +24,8 @@ def main():
     for filename in gaqet_logs:
         species = str(filename).split("/")[6]
         if species not in annots:
-            annots[species] = {}
+            annots[species] = get_taxonomic_data(species)
+
         method = str(filename).split("/")[8]
         if method == "01_BRAKER3":
             method = str(filename).split("/")[9]
