@@ -3,7 +3,7 @@ from sys import argv
 
 
 def main():
-    metada = yaml.load(open(argv[1]), "r")
+    metada = yaml.safe_load(open(argv[1], "r"))
     print(metada)
 
 
