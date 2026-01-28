@@ -25,7 +25,7 @@ def main():
         species = str(filename).split("/")[6]
         if species not in annots:
             annots[species] = get_taxonomic_data(species)
-            print(annots[species])
+            print(species, annots[species])
 
         method = str(filename).split("/")[8]
         if method == "01_BRAKER3":
