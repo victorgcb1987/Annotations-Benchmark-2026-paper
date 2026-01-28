@@ -16,6 +16,8 @@ GAQET_prefix = "AnnotationQC_"
 
 FOLDER_TRANSLATE = {""}
 
+NAME_FIX = {"Alisma_plantagoaquatica": "Alisma_plantagoa-quatica",
+            "Adiantum_capillusveneris": "Adiantum_capillus-veneris"}
 
 def main():
     annots = {}
@@ -24,8 +26,7 @@ def main():
     for filename in gaqet_logs:
         species = str(filename).split("/")[6]
         if species not in annots:
-            if species == "Adiantum_capillusveneris":
-                species = "Adiantum_capillus-veneris"
+            species = NAME_FIX.get(NAME_FIX, species)
             annots[species] = get_taxonomic_data(species)
             print(species, annots[species])
 
