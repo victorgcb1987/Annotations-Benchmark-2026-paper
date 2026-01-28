@@ -24,6 +24,8 @@ def main():
     for filename in gaqet_logs:
         species = str(filename).split("/")[6]
         if species not in annots:
+            if species == "Adiantum_capillusveneris":
+                species = "Adiantum_capillus-veneris"
             annots[species] = get_taxonomic_data(species)
             print(species, annots[species])
 
