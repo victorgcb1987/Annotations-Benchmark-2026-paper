@@ -29,11 +29,11 @@ def get_taxonomic_data(species):
     metadata = run(cmd, shell=True, capture_output=True)
         
     if metadata.returncode == 0:
-        metadata = json.loads()
+        metadata = json.loads(metadata.stodut)
         tax_metadata = metadata["reports"][0]["taxonomy"]["classification"]
         species = tax_metadata["species"]["name"]
         genus = tax_metadata["genus"]["name"]
-        familiy = tax_metadata["family"]["name"]
+        family = tax_metadata["family"]["name"]
         tax_class = tax_metadata["class"]["name"]
         return {"species": species, "genus": genus, "family": family,
                 "class": tax_class}
