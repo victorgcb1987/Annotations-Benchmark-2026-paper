@@ -16,7 +16,7 @@ GAQET_prefix = "AnnotationQC_"
 
 FOLDER_TRANSLATE = {""}
 
-NAME_FIX = {"Alisma_plantagoaquatica": "Alisma_plantagoa-quatica",
+NAME_FIX = {"Alisma_plantagoaquatica": "Alisma_plantago-aquatica",
             "Adiantum_capillusveneris": "Adiantum_capillus-veneris"}
 
 def main():
