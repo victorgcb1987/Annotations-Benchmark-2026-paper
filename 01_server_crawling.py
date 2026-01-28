@@ -26,7 +26,7 @@ def main():
     for filename in gaqet_logs:
         species = str(filename).split("/")[6]
         if species not in annots:
-            species = NAME_FIX.get(NAME_FIX, species)
+            species = NAME_FIX.get(species, species)
             annots[species] = get_taxonomic_data(species)
             print(species, annots[species])
 
