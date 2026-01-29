@@ -10,7 +10,7 @@ def get_species_annotated_with_helixer(yaml_fhand):
     helixer_annnots = {}
     for species, annot in yaml_fhand.items():
         for method, metadata in annot.items():
-            if "HELIXER" in method:
+            if "GeMoMa" in method:
                 if species not in helixer_annnots:
                     helixer_annnots[species] = {method: metadata}
                 else:
