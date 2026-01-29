@@ -42,12 +42,13 @@ def get_correct_pipeline_path(root_path):
             return pipeline_path
 
 
-
 def add_species_contribution(benchmarks):
     for species, benchmark in benchmarks.items():
         for method, metadata in benchmark.items():
             root_path = Path(metadata["report"]).parents[1]
+            print(root_path)
             path = get_correct_pipeline_path(root_path)
+            print(path)
             contributions = get_contributions(open(path))
             metadata.update(contributions)
 
