@@ -73,7 +73,7 @@ def get_helixer_benchmarks(yaml_fhand):
 def main():
     metadata = yaml.safe_load(open(argv[1], "r"))
     helixer_benchmarks = get_helixer_benchmarks(metadata)
-    helixer_benchmarks = add_species_contribution(helixer_benchmarks)
+    add_species_contribution(helixer_benchmarks)
     print(helixer_benchmarks)
 
 
