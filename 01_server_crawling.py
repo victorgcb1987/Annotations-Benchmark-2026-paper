@@ -50,7 +50,7 @@ def main():
             except IndexError:
                 print(filename)
 
-    with open('annotations_metada_2026_01_27.yml', 'w') as outfile:
+    with open('annotations_benchmarks_2026_01_27.yaml', 'w') as outfile:
         yaml.dump(annots, outfile, default_flow_style=False)
         
 
