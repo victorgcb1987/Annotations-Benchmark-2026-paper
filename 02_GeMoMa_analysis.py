@@ -46,9 +46,7 @@ def add_species_contribution(benchmarks):
         for method, metadata in benchmark.items():
             root_path = Path(metadata["report"]).parents[1]
             path = get_correct_pipeline_path(root_path)
-       
-           
-            contributions = get_contributions(contribution_fhand)
+            contributions = get_contributions(open(path))
             metadata.update(contributions)
 
 
