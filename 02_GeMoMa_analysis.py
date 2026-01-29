@@ -2,13 +2,14 @@ import yaml
 
 from sys import argv
 
-from src.docs import SPECIES_TRANSLATION
+from src.docs import SPECIES_BY_ANNOT
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
 
 
 def main():
     metadata = yaml.safe_load(open(argv[1], "r"))
+    print(SPECIES_BY_ANNOT)
     print(metadata)
 
 
