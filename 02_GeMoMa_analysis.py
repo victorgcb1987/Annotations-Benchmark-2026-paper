@@ -18,6 +18,7 @@ def get_contributions(pipeline_fhand):
             print(contribution)
             if "GenomicData" in contribution:
                 contribution = contribution.split("/")[0].replace("GenomicData_", "").replace("_", " ")
+                print(contribution)
             else:
                 contribution = SPECIES_BY_ANNOT[contribution.rstrip().split("/")[-1]]
                 contributions[contribution] = {"distance": 0}
