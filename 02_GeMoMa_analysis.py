@@ -11,16 +11,16 @@ CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which c
 
 
 def get_contributions(pipeline_fhand):
-    contributions = {}
+    contributions = {"species_involved": {}}
     for line in pipeline_fhand:
         if CONTRIBUTION_LINE in line:
             contribution = line.rstrip().split()[-1]
             if "GenomicData" in contribution:
                 contribution = contribution.split("/")[0].replace("GenomicData_", "").replace("_", " ")
-                contributions[contribution] = {"distance": 0}
+                contributions["species_involved"][contribution] = {"distance": 0}
             else:
                 contribution = SPECIES_BY_ANNOT[contribution.rstrip().split("/")[-1]]
-                contributions[contribution] = {"distance": 0}
+                contributions["species_involved"][contribution] = {"distance": 0}
     return contributions
 
 
