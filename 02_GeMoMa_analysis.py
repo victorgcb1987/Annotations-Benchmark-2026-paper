@@ -6,6 +6,7 @@ from sys import argv
 from src.docs import SPECIES_BY_ANNOT
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
+PROTOCOL_GeMoMA_PROTOCOL_1 = "protocol_GeMoMaPipeline_1.txt"
 CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome"
 
 
@@ -25,7 +26,10 @@ def get_contributions(pipeline_fhand):
 def add_species_contribution(benchmarks):
     for species, benchmark in benchmarks.items():
         for method, metadata in benchmark.items():
-            contribution_path = Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL
+            try:
+                contribution_path = Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL
+            except FileNotFoundError:
+                contribution_path = Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL_1
             contributions = get_contributions(open(contribution_path))
             metadata.update(contributions)
 
