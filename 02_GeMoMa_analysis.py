@@ -50,6 +50,7 @@ def add_species_contribution(benchmarks):
             path = get_correct_pipeline_path(root_path)
             print(path)
             contributions = get_contributions(open(path))
+            print(contributions)
             metadata.update(contributions)
 
 
