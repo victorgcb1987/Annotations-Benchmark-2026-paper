@@ -13,7 +13,7 @@ def get_contributions(pipeline_fhand):
     contributions = {}
     for line in pipeline_fhand:
         if CONTRIBUTION_LINE in line:
-            contribution = line.rstrip.split()[-1]
+            contribution = line.rstrip().split()[-1]
             if "GenomicData" in contribution:
                 contribution = contribution.split("/")[0].replace("GenomicData_", "").replace("_", " ")
             else:
