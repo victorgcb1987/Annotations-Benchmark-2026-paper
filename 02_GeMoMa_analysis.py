@@ -27,10 +27,10 @@ def add_species_contribution(benchmarks):
     for species, benchmark in benchmarks.items():
         for method, metadata in benchmark.items():
             try:
-                contribution_hand = open(Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL)
+                contribution_fhand = open(Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL)
             except FileNotFoundError:
-                contribution_hand = open(Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL_1)
-            contributions = get_contributions(open(contribution_hand))
+                contribution_fhand = open(Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL_1)
+            contributions = get_contributions(contribution_fhand)
             metadata.update(contributions)
 
 
