@@ -33,6 +33,8 @@ def get_correct_pipeline_path(root_path):
             pipeline_path = root_path / PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT.format(start)
             if pipeline_path.is_file():
                 found = True
+            else:
+                start += 1
         if not found:
             print("Not found", root_path)
             return None
