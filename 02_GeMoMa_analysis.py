@@ -6,7 +6,7 @@ from sys import argv
 from src.docs import SPECIES_BY_ANNOT
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
-PROTOCOL_GeMoMA_PROTOCOL_1 = "protocol_GeMoMaPipeline_1.txt"
+PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT = "protocol_GeMoMaPipeline_{}.txt"
 CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome"
 
 
@@ -22,14 +22,32 @@ def get_contributions(pipeline_fhand):
                 contributions[contribution] = {"distance": 0}
     return contributions
 
+def get_correct_pipeline_path(root_path):
+    pipeline_path = root_path / PROTOCOL_GeMoMA_PROTOCOL
+    if pipeline_path.is_file():
+        return pipeline_path
+    else:
+        found = False
+        start = 1
+        while not found or start > 10:
+            pipeline_path = root_path / PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT.format(start)
+            if pipeline_path.is_file():
+                found = True
+        if not found:
+            print("Not found", root_path)
+            return None
+        else:
+            return pipeline_path
+
+
 
 def add_species_contribution(benchmarks):
     for species, benchmark in benchmarks.items():
         for method, metadata in benchmark.items():
-            try:
-                contribution_fhand = open(Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL)
-            except FileNotFoundError:
-                contribution_fhand = open(Path(metadata["report"]).parents[1] / PROTOCOL_GeMoMA_PROTOCOL_1)
+            root_path = Path(metadata["report"]).parents[1]
+            path = get_correct_pipeline_path(root_path)
+       
+           
             contributions = get_contributions(contribution_fhand)
             metadata.update(contributions)
 
