@@ -68,15 +68,15 @@ def get_gemoma_benchmarks(yaml_fhand):
 
 def get_all_species_combinations(gemoma_benchmarks):
     combinations = []
-    for species, method in gemoma_benchmarks.items():
-        print(method)
-        contributions = method.get("species_involved", None)
-        if contributions == None:
-            print("This method is broken", species, method)
-            continue
-        else:
-            for species_involved in contributions:
-                combinations.append((species, species_involved))
+    for species, methods in gemoma_benchmarks.items():
+        for method, features in methods.items()
+            contributions = features.get("species_involved", None)
+            if contributions == None:
+                print("This method is broken", species, method)
+                continue
+            else:
+                for species_involved in contributions:
+                    combinations.append((species, species_involved))
     return set(combinations)
 
 
