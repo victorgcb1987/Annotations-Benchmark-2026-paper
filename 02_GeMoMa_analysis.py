@@ -57,7 +57,7 @@ def add_species_contribution(benchmarks):
 
 
 
-def get_helixer_benchmarks(yaml_fhand):
+def get_gemoma_benchmarks(yaml_fhand):
     helixer_annnots = {}
     for species, annot in yaml_fhand.items():
         for method, metadata in annot.items():
@@ -69,12 +69,26 @@ def get_helixer_benchmarks(yaml_fhand):
     return helixer_annnots
 
 
+def get_all_species_combinations(gemoma_benchmarks):
+    combinations = []
+    for species, method in gemoma_benchmarks.items():
+        contributions = method.get("species_involved", None)
+        if contributions == None:
+            print("This method is broken", species, method)
+            continue
+        else:
+            for species_involved in contributions:
+                combinations.append((species, species_involved))
+    return set(combinations)
+
 
 def main():
     metadata = yaml.safe_load(open(argv[1], "r"))
-    helixer_benchmarks = get_helixer_benchmarks(metadata)
-    add_species_contribution(helixer_benchmarks)
-    print(helixer_benchmarks)
+    gemoma_benchmarks = get_gemoma_benchmarks(metadata)
+    add_species_contribution(gemoma_benchmarks)
+    species_combinations = get_all_species_combinations(gemoma_benchmarks)
+    for comb in species_combinations:
+        print(comb)
 
 
 if __name__ == "__main__":
