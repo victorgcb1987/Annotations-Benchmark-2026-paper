@@ -91,7 +91,8 @@ def main():
     with open("species_combs.pkl", "wb") as fhand:
         pickle.dump(species_combinations, fhand)
     
-    check_load = pickle.load("species_combs.pkl")
+    with open("species_combs.pkl", "rb") as fhand:
+        check_load = pickle.load(fhand)
     print(check_load)
     # for comb in species_combinations:
     #     divergence_time = query_timetree(comb[0], comb[1])
