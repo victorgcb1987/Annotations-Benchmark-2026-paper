@@ -76,7 +76,7 @@ def get_all_species_combinations(gemoma_benchmarks):
                 continue
             else:
                 for species_involved in contributions:
-                    combinations.append((" ".join(species).split("_"), species_involved))
+                    combinations.append((" ".join(species.split("_")), species_involved))
     return set(combinations)
 
 
