@@ -1,9 +1,11 @@
+import pickle
 import yaml
 
 from pathlib import Path
 from sys import argv
 
 from src.docs import SPECIES_BY_ANNOT
+from src.timetree import query_timetree
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
 PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT = "protocol_GeMoMaPipeline_{}.txt"
@@ -55,15 +57,15 @@ def add_species_contribution(benchmarks):
 
 
 def get_gemoma_benchmarks(yaml_fhand):
-    helixer_annnots = {}
+    gemoma_annnots = {}
     for species, annot in yaml_fhand.items():
         for method, metadata in annot.items():
             if "GeMoMa" in method:
-                if species not in helixer_annnots:
-                    helixer_annnots[species] = {method: metadata}
+                if species not in gemoma_annnots:
+                    gemoma_annnots[species] = {method: metadata}
                 else:
-                    helixer_annnots[species][method] = metadata
-    return helixer_annnots
+                    gemoma_annnots[species][method] = metadata
+    return gemoma_annnots
 
 
 def get_all_species_combinations(gemoma_benchmarks):
@@ -84,9 +86,19 @@ def main():
     metadata = yaml.safe_load(open(argv[1], "r"))
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
     add_species_contribution(gemoma_benchmarks)
+
     species_combinations = get_all_species_combinations(gemoma_benchmarks)
-    for comb in species_combinations:
-        print(comb)
+    with open("species_combs.pkl", "wb") as fhand:
+        pickle.dump(species_combinations, fhand)
+    
+    check_load = pickle.load("species_combs.pkl")
+    print(check_load)
+    # for comb in species_combinations:
+    #     divergence_time = query_timetree(comb[0], comb[1])
+    #     print(divergence_time)
+
+
+
 
 
 if __name__ == "__main__":
