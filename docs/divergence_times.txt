@@ -76,7 +76,7 @@
 {"Lupinus albus": {"Arachis hypogaea": {"adjusted_time": "56 MYA", "median_time": "51 MYA"}}}
 {"Lupinus albus": {"Canavalia gladiata": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Prunus persica": {"Cucumis sativus": {"adjusted_time": "NA", "median_time": "103 MYA"}}}
-{"Aechmea fasciata": {"Ananas comosus": {"adjusted_time": "13.7 MYA", "median_time": "Median Time:"}}}
+{"Aechmea fasciata": {"Ananas comosus": {"adjusted_time": "13.7 MYA", "median_time": "7.7 MYA"}}}
 {"Lupinus albus": {"Bauhinia variegata": {"adjusted_time": "93 MYA", "median_time": "68 MYA"}}}
 {"Lupinus albus": {"Vigna angularis": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Oryza sativa": {"Solanum lycopersicum": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}

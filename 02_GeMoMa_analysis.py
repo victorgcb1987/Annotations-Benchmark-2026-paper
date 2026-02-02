@@ -118,17 +118,7 @@ def main():
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
     with open('GeMoMA_metadata_2026_02_2.yaml', 'w') as outfile:
         yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)
-    # #species_combinations = get_all_species_combinations(gemoma_benchmarks)
-    # with open(argv[2], "rb") as fhand:
-    #     check_load = pickle.load(fhand)
-    # for comb in check_load:
-    #     divergence_time = query_timetree(comb[0], comb[1])
-    #     if not divergence_time is None:
-    #         divergence_times.append(divergence_time)
-    #     print(divergence_time)
-    # with open("divergence_times.pkl", "wb") as fhand:
-    #     pickle.dump(divergence_times, fhand)
-
+    
 
 
 
