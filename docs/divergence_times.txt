@@ -97,3 +97,4 @@
 {"Adiantum capillus-veneris": {"Brachypodium distachyon": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
 {"Adiantum capillus-veneris": {"Ananas comosus": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
 {"Adiantum capillus-veneris": {"Oryza sativa": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
+{"Adiantum capillus-veneris": {"Adiantum capillus-veneris": {"adjusted_time": "0 MYA", "median_time": "0 MYA"}}}
