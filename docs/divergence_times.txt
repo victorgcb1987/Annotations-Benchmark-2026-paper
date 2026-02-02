@@ -94,3 +94,4 @@
 {"Nicotiana benthamiana": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
 {"Alsophila spinulosa": {"Adiantum capillus-veneris": {"adjusted_time": "NA", "median_time": "211 MYA"}}}
 {"Adiantum capillus-veneris": {"Arabidopsis thaliana": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
+{"Adiantum capillus-veneris": {"Brachypodium distachyon": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
