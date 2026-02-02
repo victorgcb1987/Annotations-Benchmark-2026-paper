@@ -62,6 +62,8 @@ def get_gemoma_benchmarks(yaml_fhand):
         for method, metadata in annot.items():
             if "GeMoMa" in method:
                 if species not in gemoma_annnots:
+                    if species == "Vitis vinifera NCBI":
+                        species = "Vitis vinifera"
                     gemoma_annnots[species] = {method: metadata}
                 else:
                     gemoma_annnots[species][method] = metadata
@@ -83,21 +85,21 @@ def get_all_species_combinations(gemoma_benchmarks):
 
 
 def main():
+    divergence_times = []
     metadata = yaml.safe_load(open(argv[1], "r"))
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
     add_species_contribution(gemoma_benchmarks)
-
-    species_combinations = get_all_species_combinations(gemoma_benchmarks)
-    with open("species_combs.pkl", "wb") as fhand:
-        pickle.dump(species_combinations, fhand)
-    
-    with open("species_combs.pkl", "rb") as fhand:
-        check_load = pickle.load(fhand)
-    print(check_load)
-    # for comb in species_combinations:
+    print(gemoma_benchmarks)
+    # #species_combinations = get_all_species_combinations(gemoma_benchmarks)
+    # with open(argv[2], "rb") as fhand:
+    #     check_load = pickle.load(fhand)
+    # for comb in check_load:
     #     divergence_time = query_timetree(comb[0], comb[1])
+    #     if not divergence_time is None:
+    #         divergence_times.append(divergence_time)
     #     print(divergence_time)
-
+    # with open("divergence_times.pkl", "wb") as fhand:
+    #     pickle.dump(divergence_times, fhand)
 
 
 

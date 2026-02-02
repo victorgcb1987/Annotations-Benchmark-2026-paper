@@ -11,6 +11,7 @@ def write_like_person(driver_element, text):
 
 
 def query_timetree(species_a, species_b):
+    print("Query: {} {}".format(species_a, species_b))
     driver = webdriver.Chrome()
     driver.get('https://timetree.org/')
 
@@ -26,17 +27,20 @@ def query_timetree(species_a, species_b):
     button.click()
 
     time.sleep(2)
-
-    div = driver.find_element(By.XPATH, "//div[@id='pairwiseSvg']")
-
-    texto = div.get_attribute("innerHTML")
-    list_textos = texto.split('\n')
-
-
-    median = (list_textos[-10].split('>')[1]).split('<')[0]
-    adjusted = (list_textos[-7].split('>')[1]).split('<')[0]
+    try:
+        div = driver.find_element(By.XPATH, "//div[@id='pairwiseSvg']")
+        texto = div.get_attribute("innerHTML")
+        list_textos = texto.split('\n')
+        median = (list_textos[-10].split('>')[1]).split('<')[0]
+        adjusted = (list_textos[-7].split('>')[1]).split('<')[0]
+    except:
+        print("Error: {} {}".format(species_a, species_b))
+        driver.close()
+        return None
 
     time.sleep(1)
+    
     driver.close()
 
-    return {species_b: {"adjusted_time": adjusted, "median_time": median}}
+    return {species_a : {species_b: {"adjusted_time": adjusted, 
+                                     "median_time": median}}}

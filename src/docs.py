@@ -10,7 +10,7 @@ SPECIES_BY_ANNOT = {"GCA_014529385.2_ASM1452938v2_genomic.gff": "Adiantum capill
 "Cycas_panzhihuaensis_genome_V1.gene_models.gff": "Cycas panzhihuaensis",
 "Dunaliella_salina_Dunsal1v2_genome.gff": "Dunaliella_salina",
 "Fvesca_677_v4.0.a2.gene_exons.gff3": "Fragaria vesca",
-"GCA_020310875.1_C.richardii_v2_genomic.gff": "Ceratopteris reinhardtii",
+"GCA_020310875.1_C.richardii_v2_genomic.gff": "Ceratopteris richardii",
 "GCA_029204225.1_Diphasiastrum_complanatum_v3.1_genomic.gff": "Diphasiastrum complanatum",
 "GCA_912172775.2_Fraxinus_pennsylvanica_genome_version_1.5_genomic.gff": "Fraxinus pennsylvanica",
 "GCF_000390325.3_ASM39032v3_genomic.longest_isoform.no_tspl.gff3": "Nicotiana tomentosiformis",
