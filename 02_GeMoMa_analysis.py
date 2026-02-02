@@ -102,15 +102,18 @@ def load_species_divergences(fhand):
     return divergences                
 
 
-
+def update_species_contribution(gemoma_benchmarks, species_divergence):
+    for species, benchmark in gemoma_benchmarks.items():
+        for method, metadata in gemoma_benchmarks.items():
+            print(benchmark)
 
 def main():
     divergence_times = []
     metadata = yaml.safe_load(open(argv[1], "r"))
     species_divergence = load_species_divergences(open(argv[2]))
-    print(species_divergence)
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
     add_species_contribution(gemoma_benchmarks)
+    update_species_contribution(gemoma_benchmarks, species_divergence)
     print(gemoma_benchmarks)
     # #species_combinations = get_all_species_combinations(gemoma_benchmarks)
     # with open(argv[2], "rb") as fhand:
