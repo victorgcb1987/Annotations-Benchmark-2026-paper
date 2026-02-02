@@ -1,3 +1,4 @@
+import json
 import pickle
 import yaml
 
@@ -86,9 +87,27 @@ def get_all_species_combinations(gemoma_benchmarks):
     return set(combinations)
 
 
+def load_species_divergences(fhand):
+    divergences = {}
+    for line in fhand:
+        if line:
+            line = line.rstrip().replace(" MYA", "")
+            divergence = json.loads(line)
+            for species_a, species_b in divergence.items():
+                if species_a not in divergences:
+                    divergences[species_a] = species_b
+                else:
+                    divergences[species_a][list(species_b.keys())[0]] = species_b.values()
+    return divergences                
+
+
+
+
 def main():
     divergence_times = []
     metadata = yaml.safe_load(open(argv[1], "r"))
+    species_divergence = load_species_divergences(open(argv[2]))
+    print(species_divergence)
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
     add_species_contribution(gemoma_benchmarks)
     print(gemoma_benchmarks)
