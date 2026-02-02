@@ -91,7 +91,6 @@ def load_species_divergences(fhand):
     for line in fhand:
         if line:
             line = line.rstrip().replace(" MYA", "")
-            print(line)
             divergence = json.loads(line)
             for species_a, species_b in divergence.items():
                 if species_a not in divergences:
@@ -104,6 +103,7 @@ def load_species_divergences(fhand):
 def update_species_divergence_times(gemoma_benchmarks, species_divergence):
     for species_a, benchmark in gemoma_benchmarks.items():
         for methods, metadata in gemoma_benchmarks.items():
+           print(metadata)
            divergences = {}
            for species_b in metadata["species_involved"]:
                divergences.update({species_b: species_divergence[species_a][species_b]})
