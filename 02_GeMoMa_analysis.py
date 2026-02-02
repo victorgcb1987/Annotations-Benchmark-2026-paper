@@ -17,6 +17,8 @@ def get_contributions(pipeline_fhand):
     for line in pipeline_fhand:
         if CONTRIBUTION_LINE in line:
             contribution = line.rstrip().split()[-1]
+            if contribution == "Vitis vinifera NCBI":
+                contribution = "Vitis vinifera"
             if "GenomicData" in contribution:
                 contribution = contribution.split("/")[0].replace("GenomicData_", "").replace("_", " ")
                 contributions["species_involved"][contribution] = {"distance": 0}
