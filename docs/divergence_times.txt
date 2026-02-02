@@ -1,4 +1,4 @@
-{"Amborella trichopoda": {"Oryza sativa": {"adjusted_time": "196 MYA", "median_time": "NA"}}}
+{"Amborella trichopoda": {"Oryza sativa": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
 {"Cucumis sativus": {"Cucumis melo": {"adjusted_time": "NA", "median_time": "9.0 MYA"}}}
 {"Aechmea fasciata": {"Oryza sativa": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
 {"Vitis vinifera": {"Arabidopsis thaliana": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
