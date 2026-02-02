@@ -93,7 +93,7 @@ def load_species_divergences(fhand):
     divergences = {}
     for line in fhand:
         if line:
-            line = line.rstrip().replace(" MYA", "")
+            line = float(line.rstrip().replace(" MYA", ""))
             divergence = json.loads(line)
             for species_a, species_b in divergence.items():
                 if species_a not in divergences:
