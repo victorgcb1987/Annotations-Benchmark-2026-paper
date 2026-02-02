@@ -65,7 +65,7 @@ def get_gemoma_benchmarks(yaml_fhand):
         for method, metadata in annot.items():
             if "GeMoMa" in method:
                 reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE
-                metadata["ref_table"] = reference
+                metadata["ref_table"] = str(reference)
                 if species not in gemoma_annnots:
                     if species == "Vitis vinifera NCBI":
                         species = "Vitis vinifera"
