@@ -96,7 +96,7 @@ def load_species_divergences(fhand):
             line = line.rstrip().replace(" MYA", "")
             divergence = json.loads(line)
             for species_a, species_b in divergence.items():
-                print(species_b)
+                print(species_a, species_b)
                 if species_a not in divergences:
                     divergences[species_a] = {list(species_b.keys())[0]: {{key: (float(value) if value != "NA" else "NA") for key, value in list(species_b.values())[0].items()}}}
                 else:
