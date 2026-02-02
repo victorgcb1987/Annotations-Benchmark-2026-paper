@@ -21,7 +21,7 @@ Aechmea_fasciata:
     divergence_times:
       Ananas comosus:
         adjusted_time: '13.7'
-        median_time: 'Median Time:'
+        median_time: '7.7'
       Arabidopsis thaliana:
         adjusted_time: '160'
         median_time: '160'
