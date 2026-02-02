@@ -16,8 +16,8 @@
 {"Cucumis sativus": {"Arabidopsis thaliana": {"adjusted_time": "121 MYA", "median_time": "108 MYA"}}}
 {"Arabidopsis thaliana": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
 {"Prunus persica": {"Amborella trichopoda": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
-{"Lupinus albus": {"Lupinus angustifolius": {"adjusted_time": "", "median_time": "8.5 MYA"}}}
-{"Adiantum capillus-veneris": {"Alsophila spinulosa": {"adjusted_time": "", "median_time": "211 MYA"}}}
+{"Lupinus albus": {"Lupinus angustifolius": {"adjusted_time": "NA", "median_time": "8.5 MYA"}}}
+{"Adiantum capillus-veneris": {"Alsophila spinulosa": {"adjusted_time": "NA", "median_time": "211 MYA"}}}
 {"Lupinus albus": {"Vicia villosa": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Lupinus albus": {"Vigna unguiculata": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Oryza sativa": {"Brachypodium distachyon": {"adjusted_time": "57 MYA", "median_time": "47 MYA"}}}
@@ -57,7 +57,7 @@
 {"Lupinus albus": {"Vigna radiata": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Cucumis sativus": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
 {"Adiantum capillus-veneris": {"Ceratopteris richardii": {"adjusted_time": "83 MYA", "median_time": "105 MYA"}}}
-{"Cryptomeria japonica": {"Sequoia sempervirens": {"adjusted_time": "CI: (88.9 - 170.7 MYA)", "median_time": ""}}}
+{"Cryptomeria japonica": {"Sequoia sempervirens": {"adjusted_time": "NA", "median_time": "137 MYA"}}}
 {"Lupinus albus": {"Cajanus cajan": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Cryptomeria japonica": {"Cycas panzhihuaensis": {"adjusted_time": "301 MYA", "median_time": "299 MYA"}}}
 {"Oryza sativa": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
