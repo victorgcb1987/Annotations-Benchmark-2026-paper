@@ -93,13 +93,13 @@ def load_species_divergences(fhand):
     divergences = {}
     for line in fhand:
         if line:
-            line = float(line.rstrip().replace(" MYA", ""))
+            line = line.rstrip().replace(" MYA", "")
             divergence = json.loads(line)
             for species_a, species_b in divergence.items():
                 if species_a not in divergences:
                     divergences[species_a] = species_b
                 else:
-                    divergences[species_a][list(species_b.keys())[0]] = list(species_b.values())[0]
+                    divergences[species_a][list(species_b.keys())[0]] = {key: float(value) for key, value in list(species_b.values())[0].items()}
     return divergences                
 
 
