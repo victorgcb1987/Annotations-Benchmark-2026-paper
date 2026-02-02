@@ -101,9 +101,7 @@ def load_species_divergences(fhand):
 
 
 def update_species_divergence_times(gemoma_benchmarks, species_divergence):
-    print(species_divergence)
     for species_a, benchmark in gemoma_benchmarks.items():
-        print(benchmark)
         for method, features in benchmark.items():
             divergences = {}
             for species_b in features["species_involved"]:
