@@ -93,9 +93,3 @@
 {"Amborella trichopoda": {"Solanum lycopersicum": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
 {"Nicotiana benthamiana": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
 {"Alsophila spinulosa": {"Adiantum capillus-veneris": {"adjusted_time": "NA", "median_time": "211 MYA"}}}
-{"Adiantum capillus-veneris": {"Arabidopsis thaliana": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
-{"Adiantum capillus-veneris": {"Brachypodium distachyon": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
-{"Adiantum capillus-veneris": {"Ananas comosus": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
-{"Adiantum capillus-veneris": {"Oryza sativa": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
-{"Adiantum capillus-veneris": {"Adiantum capillus-veneris": {"adjusted_time": "0 MYA", "median_time": "0 MYA"}}}
-{"Adiantum capillus-veneris": {"Solanum lycopersicum": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
