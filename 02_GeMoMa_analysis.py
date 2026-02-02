@@ -96,7 +96,7 @@ def load_species_divergences(fhand):
                 if species_a not in divergences:
                     divergences[species_a] = species_b
                 else:
-                    divergences[species_a][list(species_b.keys())[0]] = species_b.values()
+                    divergences[species_a][list(species_b.keys())[0]] = species_b.values()[0]
     return divergences                
 
 
