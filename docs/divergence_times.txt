@@ -1,95 +1,95 @@
-{'Amborella trichopoda': {'Oryza sativa': {'adjusted_time': '196 MYA', 'median_time': 'NA'}}}
-{'Cucumis sativus': {'Cucumis melo': {'adjusted_time': 'NA', 'median_time': '9.0 MYA'}}}
-{'Aechmea fasciata': {'Oryza sativa': {'adjusted_time': '110 MYA', 'median_time': '106 MYA'}}}
-{'Vitis vinifera': {'Arabidopsis thaliana': {'adjusted_time': '123 MYA', 'median_time': '117 MYA'}}}
-{'Anthoceros agrestis': {'Sphagnum fallax': {'adjusted_time': '484 MYA', 'median_time': '488 MYA'}}}
-{'Aechmea fasciata': {'Brachypodium distachyon': {'adjusted_time': '110 MYA', 'median_time': '106 MYA'}}}
-{'Lupinus albus': {'Lotus japonicus': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Phillyrea angustifolia': {'Abeliophyllum distichum': {'adjusted_time': 'NA', 'median_time': '52 MYA'}}}
-{'Solanum melongena': {'Nicotiana attenuata': {'adjusted_time': 'NA', 'median_time': '23.9 MYA'}}}
-{'Arabidopsis thaliana': {'Arabidopsis arenosa': {'adjusted_time': 'NA', 'median_time': '6.2 MYA'}}}
-{'Nicotiana benthamiana': {'Nicotiana sylvestris': {'adjusted_time': '9.0 MYA', 'median_time': '9.2 MYA'}}}
-{'Cryptomeria japonica': {'Thuja plicata': {'adjusted_time': '116 MYA', 'median_time': '116 MYA'}}}
-{'Antirrhinum barrelieri': {'Antirrhinum majus': {'adjusted_time': '22.6 MYA', 'median_time': '18.5 MYA'}}}
-{'Solanum melongena': {'Solanum tuberosum': {'adjusted_time': '9.5 MYA', 'median_time': '14.6 MYA'}}}
-{'Lupinus albus': {'Arachis duranensis': {'adjusted_time': '56 MYA', 'median_time': '51 MYA'}}}
-{'Cucumis sativus': {'Arabidopsis thaliana': {'adjusted_time': '121 MYA', 'median_time': '108 MYA'}}}
-{'Arabidopsis thaliana': {'Solanum lycopersicum': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Prunus persica': {'Amborella trichopoda': {'adjusted_time': 'NA', 'median_time': '196 MYA'}}}
-{'Lupinus albus': {'Lupinus angustifolius': {'adjusted_time': '', 'median_time': '8.5 MYA'}}}
-{'Adiantum capillus-veneris': {'Alsophila spinulosa': {'adjusted_time': '', 'median_time': '211 MYA'}}}
-{'Lupinus albus': {'Vicia villosa': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Lupinus albus': {'Vigna unguiculata': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Oryza sativa': {'Brachypodium distachyon': {'adjusted_time': '57 MYA', 'median_time': '47 MYA'}}}
-{'Oryza sativa': {'Zea mays': {'adjusted_time': '59 MYA', 'median_time': '49 MYA'}}}
-{'Solanum melongena': {'Solanum lycopersicum': {'adjusted_time': '9.5 MYA', 'median_time': '14.6 MYA'}}}
-{'Nicotiana benthamiana': {'Nicotiana attenuata': {'adjusted_time': 'NA', 'median_time': '8.1 MYA'}}}
-{'Vitis vinifera': {'Fragaria vesca': {'adjusted_time': '123 MYA', 'median_time': '117 MYA'}}}
-{'Solanum melongena': {'Capsicum annuum': {'adjusted_time': '21.3 MYA', 'median_time': '18.1 MYA'}}}
-{'Prunus persica': {'Vitis vinifera': {'adjusted_time': '123 MYA', 'median_time': '117 MYA'}}}
-{'Prunus persica': {'Solanum lycopersicum': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Phillyrea angustifolia': {'Solanum lycopersicum': {'adjusted_time': '89 MYA', 'median_time': '84 MYA'}}}
-{'Lupinus albus': {'Pisum sativum': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Solanum lycopersicum': {'Arabidopsis thaliana': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Lupinus albus': {'Arabidopsis thaliana': {'adjusted_time': '121 MYA', 'median_time': '108 MYA'}}}
-{'Nicotiana benthamiana': {'Solanum tuberosum': {'adjusted_time': 'NA', 'median_time': '23.9 MYA'}}}
-{'Prunus persica': {'Fragaria vesca': {'adjusted_time': '69 MYA', 'median_time': '61 MYA'}}}
-{'Lupinus albus': {'Medicago truncatula': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Cucumis sativus': {'Citrullus lanatus': {'adjusted_time': '19.3 MYA', 'median_time': '20.4 MYA'}}}
-{'Nicotiana benthamiana': {'Solanum lycopersicum': {'adjusted_time': 'NA', 'median_time': '23.9 MYA'}}}
-{'Antirrhinum barrelieri': {'Arabidopsis thaliana': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Lupinus albus': {'Trifolium repens': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Nicotiana benthamiana': {'Capsicum annuum': {'adjusted_time': 'NA', 'median_time': '23.9 MYA'}}}
-{'Nicotiana benthamiana': {'Nicotiana tomentosiformis': {'adjusted_time': '9.0 MYA', 'median_time': '9.2 MYA'}}}
-{'Oryza sativa': {'Brassica rapa': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Vitis vinifera': {'Solanum lycopersicum': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Phillyrea angustifolia': {'Olea europaea': {'adjusted_time': '29 MYA', 'median_time': '34 MYA'}}}
-{'Arabidopsis thaliana': {'Oryza sativa': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Antirrhinum barrelieri': {'Penstemon smallii': {'adjusted_time': '46 MYA', 'median_time': '44 MYA'}}}
-{'Amborella trichopoda': {'Arabidopsis thaliana': {'adjusted_time': 'NA', 'median_time': '196 MYA'}}}
-{'Aechmea fasciata': {'Arabidopsis thaliana': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Phillyrea angustifolia': {'Fraxinus pennsylvanica': {'adjusted_time': '29 MYA', 'median_time': '34 MYA'}}}
-{'Cucumis sativus': {'Vitis vinifera': {'adjusted_time': '123 MYA', 'median_time': '117 MYA'}}}
-{'Lupinus albus': {'Lathyrus sativus': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Lupinus albus': {'Vicia faba': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Antirrhinum barrelieri': {'Solanum lycopersicum': {'adjusted_time': '89 MYA', 'median_time': '84 MYA'}}}
-{'Prunus persica': {'Oryza sativa': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Lupinus albus': {'Vigna radiata': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Cucumis sativus': {'Solanum lycopersicum': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Adiantum capillus-veneris': {'Ceratopteris richardii': {'adjusted_time': '83 MYA', 'median_time': '105 MYA'}}}
-{'Cryptomeria japonica': {'Sequoia sempervirens': {'adjusted_time': 'CI: (88.9 - 170.7 MYA)', 'median_time': ''}}}
-{'Lupinus albus': {'Cajanus cajan': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Cryptomeria japonica': {'Cycas panzhihuaensis': {'adjusted_time': '301 MYA', 'median_time': '299 MYA'}}}
-{'Oryza sativa': {'Arabidopsis thaliana': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Solanum lycopersicum': {'Solanum tuberosum': {'adjusted_time': '7.1 MYA', 'median_time': '8.0 MYA'}}}
-{'Lupinus albus': {'Vigna mungo': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Lupinus albus': {'Glycine soja': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Arabidopsis thaliana': {'Arabidopsis thaliana': {'adjusted_time': '0', 'median_time': '0'}}}
-{'Oryza sativa': {'Arabidopsis arenosa': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Lupinus albus': {'Glycine max': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Adiantum capillus-veneris': {'Anthoceros punctatus': {'adjusted_time': '451 MYA', 'median_time': '451 MYA'}}}
-{'Alsophila spinulosa': {'Ceratopteris richardii': {'adjusted_time': 'NA', 'median_time': '211 MYA'}}}
-{'Antirrhinum barrelieri': {'Antirrhinum hispanicum': {'adjusted_time': '1.44 MYA', 'median_time': '1.44 MYA'}}}
-{'Arabidopsis thaliana': {'Brassica rapa': {'adjusted_time': '20.6 MYA', 'median_time': '26.0 MYA'}}}
-{'Solanum lycopersicum': {'Capsicum annuum': {'adjusted_time': '21.3 MYA', 'median_time': '18.1 MYA'}}}
-{'Solanum melongena': {'Arabidopsis thaliana': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Lupinus albus': {'Arachis hypogaea': {'adjusted_time': '56 MYA', 'median_time': '51 MYA'}}}
-{'Lupinus albus': {'Canavalia gladiata': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Prunus persica': {'Cucumis sativus': {'adjusted_time': 'NA', 'median_time': '103 MYA'}}}
-{'Aechmea fasciata': {'Ananas comosus': {'adjusted_time': '13.7 MYA', 'median_time': 'Median Time:'}}}
-{'Lupinus albus': {'Bauhinia variegata': {'adjusted_time': '93 MYA', 'median_time': '68 MYA'}}}
-{'Lupinus albus': {'Vigna angularis': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Oryza sativa': {'Solanum lycopersicum': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Prunus persica': {'Arabidopsis thaliana': {'adjusted_time': '121 MYA', 'median_time': '108 MYA'}}}
-{'Solanum lycopersicum': {'Nicotiana attenuata': {'adjusted_time': 'NA', 'median_time': '23.9 MYA'}}}
-{'Phillyrea angustifolia': {'Arabidopsis thaliana': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Anthoceros agrestis': {'Physcomitrella patens': {'adjusted_time': '484 MYA', 'median_time': '488 MYA'}}}
-{'Lupinus albus': {'Phaseolus vulgaris': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Oryza sativa': {'Sorghum bicolor': {'adjusted_time': '59 MYA', 'median_time': '49 MYA'}}}
-{'Anthoceros agrestis': {'Marchantia polymorpha': {'adjusted_time': '484 MYA', 'median_time': '480 MYA'}}}
-{'Lupinus albus': {'Cicer arietinum': {'adjusted_time': '57 MYA', 'median_time': '56 MYA'}}}
-{'Cucumis sativus': {'Oryza sativa': {'adjusted_time': '160 MYA', 'median_time': '160 MYA'}}}
-{'Solanum lycopersicum': {'Olea europaea': {'adjusted_time': '89 MYA', 'median_time': '84 MYA'}}}
-{'Amborella trichopoda': {'Solanum lycopersicum': {'adjusted_time': 'NA', 'median_time': '196 MYA'}}}
-{'Nicotiana benthamiana': {'Arabidopsis thaliana': {'adjusted_time': '125 MYA', 'median_time': '118 MYA'}}}
-{'Alsophila spinulosa': {'Adiantum capillus-veneris': {'adjusted_time': 'NA', 'median_time': '211 MYA'}}}
+{"Amborella trichopoda": {"Oryza sativa": {"adjusted_time": "196 MYA", "median_time": "NA"}}}
+{"Cucumis sativus": {"Cucumis melo": {"adjusted_time": "NA", "median_time": "9.0 MYA"}}}
+{"Aechmea fasciata": {"Oryza sativa": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
+{"Vitis vinifera": {"Arabidopsis thaliana": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
+{"Anthoceros agrestis": {"Sphagnum fallax": {"adjusted_time": "484 MYA", "median_time": "488 MYA"}}}
+{"Aechmea fasciata": {"Brachypodium distachyon": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
+{"Lupinus albus": {"Lotus japonicus": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Phillyrea angustifolia": {"Abeliophyllum distichum": {"adjusted_time": "NA", "median_time": "52 MYA"}}}
+{"Solanum melongena": {"Nicotiana attenuata": {"adjusted_time": "NA", "median_time": "23.9 MYA"}}}
+{"Arabidopsis thaliana": {"Arabidopsis arenosa": {"adjusted_time": "NA", "median_time": "6.2 MYA"}}}
+{"Nicotiana benthamiana": {"Nicotiana sylvestris": {"adjusted_time": "9.0 MYA", "median_time": "9.2 MYA"}}}
+{"Cryptomeria japonica": {"Thuja plicata": {"adjusted_time": "116 MYA", "median_time": "116 MYA"}}}
+{"Antirrhinum barrelieri": {"Antirrhinum majus": {"adjusted_time": "22.6 MYA", "median_time": "18.5 MYA"}}}
+{"Solanum melongena": {"Solanum tuberosum": {"adjusted_time": "9.5 MYA", "median_time": "14.6 MYA"}}}
+{"Lupinus albus": {"Arachis duranensis": {"adjusted_time": "56 MYA", "median_time": "51 MYA"}}}
+{"Cucumis sativus": {"Arabidopsis thaliana": {"adjusted_time": "121 MYA", "median_time": "108 MYA"}}}
+{"Arabidopsis thaliana": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Prunus persica": {"Amborella trichopoda": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
+{"Lupinus albus": {"Lupinus angustifolius": {"adjusted_time": "", "median_time": "8.5 MYA"}}}
+{"Adiantum capillus-veneris": {"Alsophila spinulosa": {"adjusted_time": "", "median_time": "211 MYA"}}}
+{"Lupinus albus": {"Vicia villosa": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Lupinus albus": {"Vigna unguiculata": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Oryza sativa": {"Brachypodium distachyon": {"adjusted_time": "57 MYA", "median_time": "47 MYA"}}}
+{"Oryza sativa": {"Zea mays": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
+{"Solanum melongena": {"Solanum lycopersicum": {"adjusted_time": "9.5 MYA", "median_time": "14.6 MYA"}}}
+{"Nicotiana benthamiana": {"Nicotiana attenuata": {"adjusted_time": "NA", "median_time": "8.1 MYA"}}}
+{"Vitis vinifera": {"Fragaria vesca": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
+{"Solanum melongena": {"Capsicum annuum": {"adjusted_time": "21.3 MYA", "median_time": "18.1 MYA"}}}
+{"Prunus persica": {"Vitis vinifera": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
+{"Prunus persica": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Phillyrea angustifolia": {"Solanum lycopersicum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Lupinus albus": {"Pisum sativum": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Solanum lycopersicum": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Lupinus albus": {"Arabidopsis thaliana": {"adjusted_time": "121 MYA", "median_time": "108 MYA"}}}
+{"Nicotiana benthamiana": {"Solanum tuberosum": {"adjusted_time": "NA", "median_time": "23.9 MYA"}}}
+{"Prunus persica": {"Fragaria vesca": {"adjusted_time": "69 MYA", "median_time": "61 MYA"}}}
+{"Lupinus albus": {"Medicago truncatula": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Cucumis sativus": {"Citrullus lanatus": {"adjusted_time": "19.3 MYA", "median_time": "20.4 MYA"}}}
+{"Nicotiana benthamiana": {"Solanum lycopersicum": {"adjusted_time": "NA", "median_time": "23.9 MYA"}}}
+{"Antirrhinum barrelieri": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Lupinus albus": {"Trifolium repens": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Nicotiana benthamiana": {"Capsicum annuum": {"adjusted_time": "NA", "median_time": "23.9 MYA"}}}
+{"Nicotiana benthamiana": {"Nicotiana tomentosiformis": {"adjusted_time": "9.0 MYA", "median_time": "9.2 MYA"}}}
+{"Oryza sativa": {"Brassica rapa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Vitis vinifera": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Phillyrea angustifolia": {"Olea europaea": {"adjusted_time": "29 MYA", "median_time": "34 MYA"}}}
+{"Arabidopsis thaliana": {"Oryza sativa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Antirrhinum barrelieri": {"Penstemon smallii": {"adjusted_time": "46 MYA", "median_time": "44 MYA"}}}
+{"Amborella trichopoda": {"Arabidopsis thaliana": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
+{"Aechmea fasciata": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Phillyrea angustifolia": {"Fraxinus pennsylvanica": {"adjusted_time": "29 MYA", "median_time": "34 MYA"}}}
+{"Cucumis sativus": {"Vitis vinifera": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
+{"Lupinus albus": {"Lathyrus sativus": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Lupinus albus": {"Vicia faba": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Antirrhinum barrelieri": {"Solanum lycopersicum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Prunus persica": {"Oryza sativa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Lupinus albus": {"Vigna radiata": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Cucumis sativus": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Adiantum capillus-veneris": {"Ceratopteris richardii": {"adjusted_time": "83 MYA", "median_time": "105 MYA"}}}
+{"Cryptomeria japonica": {"Sequoia sempervirens": {"adjusted_time": "CI: (88.9 - 170.7 MYA)", "median_time": ""}}}
+{"Lupinus albus": {"Cajanus cajan": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Cryptomeria japonica": {"Cycas panzhihuaensis": {"adjusted_time": "301 MYA", "median_time": "299 MYA"}}}
+{"Oryza sativa": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Solanum lycopersicum": {"Solanum tuberosum": {"adjusted_time": "7.1 MYA", "median_time": "8.0 MYA"}}}
+{"Lupinus albus": {"Vigna mungo": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Lupinus albus": {"Glycine soja": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Arabidopsis thaliana": {"Arabidopsis thaliana": {"adjusted_time": "0", "median_time": "0"}}}
+{"Oryza sativa": {"Arabidopsis arenosa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Lupinus albus": {"Glycine max": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Adiantum capillus-veneris": {"Anthoceros punctatus": {"adjusted_time": "451 MYA", "median_time": "451 MYA"}}}
+{"Alsophila spinulosa": {"Ceratopteris richardii": {"adjusted_time": "NA", "median_time": "211 MYA"}}}
+{"Antirrhinum barrelieri": {"Antirrhinum hispanicum": {"adjusted_time": "1.44 MYA", "median_time": "1.44 MYA"}}}
+{"Arabidopsis thaliana": {"Brassica rapa": {"adjusted_time": "20.6 MYA", "median_time": "26.0 MYA"}}}
+{"Solanum lycopersicum": {"Capsicum annuum": {"adjusted_time": "21.3 MYA", "median_time": "18.1 MYA"}}}
+{"Solanum melongena": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Lupinus albus": {"Arachis hypogaea": {"adjusted_time": "56 MYA", "median_time": "51 MYA"}}}
+{"Lupinus albus": {"Canavalia gladiata": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Prunus persica": {"Cucumis sativus": {"adjusted_time": "NA", "median_time": "103 MYA"}}}
+{"Aechmea fasciata": {"Ananas comosus": {"adjusted_time": "13.7 MYA", "median_time": "Median Time:"}}}
+{"Lupinus albus": {"Bauhinia variegata": {"adjusted_time": "93 MYA", "median_time": "68 MYA"}}}
+{"Lupinus albus": {"Vigna angularis": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Oryza sativa": {"Solanum lycopersicum": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Prunus persica": {"Arabidopsis thaliana": {"adjusted_time": "121 MYA", "median_time": "108 MYA"}}}
+{"Solanum lycopersicum": {"Nicotiana attenuata": {"adjusted_time": "NA", "median_time": "23.9 MYA"}}}
+{"Phillyrea angustifolia": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Anthoceros agrestis": {"Physcomitrella patens": {"adjusted_time": "484 MYA", "median_time": "488 MYA"}}}
+{"Lupinus albus": {"Phaseolus vulgaris": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Oryza sativa": {"Sorghum bicolor": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
+{"Anthoceros agrestis": {"Marchantia polymorpha": {"adjusted_time": "484 MYA", "median_time": "480 MYA"}}}
+{"Lupinus albus": {"Cicer arietinum": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
+{"Cucumis sativus": {"Oryza sativa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Solanum lycopersicum": {"Olea europaea": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Amborella trichopoda": {"Solanum lycopersicum": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
+{"Nicotiana benthamiana": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Alsophila spinulosa": {"Adiantum capillus-veneris": {"adjusted_time": "NA", "median_time": "211 MYA"}}}
