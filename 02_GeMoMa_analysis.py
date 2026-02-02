@@ -10,6 +10,7 @@ from src.timetree import query_timetree
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
 PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT = "protocol_GeMoMaPipeline_{}.txt"
+GEMOMA_REFERENCE_TABLE = "reference_gene_table.tabular"
 CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome"
 
 
@@ -63,6 +64,8 @@ def get_gemoma_benchmarks(yaml_fhand):
     for species, annot in yaml_fhand.items():
         for method, metadata in annot.items():
             if "GeMoMa" in method:
+                reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE
+                metadata["ref_table"] = reference
                 if species not in gemoma_annnots:
                     if species == "Vitis vinifera NCBI":
                         species = "Vitis vinifera"
@@ -118,7 +121,7 @@ def main():
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
     with open('GeMoMA_metadata_2026_02_2.yaml', 'w') as outfile:
         yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)
-    
+
 
 
 
