@@ -14,7 +14,7 @@ CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which c
 
 
 def get_contributions(pipeline_fhand):
-    contributions = {"species_involved": {}}
+    contributions = {"species_involved": []}
     for line in pipeline_fhand:
         if CONTRIBUTION_LINE in line:
             contribution = line.rstrip().split()[-1]
@@ -22,10 +22,9 @@ def get_contributions(pipeline_fhand):
                 contribution = contribution.split("/")[0].replace("GenomicData_", "").replace("_", " ")
                 if contribution == "Vitis vinifera NCBI":
                     contribution = "Vitis vinifera"
-                contributions["species_involved"][contribution] = {"distance": 0}
             else:
                 contribution = SPECIES_BY_ANNOT[contribution.rstrip().split("/")[-1]]
-                contributions["species_involved"][contribution] = {"distance": 0}
+            contributions["species_involved"].append(contribution)
     return contributions
 
 
@@ -102,10 +101,16 @@ def load_species_divergences(fhand):
     return divergences                
 
 
-def update_species_contribution(gemoma_benchmarks, species_divergence):
-    for species, benchmark in gemoma_benchmarks.items():
-        for method, metadata in gemoma_benchmarks.items():
-            print(benchmark)
+def update_species_divergence_times(gemoma_benchmarks, species_divergence):
+    for species_a, benchmark in gemoma_benchmarks.items():
+        for methods, metadata in gemoma_benchmarks.items():
+           divergences = {}
+           for species_b in metadata["species_involved"]:
+               divergences.update({species_b: species_divergence[species_a][species_b]})
+        metadata["divergence_times"].update(divergences)
+
+                
+                
 
 def main():
     divergence_times = []
@@ -113,7 +118,7 @@ def main():
     species_divergence = load_species_divergences(open(argv[2]))
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
     add_species_contribution(gemoma_benchmarks)
-    update_species_contribution(gemoma_benchmarks, species_divergence)
+    update_species_divergence_times(gemoma_benchmarks, species_divergence)
     print(gemoma_benchmarks)
     # #species_combinations = get_all_species_combinations(gemoma_benchmarks)
     # with open(argv[2], "rb") as fhand:
