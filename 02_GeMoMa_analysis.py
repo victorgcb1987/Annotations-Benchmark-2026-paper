@@ -97,12 +97,12 @@ def load_species_divergences(fhand):
             divergence = json.loads(line)
             for species_a, species_b in divergence.items():
                 print(species_a, species_b)
-                if species_a not in divergences:
-                    divergences[species_a] = {list(species_b.keys())[0]: {{key: (float(value) if value != "NA" else "NA") for key, value in list(species_b.values())[0].items()}}}
-                else:
-                    divergences[species_a][list(species_b.keys())[0]] = {key: (float(value) if value != "NA" else "NA") for key, value in list(species_b.values())[0].items()}
-    return divergences                
-
+                for name, times in species_b.items():
+                    if species_a not in divergences:
+                        divergences[species_a] = {name: {key: (float(value) if value != "NA" else "NA") for key, value in times.items()}}
+                    else:
+                        divergences[species_a][name] = {name: {key: (float(value) if value != "NA" else "NA") for key, value in times.items()}}
+    return divergences
 
 def update_species_divergence_times(gemoma_benchmarks, species_divergence):
     for species_a, benchmark in gemoma_benchmarks.items():
