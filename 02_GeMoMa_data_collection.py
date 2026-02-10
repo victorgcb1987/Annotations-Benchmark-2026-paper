@@ -139,7 +139,7 @@ def  update_contribution_percentage(gemoma_benchmarks):
                 number_of_genes_annotated_by_species = filter.shape[0]
                 features["species_involved"][col_count] = {"species": features["species_involved"][col_count],
                                                            "number_of_genes_annotated (N)": number_of_genes_annotated_by_species,
-                                                           "number_of_genes_annotated (%)": number_of_genes_annotated_by_species/number_of_genes_annotated}
+                                                           "number_of_genes_annotated (%)": (number_of_genes_annotated_by_species/number_of_genes_annotated) * 100}
                 col_count += 1
 
 
