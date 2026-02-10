@@ -2,15 +2,18 @@ Adiantum_capillus-veneris:
   GeMoMa_ApAsCr:
     divergence_times:
       Alsophila spinulosa:
-        adjusted_time: ''
-        median_time: '211'
+        adjusted_time: NA
+        median_time: 211.0
       Anthoceros punctatus:
-        adjusted_time: '451'
-        median_time: '451'
+        Anthoceros punctatus:
+          adjusted_time: 451.0
+          median_time: 451.0
       Ceratopteris richardii:
-        adjusted_time: '83'
-        median_time: '105'
+        Ceratopteris richardii:
+          adjusted_time: 83.0
+          median_time: 105.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_Multispecies_GeMoMa_ApAsCr/AnnotationQC_20250602T213016/Adiantum_capillusveneris_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_Multispecies_GeMoMa_ApAsCr/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_Multispecies_GeMoMa_ApAsCr/AnnotationQC_20250602T213016/GAQET.log.txt
     species_involved:
     - Alsophila spinulosa
@@ -20,18 +23,22 @@ Aechmea_fasciata:
   GeMoMa_4Sps:
     divergence_times:
       Ananas comosus:
-        adjusted_time: '13.7'
-        median_time: '7.7'
+        Ananas comosus:
+          adjusted_time: 13.7
+          median_time: 7.7
       Arabidopsis thaliana:
-        adjusted_time: '160'
-        median_time: '160'
+        Arabidopsis thaliana:
+          adjusted_time: 160.0
+          median_time: 160.0
       Brachypodium distachyon:
-        adjusted_time: '110'
-        median_time: '106'
+        Brachypodium distachyon:
+          adjusted_time: 110.0
+          median_time: 106.0
       Oryza sativa:
-        adjusted_time: '110'
-        median_time: '106'
+        adjusted_time: 110.0
+        median_time: 106.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_4Sps/AnnotationQC_20250606T105531/Aechmea_fasciata_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_4Sps/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_4Sps/AnnotationQC_20250606T105531/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -42,12 +49,14 @@ Alsophila_spinulosa:
   MultiGeMoMa_FernSpecies:
     divergence_times:
       Adiantum capillus-veneris:
-        adjusted_time: NA
-        median_time: '211'
+        Adiantum capillus-veneris:
+          adjusted_time: NA
+          median_time: 211.0
       Ceratopteris richardii:
         adjusted_time: NA
-        median_time: '211'
+        median_time: 211.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_MultiGeMoMa_FernSpecies/AnnotationQC_20250618T103951/Alsophila_spinulosa_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_MultiGeMoMa_FernSpecies/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_MultiGeMoMa_FernSpecies/AnnotationQC_20250618T103951/GAQET.log.txt
     species_involved:
     - Adiantum capillus-veneris
@@ -56,15 +65,18 @@ Amborella_trichopoda:
   GeMoMa_ThreeSpecies:
     divergence_times:
       Arabidopsis thaliana:
-        adjusted_time: NA
-        median_time: '196'
+        Arabidopsis thaliana:
+          adjusted_time: NA
+          median_time: 196.0
       Oryza sativa:
-        adjusted_time: '196'
-        median_time: NA
-      Solanum lycopersicum:
         adjusted_time: NA
-        median_time: '196'
+        median_time: 196.0
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: NA
+          median_time: 196.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_ThreeSpecies/AnnotationQC_20250611T103212/Amborella_trichopoda_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_ThreeSpecies/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_ThreeSpecies/AnnotationQC_20250611T103212/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -74,15 +86,18 @@ Anthoceros_agrestis:
   GeMoMa_BryophyteSet:
     divergence_times:
       Marchantia polymorpha:
-        adjusted_time: '484'
-        median_time: '480'
+        Marchantia polymorpha:
+          adjusted_time: 484.0
+          median_time: 480.0
       Physcomitrella patens:
-        adjusted_time: '484'
-        median_time: '488'
+        Physcomitrella patens:
+          adjusted_time: 484.0
+          median_time: 488.0
       Sphagnum fallax:
-        adjusted_time: '484'
-        median_time: '488'
+        adjusted_time: 484.0
+        median_time: 488.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_BryophyteSet/AnnotationQC_20251026T193942/Anthoceros_agrestis_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_BryophyteSet/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_BryophyteSet/AnnotationQC_20251026T193942/GAQET.log.txt
     species_involved:
     - Marchantia polymorpha
@@ -92,21 +107,26 @@ Antirrhinum_barrelieri:
   GeMoMa_AhAmAtPsSl:
     divergence_times:
       Antirrhinum hispanicum:
-        adjusted_time: '1.44'
-        median_time: '1.44'
+        Antirrhinum hispanicum:
+          adjusted_time: 1.44
+          median_time: 1.44
       Antirrhinum majus:
-        adjusted_time: '22.6'
-        median_time: '18.5'
+        adjusted_time: 22.6
+        median_time: 18.5
       Arabidopsis thaliana:
-        adjusted_time: '125'
-        median_time: '118'
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
       Penstemon smallii:
-        adjusted_time: '46'
-        median_time: '44'
+        Penstemon smallii:
+          adjusted_time: 46.0
+          median_time: 44.0
       Solanum lycopersicum:
-        adjusted_time: '89'
-        median_time: '84'
+        Solanum lycopersicum:
+          adjusted_time: 89.0
+          median_time: 84.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_Multispecies_GeMoMa_AhAmAtPsSl/AnnotationQC_20250628T161151/Antirrhinum_barrelieri_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_Multispecies_GeMoMa_AhAmAtPsSl/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_Multispecies_GeMoMa_AhAmAtPsSl/AnnotationQC_20250628T161151/GAQET.log.txt
     species_involved:
     - Penstemon smallii
@@ -119,8 +139,9 @@ Arabidopsis_thaliana:
     divergence_times:
       Arabidopsis arenosa: &id001
         adjusted_time: NA
-        median_time: '6.2'
+        median_time: 6.2
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/AnnotationQC_20250517T054128/Arabidopsis_thaliana_GMeAa_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/AnnotationQC_20250517T054128/GAQET.log.txt
     species_involved:
     - Arabidopsis arenosa
@@ -128,12 +149,15 @@ Arabidopsis_thaliana:
     divergence_times:
       Arabidopsis arenosa: *id001
       Brassica rapa: &id002
-        adjusted_time: '20.6'
-        median_time: '26.0'
+        Brassica rapa:
+          adjusted_time: 20.6
+          median_time: 26.0
       Solanum lycopersicum: &id003
-        adjusted_time: '125'
-        median_time: '118'
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolyc/AnnotationQC_20250517T071708/Arabidopsis_thaliana_GMeMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolyc/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolyc/AnnotationQC_20250517T071708/GAQET.log.txt
     species_involved:
     - Arabidopsis arenosa
@@ -144,10 +168,12 @@ Arabidopsis_thaliana:
       Arabidopsis arenosa: *id001
       Brassica rapa: *id002
       Oryza sativa: &id004
-        adjusted_time: '160'
-        median_time: '160'
+        Oryza sativa:
+          adjusted_time: 160.0
+          median_time: 160.0
       Solanum lycopersicum: *id003
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolycOrsat/AnnotationQC_20251127T061532/Arabidopsis_thaliana_GMv2_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolycOrsat/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolycOrsat/AnnotationQC_20251127T061532/GAQET.log.txt
     species_involved:
     - Oryza sativa
@@ -157,9 +183,11 @@ Arabidopsis_thaliana:
   GeMoMa_Athaliana:
     divergence_times:
       Arabidopsis thaliana:
-        adjusted_time: '0'
-        median_time: '0'
+        Arabidopsis thaliana:
+          adjusted_time: 0.0
+          median_time: 0.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/AnnotationQC_20250517T054227/Arabidopsis_thaliana_GMeAt_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/AnnotationQC_20250517T054227/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -167,6 +195,7 @@ Arabidopsis_thaliana:
     divergence_times:
       Brassica rapa: *id002
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/AnnotationQC_20250517T054318/Arabidopsis_thaliana_GMeBr_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/AnnotationQC_20250517T054318/GAQET.log.txt
     species_involved:
     - Brassica rapa
@@ -174,6 +203,7 @@ Arabidopsis_thaliana:
     divergence_times:
       Oryza sativa: *id004
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/AnnotationQC_20250517T071527/Arabidopsis_thaliana_GMeOs_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/AnnotationQC_20250517T071527/GAQET.log.txt
     species_involved:
     - Oryza sativa
@@ -181,6 +211,7 @@ Arabidopsis_thaliana:
     divergence_times:
       Solanum lycopersicum: *id003
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/AnnotationQC_20250517T071557/Arabidopsis_thaliana_GMeSl_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/AnnotationQC_20250517T071557/GAQET.log.txt
     species_involved:
     - Solanum lycopersicum
@@ -188,15 +219,18 @@ Cryptomeria_japonica:
   GeMoMa_3Gymnosperms:
     divergence_times:
       Cycas panzhihuaensis:
-        adjusted_time: '301'
-        median_time: '299'
+        Cycas panzhihuaensis:
+          adjusted_time: 301.0
+          median_time: 299.0
       Sequoia sempervirens:
-        adjusted_time: 'CI: (88.9 - 170.7)'
-        median_time: ''
+        Sequoia sempervirens:
+          adjusted_time: NA
+          median_time: 137.0
       Thuja plicata:
-        adjusted_time: '116'
-        median_time: '116'
+        adjusted_time: 116.0
+        median_time: 116.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crja_GeMoMa_3Gymnosperms/AnnotationQC_20250705T162805/Cryptomeria_japonica_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crja_GeMoMa_3Gymnosperms/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crja_GeMoMa_3Gymnosperms/AnnotationQC_20250705T162805/GAQET.log.txt
     species_involved:
     - Thuja plicata
@@ -206,24 +240,30 @@ Cucumis_sativus:
   GeMoMa_AtClCmOsSlVv:
     divergence_times:
       Arabidopsis thaliana: &id005
-        adjusted_time: '121'
-        median_time: '108'
+        Arabidopsis thaliana:
+          adjusted_time: 121.0
+          median_time: 108.0
       Citrullus lanatus: &id006
-        adjusted_time: '19.3'
-        median_time: '20.4'
+        Citrullus lanatus:
+          adjusted_time: 19.3
+          median_time: 20.4
       Cucumis melo: &id007
         adjusted_time: NA
-        median_time: '9.0'
+        median_time: 9.0
       Oryza sativa:
-        adjusted_time: '160'
-        median_time: '160'
+        Oryza sativa:
+          adjusted_time: 160.0
+          median_time: 160.0
       Solanum lycopersicum: &id008
-        adjusted_time: '125'
-        median_time: '118'
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
       Vitis vinifera: &id009
-        adjusted_time: '123'
-        median_time: '117'
+        Vitis vinifera:
+          adjusted_time: 123.0
+          median_time: 117.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmOsSlVv/AnnotationQC_20250717T045930/Cucumis_sativus_GMv2_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmOsSlVv/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmOsSlVv/AnnotationQC_20250717T045930/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -240,6 +280,7 @@ Cucumis_sativus:
       Solanum lycopersicum: *id008
       Vitis vinifera: *id009
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmSlVv/AnnotationQC_20250717T045854/Cucumis_sativus_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmSlVv/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmSlVv/AnnotationQC_20250717T045854/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -251,72 +292,94 @@ Lupinus_albus:
   MultiGeMoMa_FabaceaePlusArtha:
     divergence_times:
       Arabidopsis thaliana:
-        adjusted_time: '121'
-        median_time: '108'
+        Arabidopsis thaliana:
+          adjusted_time: 121.0
+          median_time: 108.0
       Arachis duranensis: &id010
-        adjusted_time: '56'
-        median_time: '51'
+        Arachis duranensis:
+          adjusted_time: 56.0
+          median_time: 51.0
       Arachis hypogaea: &id011
-        adjusted_time: '56'
-        median_time: '51'
+        Arachis hypogaea:
+          adjusted_time: 56.0
+          median_time: 51.0
       Bauhinia variegata: &id012
-        adjusted_time: '93'
-        median_time: '68'
+        Bauhinia variegata:
+          adjusted_time: 93.0
+          median_time: 68.0
       Cajanus cajan: &id013
-        adjusted_time: '57'
-        median_time: '56'
+        Cajanus cajan:
+          adjusted_time: 57.0
+          median_time: 56.0
       Canavalia gladiata: &id014
-        adjusted_time: '57'
-        median_time: '56'
+        Canavalia gladiata:
+          adjusted_time: 57.0
+          median_time: 56.0
       Cicer arietinum: &id015
-        adjusted_time: '57'
-        median_time: '56'
+        Cicer arietinum:
+          adjusted_time: 57.0
+          median_time: 56.0
       Glycine max: &id016
-        adjusted_time: '57'
-        median_time: '56'
+        Glycine max:
+          adjusted_time: 57.0
+          median_time: 56.0
       Glycine soja: &id017
-        adjusted_time: '57'
-        median_time: '56'
+        Glycine soja:
+          adjusted_time: 57.0
+          median_time: 56.0
       Lathyrus sativus: &id018
-        adjusted_time: '57'
-        median_time: '56'
+        Lathyrus sativus:
+          adjusted_time: 57.0
+          median_time: 56.0
       Lotus japonicus: &id019
-        adjusted_time: '57'
-        median_time: '56'
+        adjusted_time: 57.0
+        median_time: 56.0
       Lupinus angustifolius: &id020
-        adjusted_time: ''
-        median_time: '8.5'
+        Lupinus angustifolius:
+          adjusted_time: NA
+          median_time: 8.5
       Medicago truncatula: &id021
-        adjusted_time: '57'
-        median_time: '56'
+        Medicago truncatula:
+          adjusted_time: 57.0
+          median_time: 56.0
       Phaseolus vulgaris: &id022
-        adjusted_time: '57'
-        median_time: '56'
+        Phaseolus vulgaris:
+          adjusted_time: 57.0
+          median_time: 56.0
       Pisum sativum: &id023
-        adjusted_time: '57'
-        median_time: '56'
+        Pisum sativum:
+          adjusted_time: 57.0
+          median_time: 56.0
       Trifolium repens: &id024
-        adjusted_time: '57'
-        median_time: '56'
+        Trifolium repens:
+          adjusted_time: 57.0
+          median_time: 56.0
       Vicia faba: &id025
-        adjusted_time: '57'
-        median_time: '56'
+        Vicia faba:
+          adjusted_time: 57.0
+          median_time: 56.0
       Vicia villosa: &id026
-        adjusted_time: '57'
-        median_time: '56'
+        Vicia villosa:
+          adjusted_time: 57.0
+          median_time: 56.0
       Vigna angularis: &id027
-        adjusted_time: '57'
-        median_time: '56'
+        Vigna angularis:
+          adjusted_time: 57.0
+          median_time: 56.0
       Vigna mungo: &id028
-        adjusted_time: '57'
-        median_time: '56'
+        Vigna mungo:
+          adjusted_time: 57.0
+          median_time: 56.0
       Vigna radiata: &id029
-        adjusted_time: '57'
-        median_time: '56'
+        Vigna radiata:
+          adjusted_time: 57.0
+          median_time: 56.0
       Vigna unguiculata: &id030
-        adjusted_time: '57'
-        median_time: '56'
+        Vigna unguiculata:
+          adjusted_time: 57.0
+          median_time: 56.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_FabaceaePlusArtha/AnnotationQC_20250415T094357/Lupinus_albus_NCBIv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_FabaceaePlusArtha/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_FabaceaePlusArtha/AnnotationQC_20250415T094357/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -365,6 +428,7 @@ Lupinus_albus:
       Vigna radiata: *id029
       Vigna unguiculata: *id030
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_OnlyFabaceae/AnnotationQC_20250415T094716/Lupinus_albus_GMv2_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_OnlyFabaceae/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_OnlyFabaceae/AnnotationQC_20250415T094716/GAQET.log.txt
     species_involved:
     - Arachis duranensis
@@ -392,27 +456,34 @@ Nicotiana_benthamiana:
   N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt:
     divergence_times:
       Arabidopsis thaliana:
-        adjusted_time: '125'
-        median_time: '118'
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
       Capsicum annuum:
-        adjusted_time: NA
-        median_time: '23.9'
+        Capsicum annuum:
+          adjusted_time: NA
+          median_time: 23.9
       Nicotiana attenuata:
-        adjusted_time: NA
-        median_time: '8.1'
+        Nicotiana attenuata:
+          adjusted_time: NA
+          median_time: 8.1
       Nicotiana sylvestris:
-        adjusted_time: '9.0'
-        median_time: '9.2'
+        adjusted_time: 9.0
+        median_time: 9.2
       Nicotiana tomentosiformis:
-        adjusted_time: '9.0'
-        median_time: '9.2'
+        Nicotiana tomentosiformis:
+          adjusted_time: 9.0
+          median_time: 9.2
       Solanum lycopersicum:
-        adjusted_time: NA
-        median_time: '23.9'
+        Solanum lycopersicum:
+          adjusted_time: NA
+          median_time: 23.9
       Solanum tuberosum:
-        adjusted_time: NA
-        median_time: '23.9'
+        Solanum tuberosum:
+          adjusted_time: NA
+          median_time: 23.9
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt/AnnotationQC_20251125T184745/Nicotiana_benthamiana_Guo_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt/AnnotationQC_20251125T184745/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -426,27 +497,34 @@ Oryza_sativa:
   GeMoMa_AaAtBdBrSbSlZm:
     divergence_times:
       Arabidopsis arenosa:
-        adjusted_time: '160'
-        median_time: '160'
+        Arabidopsis arenosa:
+          adjusted_time: 160.0
+          median_time: 160.0
       Arabidopsis thaliana:
-        adjusted_time: '160'
-        median_time: '160'
+        Arabidopsis thaliana:
+          adjusted_time: 160.0
+          median_time: 160.0
       Brachypodium distachyon: &id031
-        adjusted_time: '57'
-        median_time: '47'
+        adjusted_time: 57.0
+        median_time: 47.0
       Brassica rapa:
-        adjusted_time: '160'
-        median_time: '160'
+        Brassica rapa:
+          adjusted_time: 160.0
+          median_time: 160.0
       Solanum lycopersicum:
-        adjusted_time: '160'
-        median_time: '160'
+        Solanum lycopersicum:
+          adjusted_time: 160.0
+          median_time: 160.0
       Sorghum bicolor: &id032
-        adjusted_time: '59'
-        median_time: '49'
+        Sorghum bicolor:
+          adjusted_time: 59.0
+          median_time: 49.0
       Zea mays: &id033
-        adjusted_time: '59'
-        median_time: '49'
+        Zea mays:
+          adjusted_time: 59.0
+          median_time: 49.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_AaAtBdBrSbSlZm/AnnotationQC_20250608T051706/Oryza_sativa_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_AaAtBdBrSbSlZm/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_AaAtBdBrSbSlZm/AnnotationQC_20250608T051706/GAQET.log.txt
     species_involved:
     - Arabidopsis arenosa
@@ -462,6 +540,7 @@ Oryza_sativa:
       Sorghum bicolor: *id032
       Zea mays: *id033
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_BdSbZm/AnnotationQC_20250608T051936/Oryza_sativa_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_BdSbZm/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_BdSbZm/AnnotationQC_20250608T051936/GAQET.log.txt
     species_involved:
     - Brachypodium distachyon
@@ -472,20 +551,25 @@ Phillyrea_angustifolia:
     divergence_times:
       Abeliophyllum distichum:
         adjusted_time: NA
-        median_time: '52'
+        median_time: 52.0
       Arabidopsis thaliana:
-        adjusted_time: '125'
-        median_time: '118'
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
       Fraxinus pennsylvanica:
-        adjusted_time: '29'
-        median_time: '34'
+        Fraxinus pennsylvanica:
+          adjusted_time: 29.0
+          median_time: 34.0
       Olea europaea:
-        adjusted_time: '29'
-        median_time: '34'
+        Olea europaea:
+          adjusted_time: 29.0
+          median_time: 34.0
       Solanum lycopersicum:
-        adjusted_time: '89'
-        median_time: '84'
+        Solanum lycopersicum:
+          adjusted_time: 89.0
+          median_time: 84.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_5Sps/AnnotationQC_20250719T084216/Phillyrea_angustifolia_EVT_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_5Sps/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_5Sps/AnnotationQC_20250719T084216/GAQET.log.txt
     species_involved:
     - Arabidopsis thaliana
@@ -498,26 +582,33 @@ Prunus_persica:
     divergence_times:
       Amborella trichopoda:
         adjusted_time: NA
-        median_time: '196'
+        median_time: 196.0
       Arabidopsis thaliana:
-        adjusted_time: '121'
-        median_time: '108'
+        Arabidopsis thaliana:
+          adjusted_time: 121.0
+          median_time: 108.0
       Cucumis sativus:
-        adjusted_time: NA
-        median_time: '103'
+        Cucumis sativus:
+          adjusted_time: NA
+          median_time: 103.0
       Fragaria vesca:
-        adjusted_time: '69'
-        median_time: '61'
+        Fragaria vesca:
+          adjusted_time: 69.0
+          median_time: 61.0
       Oryza sativa:
-        adjusted_time: '160'
-        median_time: '160'
+        Oryza sativa:
+          adjusted_time: 160.0
+          median_time: 160.0
       Solanum lycopersicum:
-        adjusted_time: '125'
-        median_time: '118'
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
       Vitis vinifera:
-        adjusted_time: '123'
-        median_time: '117'
+        Vitis vinifera:
+          adjusted_time: 123.0
+          median_time: 117.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_MultiSpecies_GeMoMa_AtAtCsFvOsSlVv/AnnotationQC_20251019T070143/Prunus_persica_EvP_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_MultiSpecies_GeMoMa_AtAtCsFvOsSlVv/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_MultiSpecies_GeMoMa_AtAtCsFvOsSlVv/AnnotationQC_20251019T070143/GAQET.log.txt
     species_involved:
     - Amborella trichopoda
@@ -531,21 +622,26 @@ Solanum_lycopersicum:
   GeMoMa_Eudicots:
     divergence_times:
       Arabidopsis thaliana:
-        adjusted_time: '125'
-        median_time: '118'
+        adjusted_time: 125.0
+        median_time: 118.0
       Capsicum annuum:
-        adjusted_time: '21.3'
-        median_time: '18.1'
+        Capsicum annuum:
+          adjusted_time: 21.3
+          median_time: 18.1
       Nicotiana attenuata:
-        adjusted_time: NA
-        median_time: '23.9'
+        Nicotiana attenuata:
+          adjusted_time: NA
+          median_time: 23.9
       Olea europaea:
-        adjusted_time: '89'
-        median_time: '84'
+        Olea europaea:
+          adjusted_time: 89.0
+          median_time: 84.0
       Solanum tuberosum:
-        adjusted_time: '7.1'
-        median_time: '8.0'
+        Solanum tuberosum:
+          adjusted_time: 7.1
+          median_time: 8.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_Multispecies_GeMoMa_Eudicots/AnnotationQC_20250726T052251/Solanum_lycopersicum_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_Multispecies_GeMoMa_Eudicots/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_Multispecies_GeMoMa_Eudicots/AnnotationQC_20250726T052251/GAQET.log.txt
     species_involved:
     - Capsicum annuum
@@ -557,21 +653,26 @@ Solanum_melongena:
   GeMoMa_AtCaNaSlSt:
     divergence_times:
       Arabidopsis thaliana:
-        adjusted_time: '125'
-        median_time: '118'
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
       Capsicum annuum:
-        adjusted_time: '21.3'
-        median_time: '18.1'
+        Capsicum annuum:
+          adjusted_time: 21.3
+          median_time: 18.1
       Nicotiana attenuata:
         adjusted_time: NA
-        median_time: '23.9'
+        median_time: 23.9
       Solanum lycopersicum:
-        adjusted_time: '9.5'
-        median_time: '14.6'
+        Solanum lycopersicum:
+          adjusted_time: 9.5
+          median_time: 14.6
       Solanum tuberosum:
-        adjusted_time: '9.5'
-        median_time: '14.6'
+        Solanum tuberosum:
+          adjusted_time: 9.5
+          median_time: 14.6
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_MultiSpecies_GeMoMa_AtCaNaSlSt/AnnotationQC_20250629T210439/Solanum_melongena_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_MultiSpecies_GeMoMa_AtCaNaSlSt/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_MultiSpecies_GeMoMa_AtCaNaSlSt/AnnotationQC_20250629T210439/GAQET.log.txt
     species_involved:
     - Nicotiana attenuata
@@ -583,15 +684,18 @@ Vitis_vinifera:
   Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet:
     divergence_times:
       Arabidopsis thaliana:
-        adjusted_time: '123'
-        median_time: '117'
+        adjusted_time: 123.0
+        median_time: 117.0
       Fragaria vesca:
-        adjusted_time: '123'
-        median_time: '117'
+        Fragaria vesca:
+          adjusted_time: 123.0
+          median_time: 117.0
       Solanum lycopersicum:
-        adjusted_time: '125'
-        median_time: '118'
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
     gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet/AnnotationQC_20250825T213234/Vitis_vinifera_EvP_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet/reference_gene_table.tabular
     report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet/AnnotationQC_20250825T213234/GAQET.log.txt
     species_involved:
     - Fragaria vesca

@@ -1,5 +1,5 @@
 import json
-import pickle
+import pandas as pd
 import yaml
 
 from pathlib import Path
@@ -114,7 +114,25 @@ def update_species_divergence_times(gemoma_benchmarks, species_divergence):
                 print(species_a, species_b)
                 divergences.update({species_b: species_divergence[" ".join(species_a.split("_"))][species_b]})
             features["divergence_times"] = divergences
-                
+
+
+def  update_contribution_percentage(gemoma_benchmarks):
+    for species_a, benchmark in gemoma_benchmarks.items():
+        for method, features in benchmark.items():
+            ref_table = pd.read_csv(benchmark["ref_table"])
+            species_colunnames = [name for name in ref_table.keys().tolist() if name.startswith("reference_species")]
+            number_of_genes_annotated = ref_table.shape[0]
+            col_count = 0
+            for colname in species_colunnames:
+                filter = ref_table[ref_table[colname].isnull() == False]
+                number_of_genes_annotated_by_species = filter.shape[0]
+                features["species_involved"][col_count] = {"species": features["species_involved"][col_count],
+                                                           "number_of_genes_annotated (N)": number_of_genes_annotated_by_species,
+                                                           "number_of_genes_annotated (%)": number_of_genes_annotated_by_species/number_of_genes_annotated}
+                col_count += 1
+
+
+
 
 def main():
     if argv[1] == "get_data":
@@ -123,10 +141,12 @@ def main():
         gemoma_benchmarks = get_gemoma_benchmarks(metadata)
         add_species_contribution(gemoma_benchmarks)
         update_species_divergence_times(gemoma_benchmarks, species_divergence)
+        update_contribution_percentage(gemoma_benchmarks)
         with open('GeMoMA_metadata_2026_02_2.yaml', 'w') as outfile:
-            yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)
+            yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)     
     if argv[2] == "load_data":
         metadata = yaml.safe_load(open(argv[2], "r"))
+
         
 
 
