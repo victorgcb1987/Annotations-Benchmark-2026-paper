@@ -11,6 +11,7 @@ from src.timetree import query_timetree
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
 PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT = "protocol_GeMoMaPipeline_{}.txt"
 GEMOMA_REFERENCE_TABLE = "reference_gene_table.tabular"
+GEMOMA_REFERENCE_TABLE_ATTEMPT = "reference_gene_table_{}.tabular"
 CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome"
 
 
@@ -65,6 +66,17 @@ def get_gemoma_benchmarks(yaml_fhand):
         for method, metadata in annot.items():
             if "GeMoMa" in method:
                 reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE
+                if not reference.is_file():
+                    found = False
+                    start = 1
+                    while not found or start > 10:
+                        reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE_ATTEMPT
+                        if reference.is_file():
+                            found = True
+                        else:
+                            start += 1
+                if not found:
+                    print("Not found", reference)
                 metadata["ref_table"] = str(reference)
                 if species not in gemoma_annnots:
                     if species == "Vitis vinifera NCBI":
@@ -73,7 +85,6 @@ def get_gemoma_benchmarks(yaml_fhand):
                 else:
                     gemoma_annnots[species][method] = metadata
     return gemoma_annnots
-
 
 
 def get_all_species_combinations(gemoma_benchmarks):
@@ -130,8 +141,6 @@ def  update_contribution_percentage(gemoma_benchmarks):
                                                            "number_of_genes_annotated (N)": number_of_genes_annotated_by_species,
                                                            "number_of_genes_annotated (%)": number_of_genes_annotated_by_species/number_of_genes_annotated}
                 col_count += 1
-
-
 
 
 def main():
