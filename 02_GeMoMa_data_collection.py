@@ -75,8 +75,8 @@ def get_gemoma_benchmarks(yaml_fhand):
                             found = True
                         else:
                             start += 1
-                if not found:
-                    print("Not found", reference)
+                    if not found:
+                        print("Not found", reference)
                 metadata["ref_table"] = str(reference)
                 if species not in gemoma_annnots:
                     if species == "Vitis vinifera NCBI":
