@@ -75,6 +75,7 @@ def get_gemoma_benchmarks(yaml_fhand):
     return gemoma_annnots
 
 
+
 def get_all_species_combinations(gemoma_benchmarks):
     combinations = []
     for species, methods in gemoma_benchmarks.items():
@@ -104,6 +105,7 @@ def load_species_divergences(fhand):
                         divergences[species_a][name] = {name: {key: (float(value) if value != "NA" else "NA") for key, value in times.items()}}
     return divergences
 
+
 def update_species_divergence_times(gemoma_benchmarks, species_divergence):
     for species_a, benchmark in gemoma_benchmarks.items():
         for method, features in benchmark.items():
@@ -115,13 +117,22 @@ def update_species_divergence_times(gemoma_benchmarks, species_divergence):
                 
 
 def main():
-    metadata = yaml.safe_load(open(argv[1], "r"))
-    species_divergence = load_species_divergences(open(argv[2]))
-    gemoma_benchmarks = get_gemoma_benchmarks(metadata)
-    add_species_contribution(gemoma_benchmarks)
-    update_species_divergence_times(gemoma_benchmarks, species_divergence)
-    with open('GeMoMA_metadata_2026_02_2.yaml', 'w') as outfile:
-        yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)
+    if argv[1] == "get_data":
+        metadata = yaml.safe_load(open(argv[2], "r"))
+        species_divergence = load_species_divergences(open(argv[3]))
+        gemoma_benchmarks = get_gemoma_benchmarks(metadata)
+        add_species_contribution(gemoma_benchmarks)
+        update_species_divergence_times(gemoma_benchmarks, species_divergence)
+        with open('GeMoMA_metadata_2026_02_2.yaml', 'w') as outfile:
+            yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)
+    if argv[2] == "load_data":
+        metadata = yaml.safe_load(open(argv[2], "r"))
+        
+
+
+
+    
+
 
 
 
