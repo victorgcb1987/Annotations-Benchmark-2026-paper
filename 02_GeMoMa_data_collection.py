@@ -119,6 +119,7 @@ def update_species_divergence_times(gemoma_benchmarks, species_divergence):
 def  update_contribution_percentage(gemoma_benchmarks):
     for species_a, benchmark in gemoma_benchmarks.items():
         for method, features in benchmark.items():
+            print(features)
             ref_table = pd.read_csv(benchmark["ref_table"])
             species_colunnames = [name for name in ref_table.keys().tolist() if name.startswith("reference_species")]
             number_of_genes_annotated = ref_table.shape[0]
