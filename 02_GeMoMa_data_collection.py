@@ -70,7 +70,7 @@ def get_gemoma_benchmarks(yaml_fhand):
                     found = False
                     start = 1
                     while not found or start > 10:
-                        reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE_ATTEMPT
+                        reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE_ATTEMPT.format(start)
                         if reference.is_file():
                             found = True
                         else:
