@@ -136,7 +136,7 @@ def  update_contribution_percentage(gemoma_benchmarks):
 
 def main():
     if argv[1] == "get_data":
-        metadata = yaml.safe_load(open(argv[2], "r"))
+        metadata = yaml.safe_load(open(argv[3], "r"))
         species_divergence = load_species_divergences(open(argv[3]))
         gemoma_benchmarks = get_gemoma_benchmarks(metadata)
         add_species_contribution(gemoma_benchmarks)
@@ -145,7 +145,7 @@ def main():
         with open('GeMoMA_metadata_2026_02_2.yaml', 'w') as outfile:
             yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)     
     if argv[1] == "load_data":
-        metadata = yaml.safe_load(open(argv[2], "r"))
+        metadata = yaml.safe_load(open(argv[3], "r"))
         update_contribution_percentage(gemoma_benchmarks)
         with open('GeMoMA_metadata_2026_02_10.yaml', 'w') as outfile:
             yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)
