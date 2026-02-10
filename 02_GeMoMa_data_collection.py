@@ -146,6 +146,9 @@ def main():
             yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)     
     if argv[2] == "load_data":
         metadata = yaml.safe_load(open(argv[2], "r"))
+        update_contribution_percentage(gemoma_benchmarks)
+        with open('GeMoMA_metadata_2026_02_10.yaml', 'w') as outfile:
+            yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False) 
 
         
 
