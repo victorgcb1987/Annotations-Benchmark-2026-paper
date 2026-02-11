@@ -137,28 +137,27 @@ def  update_contribution_percentage(gemoma_benchmarks):
             for colname in species_colunnames:
                 filter = ref_table[ref_table[colname].isnull() == False]
                 number_of_genes_annotated_by_species = filter.shape[0]
+                other_cols = [other_colname for other_colname in species_colunnames if other_colname != colname]
+                mask_empty = ref_table.isnull()  |  (ref_table == "")
+                unique_annots = (~mask_empty[colname] & mask_empty[[c for c in other_cols if c != colname]].all(axis=1)).sum()
+
                 features["species_involved"][col_count] = {"species": features["species_involved"][col_count],
                                                            "number_of_genes_annotated (N)": number_of_genes_annotated_by_species,
-                                                           "number_of_genes_annotated (%)": (number_of_genes_annotated_by_species/number_of_genes_annotated) * 100}
+                                                           "number_of_genes_annotated (%)": (number_of_genes_annotated_by_species/number_of_genes_annotated) * 100,
+                                                           "number_of_unique_genes_annotated (N)": unique_annots,
+                                                           "number_of_unique_genes_annotated (%)": (unique_annots/number_of_genes_annotated) * 100}
                 col_count += 1
 
 
 def main():
-    if argv[1] == "get_data":
-        metadata = yaml.safe_load(open(argv[2], "r"))
-        species_divergence = load_species_divergences(open(argv[3]))
-        gemoma_benchmarks = get_gemoma_benchmarks(metadata)
-        add_species_contribution(gemoma_benchmarks)
-        update_species_divergence_times(gemoma_benchmarks, species_divergence)
-        update_contribution_percentage(gemoma_benchmarks)
-        with open('GeMoMA_metadata_2026_02_11.yaml', 'w') as outfile:
-            yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False, sort_keys=False)     
-    if argv[1] == "load_data":
-        gemoma_benchmarks = yaml.safe_load(open(argv[2], "r"))
-        update_contribution_percentage(gemoma_benchmarks)
-        print(gemoma_benchmarks)
-        #with open('GeMoMA_metadata_2026_02_10.yaml', 'w') as outfile:
-        #    yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False)
+    metadata = yaml.safe_load(open(argv[2], "r"))
+    species_divergence = load_species_divergences(open(argv[3]))
+    gemoma_benchmarks = get_gemoma_benchmarks(metadata)
+    add_species_contribution(gemoma_benchmarks)
+    update_species_divergence_times(gemoma_benchmarks, species_divergence)
+    update_contribution_percentage(gemoma_benchmarks)
+    with open('GeMoMA_metadata_2026_02_11.yaml', 'w') as outfile:
+        yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False, sort_keys=False)     
 
         
 

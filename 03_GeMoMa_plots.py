@@ -10,8 +10,9 @@ from src.timetree import query_timetree
                 
 
 def main():
-    # GeMoMA_metadata_2026_02_2.yaml
+    # GeMoMA_metadata_2026_02_11.yaml
     metadata = yaml.safe_load(open(argv[1], "r"))
+    
             
 
     
