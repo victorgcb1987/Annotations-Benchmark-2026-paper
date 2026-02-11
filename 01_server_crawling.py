@@ -50,8 +50,8 @@ def main():
             except IndexError:
                 print(filename)
 
-    with open('annotations_benchmarks_2026_01_27.yaml', 'w') as outfile:
-        yaml.dump(annots, outfile, default_flow_style=False)
+    with open('annotations_benchmarks_2026_02_11.yaml', 'w') as outfile:
+        yaml.dump(annots, outfile, default_flow_style=False, sort_keys=False)
         
 
 
