@@ -140,6 +140,7 @@ def  update_contribution_percentage(gemoma_benchmarks):
                 other_cols = [other_colname for other_colname in species_colunnames if other_colname != colname]
                 mask_empty = ref_table.isnull()  |  (ref_table == "")
                 unique_annots = (~mask_empty[colname] & mask_empty[[c for c in other_cols if c != colname]].all(axis=1)).sum()
+                print(unique_annots)
 
                 features["species_involved"][col_count] = {"species": features["species_involved"][col_count],
                                                            "number_of_genes_annotated (N)": number_of_genes_annotated_by_species,
