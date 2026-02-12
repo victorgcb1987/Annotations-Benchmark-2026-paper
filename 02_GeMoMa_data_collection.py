@@ -83,6 +83,7 @@ def get_gemoma_benchmarks(yaml_fhand):
                     if species == "Vitis vinifera NCBI":
                         species = "Vitis vinifera"
                     gemoma_annnots[species] = {method: metadata}
+                    gemoma_annnots[species]["tax_classification"] = get_taxonomic_data(species)
                 else:
                     gemoma_annnots[species][method] = metadata
     return gemoma_annnots
