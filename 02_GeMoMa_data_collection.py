@@ -153,8 +153,8 @@ def  update_contribution_percentage(gemoma_benchmarks):
 
 
 def main():
-    metadata = yaml.safe_load(open(argv[2], "r"))
-    species_divergence = load_species_divergences(open(argv[3]))
+    metadata = yaml.safe_load(open(argv[1], "r"))
+    species_divergence = load_species_divergences(open(argv[2]))
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
     add_species_contribution(gemoma_benchmarks)
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
