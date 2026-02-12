@@ -7,6 +7,7 @@ from sys import argv
 
 from src.docs import SPECIES_BY_ANNOT
 from src.timetree import query_timetree
+from src.metadata import get_taxonomic_data
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
 PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT = "protocol_GeMoMaPipeline_{}.txt"
@@ -139,13 +140,15 @@ def  update_contribution_percentage(gemoma_benchmarks):
                 number_of_genes_annotated_by_species = filter.shape[0]
                 other_cols = [other_colname for other_colname in species_colunnames if other_colname != colname]
                 mask_empty = ref_table.isnull()  |  (ref_table == "")
-                unique_annots = int((~mask_empty[colname] & mask_empty[[c for c in other_cols if c != colname]].all(axis=1)).sum())
+                unique_annots = (~mask_empty[colname] & mask_empty[[c for c in other_cols if c != colname]].all(axis=1)).sum()
+                print(unique_annots)
 
                 features["species_involved"][col_count] = {"species": features["species_involved"][col_count],
                                                            "number_of_genes_annotated (N)": number_of_genes_annotated_by_species,
                                                            "number_of_genes_annotated (%)": (number_of_genes_annotated_by_species/number_of_genes_annotated) * 100,
                                                            "number_of_unique_genes_annotated (N)": unique_annots,
-                                                           "number_of_unique_genes_annotated (%)": (unique_annots/number_of_genes_annotated) * 100}
+                                                           "number_of_unique_genes_annotated (%)": (unique_annots/number_of_genes_annotated) * 100,
+                                                           "tax_classification": get_taxonomic_data(features["species_involved"][col_count])}
                 col_count += 1
 
 
@@ -156,7 +159,7 @@ def main():
     add_species_contribution(gemoma_benchmarks)
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
     update_contribution_percentage(gemoma_benchmarks)
-    with open('GeMoMA_metadata_2026_02_11.yaml', 'w') as outfile:
+    with open('GeMoMA_metadata_2026_02_12.yaml', 'w') as outfile:
         yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False, sort_keys=False)     
 
         
