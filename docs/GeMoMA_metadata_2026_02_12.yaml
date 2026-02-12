@@ -1,0 +1,1967 @@
+Nicotiana_benthamiana:
+  N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt/AnnotationQC_20251125T184745/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt/AnnotationQC_20251125T184745/Nicotiana_benthamiana_Guo_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Multispecies_AtCaNaNsNtSlSt/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 32986
+      number_of_genes_annotated (%): 22.675153981522218
+      number_of_unique_genes_annotated (N): 1588
+      number_of_unique_genes_annotated (%): 1.0916190057193136
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Capsicum annuum
+      number_of_genes_annotated (N): 47801
+      number_of_genes_annotated (%): 32.85924439067312
+      number_of_unique_genes_annotated (N): 4898
+      number_of_unique_genes_annotated (%): 3.3669709634843814
+      tax_classification:
+        species: Capsicum annuum
+        genus: Capsicum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Nicotiana attenuata
+      number_of_genes_annotated (N): 62044
+      number_of_genes_annotated (%): 42.6501319841619
+      number_of_unique_genes_annotated (N): 14390
+      number_of_unique_genes_annotated (%): 9.891937967443907
+      tax_classification:
+        species: Nicotiana attenuata
+        genus: Nicotiana
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Nicotiana sylvestris
+      number_of_genes_annotated (N): 87323
+      number_of_genes_annotated (%): 60.02735921689397
+      number_of_unique_genes_annotated (N): 30990
+      number_of_unique_genes_annotated (%): 21.303068631764187
+      tax_classification:
+        species: Nicotiana sylvestris
+        genus: Nicotiana
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Nicotiana tomentosiformis
+      number_of_genes_annotated (N): 78639
+      number_of_genes_annotated (%): 54.05782556093269
+      number_of_unique_genes_annotated (N): 22818
+      number_of_unique_genes_annotated (%): 15.685492740871096
+      tax_classification:
+        species: Nicotiana tomentosiformis
+        genus: Nicotiana
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 49297
+      number_of_genes_annotated (%): 33.88762098548174
+      number_of_unique_genes_annotated (N): 4833
+      number_of_unique_genes_annotated (%): 3.322288825340959
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Solanum tuberosum
+      number_of_genes_annotated (N): 41616
+      number_of_genes_annotated (%): 28.607567091948965
+      number_of_unique_genes_annotated (N): 2835
+      number_of_unique_genes_annotated (%): 1.9488286405631323
+      tax_classification:
+        species: Solanum tuberosum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
+      Capsicum annuum:
+        Capsicum annuum:
+          adjusted_time: NA
+          median_time: 23.9
+      Nicotiana attenuata:
+        Nicotiana attenuata:
+          adjusted_time: NA
+          median_time: 8.1
+      Nicotiana sylvestris:
+        adjusted_time: 9.0
+        median_time: 9.2
+      Nicotiana tomentosiformis:
+        Nicotiana tomentosiformis:
+          adjusted_time: 9.0
+          median_time: 9.2
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: NA
+          median_time: 23.9
+      Solanum tuberosum:
+        Solanum tuberosum:
+          adjusted_time: NA
+          median_time: 23.9
+  tax_classification:
+    species: Nicotiana benthamiana
+    genus: Nicotiana
+    family: Solanaceae
+    class: Magnoliopsida
+Amborella_trichopoda:
+  GeMoMa_ThreeSpecies:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_ThreeSpecies/AnnotationQC_20250611T103212/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_ThreeSpecies/AnnotationQC_20250611T103212/Amborella_trichopoda_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_ThreeSpecies/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 14165
+      number_of_genes_annotated (%): 63.545825669552734
+      number_of_unique_genes_annotated (N): 2834
+      number_of_unique_genes_annotated (%): 12.71365124938316
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Oryza sativa
+      number_of_genes_annotated (N): 12884
+      number_of_genes_annotated (%): 57.79911174913642
+      number_of_unique_genes_annotated (N): 2121
+      number_of_unique_genes_annotated (%): 9.515050917410614
+      tax_classification:
+        species: Oryza sativa
+        genus: Oryza
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 15423
+      number_of_genes_annotated (%): 69.18935893409896
+      number_of_unique_genes_annotated (N): 5285
+      number_of_unique_genes_annotated (%): 23.709120272755822
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: NA
+          median_time: 196.0
+      Oryza sativa:
+        adjusted_time: NA
+        median_time: 196.0
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: NA
+          median_time: 196.0
+  tax_classification:
+    species: Amborella trichopoda
+    genus: Amborella
+    family: Amborellaceae
+    class: Magnoliopsida
+Arabidopsis_thaliana:
+  GeMoMa_ArareBrrapSolycOrsat:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolycOrsat/AnnotationQC_20251127T061532/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolycOrsat/AnnotationQC_20251127T061532/Arabidopsis_thaliana_GMv2_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolycOrsat/reference_gene_table.tabular
+    species_involved:
+    - species: Oryza sativa
+      number_of_genes_annotated (N): 16490
+      number_of_genes_annotated (%): 56.025549553222575
+      number_of_unique_genes_annotated (N): 220
+      number_of_unique_genes_annotated (%): 0.7474603336391126
+      tax_classification:
+        species: Oryza sativa
+        genus: Oryza
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Arabidopsis arenosa
+      number_of_genes_annotated (N): 19761
+      number_of_genes_annotated (%): 67.13892569564774
+      number_of_unique_genes_annotated (N): 2560
+      number_of_unique_genes_annotated (%): 8.697720245982401
+      tax_classification:
+        species: Arabidopsis arenosa
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Brassica rapa
+      number_of_genes_annotated (N): 24674
+      number_of_genes_annotated (%): 83.83107396459756
+      number_of_unique_genes_annotated (N): 3648
+      number_of_unique_genes_annotated (%): 12.394251350524922
+      tax_classification:
+        species: Brassica rapa
+        genus: Brassica
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 17213
+      number_of_genes_annotated (%): 58.48197601331838
+      number_of_unique_genes_annotated (N): 1142
+      number_of_unique_genes_annotated (%): 3.8799986409812117
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    divergence_times:
+      Oryza sativa: &id004
+        Oryza sativa:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Arabidopsis arenosa: &id001
+        adjusted_time: NA
+        median_time: 6.2
+      Brassica rapa: &id002
+        Brassica rapa:
+          adjusted_time: 20.6
+          median_time: 26.0
+      Solanum lycopersicum: &id003
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
+  tax_classification:
+    species: Arabidopsis thaliana
+    genus: Arabidopsis
+    family: Brassicaceae
+    class: Magnoliopsida
+  GeMoMa_ArareBrrapSolyc:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolyc/AnnotationQC_20250517T071708/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolyc/AnnotationQC_20250517T071708/Arabidopsis_thaliana_GMeMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_Multispecies_GeMoMa_ArareBrrapSolyc/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis arenosa
+      number_of_genes_annotated (N): 20084
+      number_of_genes_annotated (%): 69.14311288601233
+      number_of_unique_genes_annotated (N): 3078
+      number_of_unique_genes_annotated (%): 10.596619272213998
+      tax_classification:
+        species: Arabidopsis arenosa
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Brassica rapa
+      number_of_genes_annotated (N): 24400
+      number_of_genes_annotated (%): 84.00179020208628
+      number_of_unique_genes_annotated (N): 4430
+      number_of_unique_genes_annotated (%): 15.25114469652632
+      tax_classification:
+        species: Brassica rapa
+        genus: Brassica
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 16561
+      number_of_genes_annotated (%): 57.01449375150618
+      number_of_unique_genes_annotated (N): 1243
+      number_of_unique_genes_annotated (%): 4.279271525458739
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis arenosa: *id001
+      Brassica rapa: *id002
+      Solanum lycopersicum: *id003
+  GeMoMa_Slycopersicum:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/AnnotationQC_20250517T071557/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/AnnotationQC_20250517T071557/Arabidopsis_thaliana_GMeSl_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    species_involved:
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 21040
+      number_of_genes_annotated (%): 100.0
+      number_of_unique_genes_annotated (N): 21040
+      number_of_unique_genes_annotated (%): 100.0
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    divergence_times:
+      Solanum lycopersicum: *id003
+  GeMoMa_Osativa:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/AnnotationQC_20250517T071527/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/AnnotationQC_20250517T071527/Arabidopsis_thaliana_GMeOs_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/reference_gene_table.tabular
+    species_involved:
+    - species: Oryza sativa
+      number_of_genes_annotated (N): 19351
+      number_of_genes_annotated (%): 100.0
+      number_of_unique_genes_annotated (N): 19351
+      number_of_unique_genes_annotated (%): 100.0
+      tax_classification:
+        species: Oryza sativa
+        genus: Oryza
+        family: Poaceae
+        class: Magnoliopsida
+    divergence_times:
+      Oryza sativa: *id004
+  GeMoMa_Brapa:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/AnnotationQC_20250517T054318/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/AnnotationQC_20250517T054318/Arabidopsis_thaliana_GMeBr_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/reference_gene_table_2.tabular
+    species_involved:
+    - species: Brassica rapa
+      number_of_genes_annotated (N): 26698
+      number_of_genes_annotated (%): 100.0
+      number_of_unique_genes_annotated (N): 26698
+      number_of_unique_genes_annotated (%): 100.0
+      tax_classification:
+        species: Brassica rapa
+        genus: Brassica
+        family: Brassicaceae
+        class: Magnoliopsida
+    divergence_times:
+      Brassica rapa: *id002
+  GeMoMa_Athaliana:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/AnnotationQC_20250517T054227/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/AnnotationQC_20250517T054227/Arabidopsis_thaliana_GMeAt_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/reference_gene_table_1.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 28947
+      number_of_genes_annotated (%): 100.0
+      number_of_unique_genes_annotated (N): 28947
+      number_of_unique_genes_annotated (%): 100.0
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 0.0
+          median_time: 0.0
+  GeMoMa_Aarenosa:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/AnnotationQC_20250517T054128/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/AnnotationQC_20250517T054128/Arabidopsis_thaliana_GMeAa_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis arenosa
+      number_of_genes_annotated (N): 21760
+      number_of_genes_annotated (%): 100.0
+      number_of_unique_genes_annotated (N): 21760
+      number_of_unique_genes_annotated (%): 100.0
+      tax_classification:
+        species: Arabidopsis arenosa
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis arenosa: *id001
+Solanum_lycopersicum:
+  GeMoMa_Eudicots:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_Multispecies_GeMoMa_Eudicots/AnnotationQC_20250726T052251/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_Multispecies_GeMoMa_Eudicots/AnnotationQC_20250726T052251/Solanum_lycopersicum_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_Multispecies_GeMoMa_Eudicots/reference_gene_table.tabular
+    species_involved:
+    - species: Capsicum annuum
+      number_of_genes_annotated (N): 30289
+      number_of_genes_annotated (%): 59.61228104703798
+      number_of_unique_genes_annotated (N): 5381
+      number_of_unique_genes_annotated (%): 10.590434953749261
+      tax_classification:
+        species: Capsicum annuum
+        genus: Capsicum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Nicotiana attenuata
+      number_of_genes_annotated (N): 31089
+      number_of_genes_annotated (%): 61.186774257036014
+      number_of_unique_genes_annotated (N): 6095
+      number_of_unique_genes_annotated (%): 11.995670143672506
+      tax_classification:
+        species: Nicotiana attenuata
+        genus: Nicotiana
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Solanum tuberosum
+      number_of_genes_annotated (N): 27979
+      number_of_genes_annotated (%): 55.06593190316866
+      number_of_unique_genes_annotated (N): 5448
+      number_of_unique_genes_annotated (%): 10.722298760086597
+      tax_classification:
+        species: Solanum tuberosum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Olea europaea
+      number_of_genes_annotated (N): 26153
+      number_of_genes_annotated (%): 51.47215115134816
+      number_of_unique_genes_annotated (N): 5146
+      number_of_unique_genes_annotated (%): 10.12792757331234
+      tax_classification:
+        species: Olea europaea
+        genus: Olea
+        family: Oleaceae
+        class: Magnoliopsida
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 20401
+      number_of_genes_annotated (%): 40.15154497146231
+      number_of_unique_genes_annotated (N): 781
+      number_of_unique_genes_annotated (%): 1.5370989962605786
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    divergence_times:
+      Capsicum annuum:
+        Capsicum annuum:
+          adjusted_time: 21.3
+          median_time: 18.1
+      Nicotiana attenuata:
+        Nicotiana attenuata:
+          adjusted_time: NA
+          median_time: 23.9
+      Solanum tuberosum:
+        Solanum tuberosum:
+          adjusted_time: 7.1
+          median_time: 8.0
+      Olea europaea:
+        Olea europaea:
+          adjusted_time: 89.0
+          median_time: 84.0
+      Arabidopsis thaliana:
+        adjusted_time: 125.0
+        median_time: 118.0
+  tax_classification:
+    species: Solanum lycopersicum
+    genus: Solanum
+    family: Solanaceae
+    class: Magnoliopsida
+Antirrhinum_barrelieri:
+  GeMoMa_AhAmAtPsSl:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_Multispecies_GeMoMa_AhAmAtPsSl/AnnotationQC_20250628T161151/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_Multispecies_GeMoMa_AhAmAtPsSl/AnnotationQC_20250628T161151/Antirrhinum_barrelieri_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_Multispecies_GeMoMa_AhAmAtPsSl/reference_gene_table.tabular
+    species_involved:
+    - species: Penstemon smallii
+      number_of_genes_annotated (N): 22898
+      number_of_genes_annotated (%): 28.326838621884086
+      number_of_unique_genes_annotated (N): 2302
+      number_of_unique_genes_annotated (%): 2.8477763345085667
+      tax_classification:
+        species: Penstemon smallii
+        genus: Penstemon
+        family: Plantaginaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 24288
+      number_of_genes_annotated (%): 30.046390796066056
+      number_of_unique_genes_annotated (N): 4606
+      number_of_unique_genes_annotated (%): 5.698026844807324
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Antirrhinum majus
+      number_of_genes_annotated (N): 50865
+      number_of_genes_annotated (%): 62.92447578400445
+      number_of_unique_genes_annotated (N): 19025
+      number_of_unique_genes_annotated (%): 23.535597204181357
+      tax_classification:
+        species: Antirrhinum majus
+        genus: Antirrhinum
+        family: Plantaginaceae
+        class: Magnoliopsida
+    - species: Antirrhinum hispanicum
+      number_of_genes_annotated (N): 50637
+      number_of_genes_annotated (%): 62.64241974392281
+      number_of_unique_genes_annotated (N): 17194
+      number_of_unique_genes_annotated (%): 21.27048926826251
+      tax_classification:
+        species: Antirrhinum hispanicum
+        genus: Antirrhinum
+        family: Plantaginaceae
+        class: Magnoliopsida
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 22361
+      number_of_genes_annotated (%): 27.6625224222181
+      number_of_unique_genes_annotated (N): 1232
+      number_of_unique_genes_annotated (%): 1.524092286756974
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    divergence_times:
+      Penstemon smallii:
+        Penstemon smallii:
+          adjusted_time: 46.0
+          median_time: 44.0
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: 89.0
+          median_time: 84.0
+      Antirrhinum majus:
+        adjusted_time: 22.6
+        median_time: 18.5
+      Antirrhinum hispanicum:
+        Antirrhinum hispanicum:
+          adjusted_time: 1.44
+          median_time: 1.44
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
+  tax_classification:
+    species: Antirrhinum barrelieri
+    genus: Antirrhinum
+    family: Plantaginaceae
+    class: Magnoliopsida
+Vitis_vinifera:
+  Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet/AnnotationQC_20250825T213234/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet/AnnotationQC_20250825T213234/Vitis_vinifera_EvP_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.Eudicots3SpeciesSet/reference_gene_table.tabular
+    species_involved:
+    - species: Fragaria vesca
+      number_of_genes_annotated (N): 25489
+      number_of_genes_annotated (%): 74.35314022344738
+      number_of_unique_genes_annotated (N): 7733
+      number_of_unique_genes_annotated (%): 22.557685015022898
+      tax_classification:
+        species: Fragaria vesca
+        genus: Fragaria
+        family: Rosaceae
+        class: Magnoliopsida
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 19504
+      number_of_genes_annotated (%): 56.89448965899477
+      number_of_unique_genes_annotated (N): 2144
+      number_of_unique_genes_annotated (%): 6.254193284910009
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 21212
+      number_of_genes_annotated (%): 61.87684139902569
+      number_of_unique_genes_annotated (N): 5402
+      number_of_unique_genes_annotated (%): 15.758000058341356
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    divergence_times:
+      Fragaria vesca:
+        Fragaria vesca:
+          adjusted_time: 123.0
+          median_time: 117.0
+      Arabidopsis thaliana:
+        adjusted_time: 123.0
+        median_time: 117.0
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
+  tax_classification:
+    species: Vitis vinifera
+    genus: Vitis
+    family: Vitaceae
+    class: Magnoliopsida
+Solanum_melongena:
+  GeMoMa_AtCaNaSlSt:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_MultiSpecies_GeMoMa_AtCaNaSlSt/AnnotationQC_20250629T210439/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_MultiSpecies_GeMoMa_AtCaNaSlSt/AnnotationQC_20250629T210439/Solanum_melongena_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_MultiSpecies_GeMoMa_AtCaNaSlSt/reference_gene_table.tabular
+    species_involved:
+    - species: Nicotiana attenuata
+      number_of_genes_annotated (N): 32965
+      number_of_genes_annotated (%): 56.882301175090156
+      number_of_unique_genes_annotated (N): 7720
+      number_of_unique_genes_annotated (%): 13.321139544113333
+      tax_classification:
+        species: Nicotiana attenuata
+        genus: Nicotiana
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Solanum tuberosum
+      number_of_genes_annotated (N): 27830
+      number_of_genes_annotated (%): 48.02167273480234
+      number_of_unique_genes_annotated (N): 3901
+      number_of_unique_genes_annotated (%): 6.731316756682139
+      tax_classification:
+        species: Solanum tuberosum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 30856
+      number_of_genes_annotated (%): 53.24314530740427
+      number_of_unique_genes_annotated (N): 9263
+      number_of_unique_genes_annotated (%): 15.983641916725622
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Capsicum annuum
+      number_of_genes_annotated (N): 32561
+      number_of_genes_annotated (%): 56.1851845460977
+      number_of_unique_genes_annotated (N): 6693
+      number_of_unique_genes_annotated (%): 11.549013856055769
+      tax_classification:
+        species: Capsicum annuum
+        genus: Capsicum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 20537
+      number_of_genes_annotated (%): 35.43733715252014
+      number_of_unique_genes_annotated (N): 1029
+      number_of_unique_genes_annotated (%): 1.7755767604783188
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    divergence_times:
+      Nicotiana attenuata:
+        adjusted_time: NA
+        median_time: 23.9
+      Solanum tuberosum:
+        Solanum tuberosum:
+          adjusted_time: 9.5
+          median_time: 14.6
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: 9.5
+          median_time: 14.6
+      Capsicum annuum:
+        Capsicum annuum:
+          adjusted_time: 21.3
+          median_time: 18.1
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
+  tax_classification:
+    species: Solanum melongena
+    genus: Solanum
+    family: Solanaceae
+    class: Magnoliopsida
+Phillyrea_angustifolia:
+  GeMoMa_5Sps:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_5Sps/AnnotationQC_20250719T084216/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_5Sps/AnnotationQC_20250719T084216/Phillyrea_angustifolia_EVT_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_5Sps/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 28313
+      number_of_genes_annotated (%): 43.33379249123774
+      number_of_unique_genes_annotated (N): 1902
+      number_of_unique_genes_annotated (%): 2.911061113917076
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Abeliophyllum distichum
+      number_of_genes_annotated (N): 46722
+      number_of_genes_annotated (%): 71.50925203177373
+      number_of_unique_genes_annotated (N): 18292
+      number_of_unique_genes_annotated (%): 27.99638795781869
+      tax_classification:
+        species: Abeliophyllum distichum
+        genus: Abeliophyllum
+        family: Oleaceae
+        class: Magnoliopsida
+    - species: Fraxinus pennsylvanica
+      number_of_genes_annotated (N): 33409
+      number_of_genes_annotated (%): 51.13335476070221
+      number_of_unique_genes_annotated (N): 7015
+      number_of_unique_genes_annotated (%): 10.736642331297732
+      tax_classification:
+        species: Fraxinus pennsylvanica
+        genus: Fraxinus
+        family: Oleaceae
+        class: Magnoliopsida
+    - species: Olea europaea
+      number_of_genes_annotated (N): 0
+      number_of_genes_annotated (%): 0.0
+      number_of_unique_genes_annotated (N): 0
+      number_of_unique_genes_annotated (%): 0.0
+      tax_classification:
+        species: Olea europaea
+        genus: Olea
+        family: Oleaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 31016
+      number_of_genes_annotated (%): 47.47080520991169
+      number_of_unique_genes_annotated (N): 5219
+      number_of_unique_genes_annotated (%): 7.987817010269832
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 125.0
+          median_time: 118.0
+      Abeliophyllum distichum:
+        adjusted_time: NA
+        median_time: 52.0
+      Fraxinus pennsylvanica:
+        Fraxinus pennsylvanica:
+          adjusted_time: 29.0
+          median_time: 34.0
+      Olea europaea:
+        Olea europaea:
+          adjusted_time: 29.0
+          median_time: 34.0
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: 89.0
+          median_time: 84.0
+  tax_classification:
+    species: Phillyrea angustifolia
+    genus: Phillyrea
+    family: Oleaceae
+    class: Magnoliopsida
+Prunus_persica:
+  GeMoMa_AtAtCsFvOsSlVv:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_MultiSpecies_GeMoMa_AtAtCsFvOsSlVv/AnnotationQC_20251019T070143/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_MultiSpecies_GeMoMa_AtAtCsFvOsSlVv/AnnotationQC_20251019T070143/Prunus_persica_EvP_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_MultiSpecies_GeMoMa_AtAtCsFvOsSlVv/reference_gene_table.tabular
+    species_involved:
+    - species: Amborella trichopoda
+      number_of_genes_annotated (N): 18315
+      number_of_genes_annotated (%): 54.09676275992439
+      number_of_unique_genes_annotated (N): 774
+      number_of_unique_genes_annotated (%): 2.2861531190926274
+      tax_classification:
+        species: Amborella trichopoda
+        genus: Amborella
+        family: Amborellaceae
+        class: Magnoliopsida
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 18864
+      number_of_genes_annotated (%): 55.71833648393195
+      number_of_unique_genes_annotated (N): 669
+      number_of_unique_genes_annotated (%): 1.9760160680529302
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Cucumis sativus
+      number_of_genes_annotated (N): 17546
+      number_of_genes_annotated (%): 51.82537807183365
+      number_of_unique_genes_annotated (N): 465
+      number_of_unique_genes_annotated (%): 1.3734640831758034
+      tax_classification:
+        species: Cucumis sativus
+        genus: Cucumis
+        family: Cucurbitaceae
+        class: Magnoliopsida
+    - species: Fragaria vesca
+      number_of_genes_annotated (N): 25334
+      number_of_genes_annotated (%): 74.82868620037807
+      number_of_unique_genes_annotated (N): 5379
+      number_of_unique_genes_annotated (%): 15.887878071833647
+      tax_classification:
+        species: Fragaria vesca
+        genus: Fragaria
+        family: Rosaceae
+        class: Magnoliopsida
+    - species: Oryza sativa
+      number_of_genes_annotated (N): 16952
+      number_of_genes_annotated (%): 50.07088846880907
+      number_of_unique_genes_annotated (N): 437
+      number_of_unique_genes_annotated (%): 1.2907608695652173
+      tax_classification:
+        species: Oryza sativa
+        genus: Oryza
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 18258
+      number_of_genes_annotated (%): 53.92840264650284
+      number_of_unique_genes_annotated (N): 2082
+      number_of_unique_genes_annotated (%): 6.149574669187145
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Vitis vinifera
+      number_of_genes_annotated (N): 20706
+      number_of_genes_annotated (%): 61.159026465028354
+      number_of_unique_genes_annotated (N): 1213
+      number_of_unique_genes_annotated (%): 3.582821361058601
+      tax_classification:
+        species: Vitis vinifera
+        genus: Vitis
+        family: Vitaceae
+        class: Magnoliopsida
+    divergence_times:
+      Amborella trichopoda:
+        adjusted_time: NA
+        median_time: 196.0
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 121.0
+          median_time: 108.0
+      Cucumis sativus:
+        Cucumis sativus:
+          adjusted_time: NA
+          median_time: 103.0
+      Fragaria vesca:
+        Fragaria vesca:
+          adjusted_time: 69.0
+          median_time: 61.0
+      Oryza sativa:
+        Oryza sativa:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
+      Vitis vinifera:
+        Vitis vinifera:
+          adjusted_time: 123.0
+          median_time: 117.0
+  tax_classification:
+    species: Prunus persica
+    genus: Prunus
+    family: Rosaceae
+    class: Magnoliopsida
+Lupinus_albus:
+  MultiGeMoMa_FabaceaePlusArtha:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_FabaceaePlusArtha/AnnotationQC_20250415T094357/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_FabaceaePlusArtha/AnnotationQC_20250415T094357/Lupinus_albus_NCBIv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_FabaceaePlusArtha/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 26825
+      number_of_genes_annotated (%): 42.200896719893024
+      number_of_unique_genes_annotated (N): 494
+      number_of_unique_genes_annotated (%): 0.7771572406198379
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Arachis duranensis
+      number_of_genes_annotated (N): 31505
+      number_of_genes_annotated (%): 49.56343899944938
+      number_of_unique_genes_annotated (N): 517
+      number_of_unique_genes_annotated (%): 0.813340674899709
+      tax_classification:
+        species: Arachis duranensis
+        genus: Arachis
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Arachis hypogaea
+      number_of_genes_annotated (N): 33415
+      number_of_genes_annotated (%): 52.56823723747345
+      number_of_unique_genes_annotated (N): 672
+      number_of_unique_genes_annotated (%): 1.057185558090144
+      tax_classification:
+        species: Arachis hypogaea
+        genus: Arachis
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Bauhinia variegata
+      number_of_genes_annotated (N): 30431
+      number_of_genes_annotated (%): 47.873829937858886
+      number_of_unique_genes_annotated (N): 919
+      number_of_unique_genes_annotated (%): 1.4457641784000628
+      tax_classification:
+        species: Bauhinia variegata
+        genus: Bauhinia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Cajanus cajan
+      number_of_genes_annotated (N): 30918
+      number_of_genes_annotated (%): 48.639974828915285
+      number_of_unique_genes_annotated (N): 387
+      number_of_unique_genes_annotated (%): 0.608825611578699
+      tax_classification:
+        species: Cajanus cajan
+        genus: Cajanus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Canavalia gladiata
+      number_of_genes_annotated (N): 25222
+      number_of_genes_annotated (%): 39.679068669865494
+      number_of_unique_genes_annotated (N): 766
+      number_of_unique_genes_annotated (%): 1.205065680799182
+      tax_classification:
+        species: Canavalia gladiata
+        genus: Canavalia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Cicer arietinum
+      number_of_genes_annotated (N): 30175
+      number_of_genes_annotated (%): 47.471092582395976
+      number_of_unique_genes_annotated (N): 380
+      number_of_unique_genes_annotated (%): 0.59781326201526
+      tax_classification:
+        species: Cicer arietinum
+        genus: Cicer
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Glycine max
+      number_of_genes_annotated (N): 34642
+      number_of_genes_annotated (%): 54.49854479666483
+      number_of_unique_genes_annotated (N): 3182
+      number_of_unique_genes_annotated (%): 5.005899472980413
+      tax_classification:
+        species: Glycine max
+        genus: Glycine
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Glycine soja
+      number_of_genes_annotated (N): 32875
+      number_of_genes_annotated (%): 51.71871312829387
+      number_of_unique_genes_annotated (N): 463
+      number_of_unique_genes_annotated (%): 0.7283882639817509
+      tax_classification:
+        species: Glycine soja
+        genus: Glycine
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Lathyrus sativus
+      number_of_genes_annotated (N): 31962
+      number_of_genes_annotated (%): 50.28238810666247
+      number_of_unique_genes_annotated (N): 597
+      number_of_unique_genes_annotated (%): 0.939196098481869
+      tax_classification:
+        species: Lathyrus sativus
+        genus: Lathyrus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Lotus japonicus
+      number_of_genes_annotated (N): 31915
+      number_of_genes_annotated (%): 50.208448045307954
+      number_of_unique_genes_annotated (N): 345
+      number_of_unique_genes_annotated (%): 0.5427515141980649
+      tax_classification:
+        species: Lotus japonicus
+        genus: Lotus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Lupinus angustifolius
+      number_of_genes_annotated (N): 31857
+      number_of_genes_annotated (%): 50.117202863210885
+      number_of_unique_genes_annotated (N): 1195
+      number_of_unique_genes_annotated (%): 1.879965389758515
+      tax_classification:
+        species: Lupinus angustifolius
+        genus: Lupinus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Medicago truncatula
+      number_of_genes_annotated (N): 30784
+      number_of_genes_annotated (%): 48.42916699441517
+      number_of_unique_genes_annotated (N): 153
+      number_of_unique_genes_annotated (%): 0.240698497600881
+      tax_classification:
+        species: Medicago truncatula
+        genus: Medicago
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Phaseolus vulgaris
+      number_of_genes_annotated (N): 32418
+      number_of_genes_annotated (%): 50.999764021080786
+      number_of_unique_genes_annotated (N): 746
+      number_of_unique_genes_annotated (%): 1.173601824903642
+      tax_classification:
+        species: Phaseolus vulgaris
+        genus: Phaseolus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Pisum sativum
+      number_of_genes_annotated (N): 35281
+      number_of_genes_annotated (%): 55.50381499252733
+      number_of_unique_genes_annotated (N): 1829
+      number_of_unique_genes_annotated (%): 2.8773696216471327
+      tax_classification:
+        species: Lathyrus oleraceus
+        genus: Lathyrus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Trifolium repens
+      number_of_genes_annotated (N): 35406
+      number_of_genes_annotated (%): 55.70046409187446
+      number_of_unique_genes_annotated (N): 2013
+      number_of_unique_genes_annotated (%): 3.1668370958861005
+      tax_classification:
+        species: Trifolium repens
+        genus: Trifolium
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vicia faba
+      number_of_genes_annotated (N): 29340
+      number_of_genes_annotated (%): 46.15747659875718
+      number_of_unique_genes_annotated (N): 630
+      number_of_unique_genes_annotated (%): 0.9911114607095101
+      tax_classification:
+        species: Vicia faba
+        genus: Vicia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vicia villosa
+      number_of_genes_annotated (N): 35041
+      number_of_genes_annotated (%): 55.126248721780854
+      number_of_unique_genes_annotated (N): 1096
+      number_of_unique_genes_annotated (%): 1.724219303075592
+      tax_classification:
+        species: Vicia villosa
+        genus: Vicia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna angularis
+      number_of_genes_annotated (N): 31419
+      number_of_genes_annotated (%): 49.428144419098565
+      number_of_unique_genes_annotated (N): 276
+      number_of_unique_genes_annotated (%): 0.43420121135845197
+      tax_classification:
+        species: Vigna angularis
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna mungo
+      number_of_genes_annotated (N): 24984
+      number_of_genes_annotated (%): 39.30464878470857
+      number_of_unique_genes_annotated (N): 3007
+      number_of_unique_genes_annotated (%): 4.730590733894439
+      tax_classification:
+        species: Vigna mungo
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna radiata
+      number_of_genes_annotated (N): 31215
+      number_of_genes_annotated (%): 49.10721308896405
+      number_of_unique_genes_annotated (N): 231
+      number_of_unique_genes_annotated (%): 0.363407535593487
+      tax_classification:
+        species: Vigna radiata
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna unguiculata
+      number_of_genes_annotated (N): 31867
+      number_of_genes_annotated (%): 50.132934791158654
+      number_of_unique_genes_annotated (N): 596
+      number_of_unique_genes_annotated (%): 0.937622905687092
+      tax_classification:
+        species: Vigna unguiculata
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 121.0
+          median_time: 108.0
+      Arachis duranensis: &id005
+        Arachis duranensis:
+          adjusted_time: 56.0
+          median_time: 51.0
+      Arachis hypogaea: &id006
+        Arachis hypogaea:
+          adjusted_time: 56.0
+          median_time: 51.0
+      Bauhinia variegata: &id007
+        Bauhinia variegata:
+          adjusted_time: 93.0
+          median_time: 68.0
+      Cajanus cajan: &id008
+        Cajanus cajan:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Canavalia gladiata: &id009
+        Canavalia gladiata:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Cicer arietinum: &id010
+        Cicer arietinum:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Glycine max: &id011
+        Glycine max:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Glycine soja: &id012
+        Glycine soja:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Lathyrus sativus: &id013
+        Lathyrus sativus:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Lotus japonicus: &id014
+        adjusted_time: 57.0
+        median_time: 56.0
+      Lupinus angustifolius: &id015
+        Lupinus angustifolius:
+          adjusted_time: NA
+          median_time: 8.5
+      Medicago truncatula: &id016
+        Medicago truncatula:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Phaseolus vulgaris: &id017
+        Phaseolus vulgaris:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Pisum sativum: &id018
+        Pisum sativum:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Trifolium repens: &id019
+        Trifolium repens:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Vicia faba: &id020
+        Vicia faba:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Vicia villosa: &id021
+        Vicia villosa:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Vigna angularis: &id022
+        Vigna angularis:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Vigna mungo: &id023
+        Vigna mungo:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Vigna radiata: &id024
+        Vigna radiata:
+          adjusted_time: 57.0
+          median_time: 56.0
+      Vigna unguiculata: &id025
+        Vigna unguiculata:
+          adjusted_time: 57.0
+          median_time: 56.0
+  tax_classification:
+    species: Lupinus albus
+    genus: Lupinus
+    family: Fabaceae
+    class: Magnoliopsida
+  MultiGeMoMa_OnlyFabaceae:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_OnlyFabaceae/AnnotationQC_20250415T094716/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_OnlyFabaceae/AnnotationQC_20250415T094716/Lupinus_albus_GMv2_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_MultiGeMoMa_OnlyFabaceae/reference_gene_table.tabular
+    species_involved:
+    - species: Arachis duranensis
+      number_of_genes_annotated (N): 31493
+      number_of_genes_annotated (%): 49.94053376889044
+      number_of_unique_genes_annotated (N): 521
+      number_of_unique_genes_annotated (%): 0.8261841708821617
+      tax_classification:
+        species: Arachis duranensis
+        genus: Arachis
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Arachis hypogaea
+      number_of_genes_annotated (N): 33400
+      number_of_genes_annotated (%): 52.964589841581954
+      number_of_unique_genes_annotated (N): 672
+      number_of_unique_genes_annotated (%): 1.0656348614833258
+      tax_classification:
+        species: Arachis hypogaea
+        genus: Arachis
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Bauhinia variegata
+      number_of_genes_annotated (N): 30376
+      number_of_genes_annotated (%): 48.169232964906996
+      number_of_unique_genes_annotated (N): 927
+      number_of_unique_genes_annotated (%): 1.4700052330283377
+      tax_classification:
+        species: Bauhinia variegata
+        genus: Bauhinia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Cajanus cajan
+      number_of_genes_annotated (N): 30907
+      number_of_genes_annotated (%): 49.01127479741837
+      number_of_unique_genes_annotated (N): 386
+      number_of_unique_genes_annotated (%): 0.6121057388877437
+      tax_classification:
+        species: Cajanus cajan
+        genus: Cajanus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Canavalia gladiata
+      number_of_genes_annotated (N): 25202
+      number_of_genes_annotated (%): 39.96447883795056
+      number_of_unique_genes_annotated (N): 773
+      number_of_unique_genes_annotated (%): 1.2257972439384088
+      tax_classification:
+        species: Canavalia gladiata
+        genus: Canavalia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Cicer arietinum
+      number_of_genes_annotated (N): 30171
+      number_of_genes_annotated (%): 47.844150901508065
+      number_of_unique_genes_annotated (N): 388
+      number_of_unique_genes_annotated (%): 0.6152772712135869
+      tax_classification:
+        species: Cicer arietinum
+        genus: Cicer
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Glycine max
+      number_of_genes_annotated (N): 34630
+      number_of_genes_annotated (%): 54.91508222197555
+      number_of_unique_genes_annotated (N): 3248
+      number_of_unique_genes_annotated (%): 5.150568497169408
+      tax_classification:
+        species: Glycine max
+        genus: Glycine
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Glycine soja
+      number_of_genes_annotated (N): 32877
+      number_of_genes_annotated (%): 52.13523413837395
+      number_of_unique_genes_annotated (N): 472
+      number_of_unique_genes_annotated (%): 0.7484816288990026
+      tax_classification:
+        species: Glycine soja
+        genus: Glycine
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Lathyrus sativus
+      number_of_genes_annotated (N): 31957
+      number_of_genes_annotated (%): 50.676329268486064
+      number_of_unique_genes_annotated (N): 599
+      number_of_unique_genes_annotated (%): 0.9498739315900476
+      tax_classification:
+        species: Lathyrus sativus
+        genus: Lathyrus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Lotus japonicus
+      number_of_genes_annotated (N): 31905
+      number_of_genes_annotated (%): 50.59386942801415
+      number_of_unique_genes_annotated (N): 356
+      number_of_unique_genes_annotated (%): 0.5645327540000952
+      tax_classification:
+        species: Lotus japonicus
+        genus: Lotus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Lupinus angustifolius
+      number_of_genes_annotated (N): 31855
+      number_of_genes_annotated (%): 50.51458111986806
+      number_of_unique_genes_annotated (N): 1208
+      number_of_unique_genes_annotated (%): 1.9156055248093118
+      tax_classification:
+        species: Lupinus angustifolius
+        genus: Lupinus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Medicago truncatula
+      number_of_genes_annotated (N): 30779
+      number_of_genes_annotated (%): 48.80829672856441
+      number_of_unique_genes_annotated (N): 153
+      number_of_unique_genes_annotated (%): 0.24262222292700716
+      tax_classification:
+        species: Medicago truncatula
+        genus: Medicago
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Phaseolus vulgaris
+      number_of_genes_annotated (N): 32417
+      number_of_genes_annotated (%): 51.40578170343001
+      number_of_unique_genes_annotated (N): 747
+      number_of_unique_genes_annotated (%): 1.1845673237024468
+      tax_classification:
+        species: Phaseolus vulgaris
+        genus: Phaseolus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Pisum sativum
+      number_of_genes_annotated (N): 35286
+      number_of_genes_annotated (%): 55.955344824852126
+      number_of_unique_genes_annotated (N): 1836
+      number_of_unique_genes_annotated (%): 2.9114666751240863
+      tax_classification:
+        species: Lathyrus oleraceus
+        genus: Lathyrus
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Trifolium repens
+      number_of_genes_annotated (N): 35392
+      number_of_genes_annotated (%): 56.123436038121824
+      number_of_unique_genes_annotated (N): 2034
+      number_of_unique_genes_annotated (%): 3.225448375382566
+      tax_classification:
+        species: Trifolium repens
+        genus: Trifolium
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vicia faba
+      number_of_genes_annotated (N): 29332
+      number_of_genes_annotated (%): 46.51369309081683
+      number_of_unique_genes_annotated (N): 633
+      number_of_unique_genes_annotated (%): 1.0037899811293827
+      tax_classification:
+        species: Vicia faba
+        genus: Vicia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vicia villosa
+      number_of_genes_annotated (N): 35032
+      number_of_genes_annotated (%): 55.55256021947004
+      number_of_unique_genes_annotated (N): 1102
+      number_of_unique_genes_annotated (%): 1.7475143115396206
+      tax_classification:
+        species: Vicia villosa
+        genus: Vicia
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna angularis
+      number_of_genes_annotated (N): 31420
+      number_of_genes_annotated (%): 49.82477283899716
+      number_of_unique_genes_annotated (N): 279
+      number_of_unique_genes_annotated (%): 0.4424287594551307
+      tax_classification:
+        species: Vigna angularis
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna mungo
+      number_of_genes_annotated (N): 24930
+      number_of_genes_annotated (%): 39.533150441635875
+      number_of_unique_genes_annotated (N): 3027
+      number_of_unique_genes_annotated (%): 4.80011417516373
+      tax_classification:
+        species: Vigna mungo
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna radiata
+      number_of_genes_annotated (N): 31208
+      number_of_genes_annotated (%): 49.488590412457775
+      number_of_unique_genes_annotated (N): 234
+      number_of_unique_genes_annotated (%): 0.37106928212365803
+      tax_classification:
+        species: Vigna radiata
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    - species: Vigna unguiculata
+      number_of_genes_annotated (N): 31865
+      number_of_genes_annotated (%): 50.53043878149728
+      number_of_unique_genes_annotated (N): 596
+      number_of_unique_genes_annotated (%): 0.9451166331012829
+      tax_classification:
+        species: Vigna unguiculata
+        genus: Vigna
+        family: Fabaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arachis duranensis: *id005
+      Arachis hypogaea: *id006
+      Bauhinia variegata: *id007
+      Cajanus cajan: *id008
+      Canavalia gladiata: *id009
+      Cicer arietinum: *id010
+      Glycine max: *id011
+      Glycine soja: *id012
+      Lathyrus sativus: *id013
+      Lotus japonicus: *id014
+      Lupinus angustifolius: *id015
+      Medicago truncatula: *id016
+      Phaseolus vulgaris: *id017
+      Pisum sativum: *id018
+      Trifolium repens: *id019
+      Vicia faba: *id020
+      Vicia villosa: *id021
+      Vigna angularis: *id022
+      Vigna mungo: *id023
+      Vigna radiata: *id024
+      Vigna unguiculata: *id025
+Anthoceros_agrestis:
+  GeMoMa_BryophyteSet:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_BryophyteSet/AnnotationQC_20251026T193942/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_BryophyteSet/AnnotationQC_20251026T193942/Anthoceros_agrestis_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_BryophyteSet/reference_gene_table.tabular
+    species_involved:
+    - species: Marchantia polymorpha
+      number_of_genes_annotated (N): 7404
+      number_of_genes_annotated (%): 50.408496732026144
+      number_of_unique_genes_annotated (N): 2293
+      number_of_unique_genes_annotated (%): 15.611383442265794
+      tax_classification:
+        species: Marchantia polymorpha
+        genus: Marchantia
+        family: Marchantiaceae
+        class: Marchantiopsida
+    - species: Physcomitrella patens
+      number_of_genes_annotated (N): 8754
+      number_of_genes_annotated (%): 59.599673202614376
+      number_of_unique_genes_annotated (N): 2921
+      number_of_unique_genes_annotated (%): 19.8869825708061
+      tax_classification:
+        species: Physcomitrium patens
+        genus: Physcomitrium
+        family: Funariaceae
+        class: Bryopsida
+    - species: Sphagnum fallax
+      number_of_genes_annotated (N): 8815
+      number_of_genes_annotated (%): 60.01497821350763
+      number_of_unique_genes_annotated (N): 2856
+      number_of_unique_genes_annotated (%): 19.444444444444446
+      tax_classification:
+        species: Sphagnum fallax
+        genus: Sphagnum
+        family: Sphagnaceae
+        class: Sphagnopsida
+    divergence_times:
+      Marchantia polymorpha:
+        Marchantia polymorpha:
+          adjusted_time: 484.0
+          median_time: 480.0
+      Physcomitrella patens:
+        Physcomitrella patens:
+          adjusted_time: 484.0
+          median_time: 488.0
+      Sphagnum fallax:
+        adjusted_time: 484.0
+        median_time: 488.0
+  tax_classification:
+    species: Anthoceros agrestis
+    genus: Anthoceros
+    family: Anthocerotaceae
+    class: Anthocerotopsida
+Adiantum_capillus-veneris:
+  GeMoMa_ApAsCr:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_Multispecies_GeMoMa_ApAsCr/AnnotationQC_20250602T213016/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_Multispecies_GeMoMa_ApAsCr/AnnotationQC_20250602T213016/Adiantum_capillusveneris_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_Multispecies_GeMoMa_ApAsCr/reference_gene_table.tabular
+    species_involved:
+    - species: Alsophila spinulosa
+      number_of_genes_annotated (N): 24275
+      number_of_genes_annotated (%): 51.79992744809338
+      number_of_unique_genes_annotated (N): 10147
+      number_of_unique_genes_annotated (%): 21.652476367283356
+      tax_classification:
+        species: Alsophila spinulosa
+        genus: Alsophila
+        family: Cyatheaceae
+        class: Polypodiopsida
+    - species: Anthoceros punctatus
+      number_of_genes_annotated (N): 7443
+      number_of_genes_annotated (%): 15.882465911273286
+      number_of_unique_genes_annotated (N): 1987
+      number_of_unique_genes_annotated (%): 4.240018778140537
+      tax_classification:
+        species: Anthoceros punctatus
+        genus: Anthoceros
+        family: Anthocerotaceae
+        class: Anthocerotopsida
+    - species: Ceratopteris richardii
+      number_of_genes_annotated (N): 34284
+      number_of_genes_annotated (%): 73.157928429678
+      number_of_unique_genes_annotated (N): 20062
+      number_of_unique_genes_annotated (%): 42.80989266585579
+      tax_classification:
+        species: Ceratopteris richardii
+        genus: Ceratopteris
+        family: Pteridaceae
+        class: Polypodiopsida
+    divergence_times:
+      Alsophila spinulosa:
+        adjusted_time: NA
+        median_time: 211.0
+      Anthoceros punctatus:
+        Anthoceros punctatus:
+          adjusted_time: 451.0
+          median_time: 451.0
+      Ceratopteris richardii:
+        Ceratopteris richardii:
+          adjusted_time: 83.0
+          median_time: 105.0
+  tax_classification:
+    species: Adiantum capillus-veneris
+    genus: Adiantum
+    family: Pteridaceae
+    class: Polypodiopsida
+Alsophila_spinulosa:
+  MultiGeMoMa_FernSpecies:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_MultiGeMoMa_FernSpecies/AnnotationQC_20250618T103951/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_MultiGeMoMa_FernSpecies/AnnotationQC_20250618T103951/Alsophila_spinulosa_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_MultiGeMoMa_FernSpecies/reference_gene_table.tabular
+    species_involved:
+    - species: Adiantum capillus-veneris
+      number_of_genes_annotated (N): 32690
+      number_of_genes_annotated (%): 58.01551102986849
+      number_of_unique_genes_annotated (N): 16224
+      number_of_unique_genes_annotated (%): 28.79301471240705
+      tax_classification:
+        species: Adiantum capillus-veneris
+        genus: Adiantum
+        family: Pteridaceae
+        class: Polypodiopsida
+    - species: Ceratopteris richardii
+      number_of_genes_annotated (N): 40123
+      number_of_genes_annotated (%): 71.20698528759294
+      number_of_unique_genes_annotated (N): 23657
+      number_of_unique_genes_annotated (%): 41.98448897013151
+      tax_classification:
+        species: Ceratopteris richardii
+        genus: Ceratopteris
+        family: Pteridaceae
+        class: Polypodiopsida
+    divergence_times:
+      Adiantum capillus-veneris:
+        Adiantum capillus-veneris:
+          adjusted_time: NA
+          median_time: 211.0
+      Ceratopteris richardii:
+        adjusted_time: NA
+        median_time: 211.0
+  tax_classification:
+    species: Alsophila spinulosa
+    genus: Alsophila
+    family: Cyatheaceae
+    class: Polypodiopsida
+Aechmea_fasciata:
+  GeMoMa_4Sps:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_4Sps/AnnotationQC_20250606T105531/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_4Sps/AnnotationQC_20250606T105531/Aechmea_fasciata_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_4Sps/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 14498
+      number_of_genes_annotated (%): 56.6859555833594
+      number_of_unique_genes_annotated (N): 691
+      number_of_unique_genes_annotated (%): 2.7017516421645293
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Brachypodium distachyon
+      number_of_genes_annotated (N): 16954
+      number_of_genes_annotated (%): 66.28870816390366
+      number_of_unique_genes_annotated (N): 1127
+      number_of_unique_genes_annotated (%): 4.406474820143885
+      tax_classification:
+        species: Brachypodium distachyon
+        genus: Brachypodium
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Ananas comosus
+      number_of_genes_annotated (N): 20348
+      number_of_genes_annotated (%): 79.55896152643103
+      number_of_unique_genes_annotated (N): 5881
+      number_of_unique_genes_annotated (%): 22.99421332499218
+      tax_classification:
+        species: Ananas comosus
+        genus: Ananas
+        family: Bromeliaceae
+        class: Magnoliopsida
+    - species: Oryza sativa
+      number_of_genes_annotated (N): 16000
+      number_of_genes_annotated (%): 62.55864873318736
+      number_of_unique_genes_annotated (N): 737
+      number_of_unique_genes_annotated (%): 2.881607757272443
+      tax_classification:
+        species: Oryza sativa
+        genus: Oryza
+        family: Poaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Brachypodium distachyon:
+        Brachypodium distachyon:
+          adjusted_time: 110.0
+          median_time: 106.0
+      Ananas comosus:
+        Ananas comosus:
+          adjusted_time: 13.7
+          median_time: 7.7
+      Oryza sativa:
+        adjusted_time: 110.0
+        median_time: 106.0
+  tax_classification:
+    species: Aechmea fasciata
+    genus: Aechmea
+    family: Bromeliaceae
+    class: Magnoliopsida
+Cucumis_sativus:
+  GeMoMa_AtClCmOsSlVv:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmOsSlVv/AnnotationQC_20250717T045930/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmOsSlVv/AnnotationQC_20250717T045930/Cucumis_sativus_GMv2_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmOsSlVv/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 17211
+      number_of_genes_annotated (%): 62.549062363715656
+      number_of_unique_genes_annotated (N): 604
+      number_of_unique_genes_annotated (%): 2.195086495130106
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Citrullus lanatus
+      number_of_genes_annotated (N): 14525
+      number_of_genes_annotated (%): 52.7874691088821
+      number_of_unique_genes_annotated (N): 1971
+      number_of_unique_genes_annotated (%): 7.163105102485827
+      tax_classification:
+        species: Citrullus lanatus
+        genus: Citrullus
+        family: Cucurbitaceae
+        class: Magnoliopsida
+    - species: Cucumis melo
+      number_of_genes_annotated (N): 20461
+      number_of_genes_annotated (%): 74.3603721471144
+      number_of_unique_genes_annotated (N): 2673
+      number_of_unique_genes_annotated (%): 9.714348015699956
+      tax_classification:
+        species: Cucumis melo
+        genus: Cucumis
+        family: Cucurbitaceae
+        class: Magnoliopsida
+    - species: Oryza sativa
+      number_of_genes_annotated (N): 14919
+      number_of_genes_annotated (%): 54.21936327954645
+      number_of_unique_genes_annotated (N): 243
+      number_of_unique_genes_annotated (%): 0.8831225468818142
+      tax_classification:
+        species: Oryza sativa
+        genus: Oryza
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 16291
+      number_of_genes_annotated (%): 59.20555313272278
+      number_of_unique_genes_annotated (N): 1500
+      number_of_unique_genes_annotated (%): 5.451373746184038
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Vitis vinifera
+      number_of_genes_annotated (N): 17947
+      number_of_genes_annotated (%): 65.22386974850996
+      number_of_unique_genes_annotated (N): 468
+      number_of_unique_genes_annotated (%): 1.70082860880942
+      tax_classification:
+        species: Vitis vinifera
+        genus: Vitis
+        family: Vitaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana: &id026
+        Arabidopsis thaliana:
+          adjusted_time: 121.0
+          median_time: 108.0
+      Citrullus lanatus: &id027
+        Citrullus lanatus:
+          adjusted_time: 19.3
+          median_time: 20.4
+      Cucumis melo: &id028
+        adjusted_time: NA
+        median_time: 9.0
+      Oryza sativa:
+        Oryza sativa:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Solanum lycopersicum: &id029
+        Solanum lycopersicum:
+          adjusted_time: 125.0
+          median_time: 118.0
+      Vitis vinifera: &id030
+        Vitis vinifera:
+          adjusted_time: 123.0
+          median_time: 117.0
+  tax_classification:
+    species: Cucumis sativus
+    genus: Cucumis
+    family: Cucurbitaceae
+    class: Magnoliopsida
+  GeMoMa_AtClCmSlVv:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmSlVv/AnnotationQC_20250717T045854/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmSlVv/AnnotationQC_20250717T045854/Cucumis_sativus_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_MultiSpecies_GeMoMa_AtClCmSlVv/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 16979
+      number_of_genes_annotated (%): 62.303684133274615
+      number_of_unique_genes_annotated (N): 637
+      number_of_unique_genes_annotated (%): 2.3374431234404813
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Citrullus lanatus
+      number_of_genes_annotated (N): 14572
+      number_of_genes_annotated (%): 53.47130485835901
+      number_of_unique_genes_annotated (N): 2063
+      number_of_unique_genes_annotated (%): 7.570086599148686
+      tax_classification:
+        species: Citrullus lanatus
+        genus: Citrullus
+        family: Cucurbitaceae
+        class: Magnoliopsida
+    - species: Cucumis melo
+      number_of_genes_annotated (N): 20538
+      number_of_genes_annotated (%): 75.36327608982828
+      number_of_unique_genes_annotated (N): 2824
+      number_of_unique_genes_annotated (%): 10.362542198737708
+      tax_classification:
+        species: Cucumis melo
+        genus: Cucumis
+        family: Cucurbitaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 16142
+      number_of_genes_annotated (%): 59.232349919271975
+      number_of_unique_genes_annotated (N): 1540
+      number_of_unique_genes_annotated (%): 5.650961397328636
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Vitis vinifera
+      number_of_genes_annotated (N): 17820
+      number_of_genes_annotated (%): 65.38969616908851
+      number_of_unique_genes_annotated (N): 491
+      number_of_unique_genes_annotated (%): 1.8017026273301044
+      tax_classification:
+        species: Vitis vinifera
+        genus: Vitis
+        family: Vitaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis thaliana: *id026
+      Citrullus lanatus: *id027
+      Cucumis melo: *id028
+      Solanum lycopersicum: *id029
+      Vitis vinifera: *id030
+Oryza_sativa:
+  GeMoMa_AaAtBdBrSbSlZm:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_AaAtBdBrSbSlZm/AnnotationQC_20250608T051706/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_AaAtBdBrSbSlZm/AnnotationQC_20250608T051706/Oryza_sativa_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_AaAtBdBrSbSlZm/reference_gene_table.tabular
+    species_involved:
+    - species: Arabidopsis arenosa
+      number_of_genes_annotated (N): 16615
+      number_of_genes_annotated (%): 41.692805701237106
+      number_of_unique_genes_annotated (N): 212
+      number_of_unique_genes_annotated (%): 0.5319816315776267
+      tax_classification:
+        species: Arabidopsis arenosa
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Arabidopsis thaliana
+      number_of_genes_annotated (N): 20755
+      number_of_genes_annotated (%): 52.0815036009134
+      number_of_unique_genes_annotated (N): 592
+      number_of_unique_genes_annotated (%): 1.4855336127073349
+      tax_classification:
+        species: Arabidopsis thaliana
+        genus: Arabidopsis
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Brachypodium distachyon
+      number_of_genes_annotated (N): 27616
+      number_of_genes_annotated (%): 69.29813555494216
+      number_of_unique_genes_annotated (N): 3534
+      number_of_unique_genes_annotated (%): 8.868033424506287
+      tax_classification:
+        species: Brachypodium distachyon
+        genus: Brachypodium
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Brassica rapa
+      number_of_genes_annotated (N): 20970
+      number_of_genes_annotated (%): 52.621013274447314
+      number_of_unique_genes_annotated (N): 1198
+      number_of_unique_genes_annotated (%): 3.006198087877343
+      tax_classification:
+        species: Brassica rapa
+        genus: Brassica
+        family: Brassicaceae
+        class: Magnoliopsida
+    - species: Solanum lycopersicum
+      number_of_genes_annotated (N): 18281
+      number_of_genes_annotated (%): 45.87337833429525
+      number_of_unique_genes_annotated (N): 2115
+      number_of_unique_genes_annotated (%): 5.307269579182455
+      tax_classification:
+        species: Solanum lycopersicum
+        genus: Solanum
+        family: Solanaceae
+        class: Magnoliopsida
+    - species: Sorghum bicolor
+      number_of_genes_annotated (N): 27716
+      number_of_genes_annotated (%): 69.5490702868184
+      number_of_unique_genes_annotated (N): 2884
+      number_of_unique_genes_annotated (%): 7.236957667310732
+      tax_classification:
+        species: Sorghum bicolor
+        genus: Sorghum
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Zea mays
+      number_of_genes_annotated (N): 25026
+      number_of_genes_annotated (%): 62.79892599934757
+      number_of_unique_genes_annotated (N): 1874
+      number_of_unique_genes_annotated (%): 4.702516875360719
+      tax_classification:
+        species: Zea mays
+        genus: Zea
+        family: Poaceae
+        class: Magnoliopsida
+    divergence_times:
+      Arabidopsis arenosa:
+        Arabidopsis arenosa:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Arabidopsis thaliana:
+        Arabidopsis thaliana:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Brachypodium distachyon: &id031
+        adjusted_time: 57.0
+        median_time: 47.0
+      Brassica rapa:
+        Brassica rapa:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Solanum lycopersicum:
+        Solanum lycopersicum:
+          adjusted_time: 160.0
+          median_time: 160.0
+      Sorghum bicolor: &id032
+        Sorghum bicolor:
+          adjusted_time: 59.0
+          median_time: 49.0
+      Zea mays: &id033
+        Zea mays:
+          adjusted_time: 59.0
+          median_time: 49.0
+  tax_classification:
+    species: Oryza sativa
+    genus: Oryza
+    family: Poaceae
+    class: Magnoliopsida
+  GeMoMa_BdSbZm:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_BdSbZm/AnnotationQC_20250608T051936/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_BdSbZm/AnnotationQC_20250608T051936/Oryza_sativa_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_Multispecies_GeMoMa_BdSbZm/reference_gene_table.tabular
+    species_involved:
+    - species: Brachypodium distachyon
+      number_of_genes_annotated (N): 27826
+      number_of_genes_annotated (%): 77.769703745109
+      number_of_unique_genes_annotated (N): 4361
+      number_of_unique_genes_annotated (%): 12.18837339295696
+      tax_classification:
+        species: Brachypodium distachyon
+        genus: Brachypodium
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Sorghum bicolor
+      number_of_genes_annotated (N): 28181
+      number_of_genes_annotated (%): 78.76187814421465
+      number_of_unique_genes_annotated (N): 3933
+      number_of_unique_genes_annotated (%): 10.992174399105647
+      tax_classification:
+        species: Sorghum bicolor
+        genus: Sorghum
+        family: Poaceae
+        class: Magnoliopsida
+    - species: Zea mays
+      number_of_genes_annotated (N): 25184
+      number_of_genes_annotated (%): 70.38569032979318
+      number_of_unique_genes_annotated (N): 2146
+      number_of_unique_genes_annotated (%): 5.9977641140301845
+      tax_classification:
+        species: Zea mays
+        genus: Zea
+        family: Poaceae
+        class: Magnoliopsida
+    divergence_times:
+      Brachypodium distachyon: *id031
+      Sorghum bicolor: *id032
+      Zea mays: *id033
+Cryptomeria_japonica:
+  GeMoMa_3Gymnosperms:
+    report: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crja_GeMoMa_3Gymnosperms/AnnotationQC_20250705T162805/GAQET.log.txt
+    gaqet_results: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crja_GeMoMa_3Gymnosperms/AnnotationQC_20250705T162805/Cryptomeria_japonica_GMv1_GAQET.stats.tsv
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crja_GeMoMa_3Gymnosperms/reference_gene_table.tabular
+    species_involved:
+    - species: Thuja plicata
+      number_of_genes_annotated (N): 65727
+      number_of_genes_annotated (%): 42.73787152694241
+      number_of_unique_genes_annotated (N): 45595
+      number_of_unique_genes_annotated (%): 29.6473785852228
+      tax_classification:
+        species: Thuja plicata
+        genus: Thuja
+        family: Cupressaceae
+        class: Pinopsida
+    - species: Cycas panzhihuaensis
+      number_of_genes_annotated (N): 16903
+      number_of_genes_annotated (%): 10.990890234148942
+      number_of_unique_genes_annotated (N): 3546
+      number_of_unique_genes_annotated (%): 2.305726602987171
+      tax_classification:
+        species: Cycas panzhihuaensis
+        genus: Cycas
+        family: Cycadaceae
+        class: Cycadopsida
+    - species: Sequoia sempervirens
+      number_of_genes_annotated (N): 97702
+      number_of_genes_annotated (%): 63.52907517344968
+      number_of_unique_genes_annotated (N): 83581
+      number_of_unique_genes_annotated (%): 54.347133447340866
+      tax_classification:
+        species: Sequoia sempervirens
+        genus: Sequoia
+        family: Cupressaceae
+        class: Pinopsida
+    divergence_times:
+      Thuja plicata:
+        adjusted_time: 116.0
+        median_time: 116.0
+      Cycas panzhihuaensis:
+        Cycas panzhihuaensis:
+          adjusted_time: 301.0
+          median_time: 299.0
+      Sequoia sempervirens:
+        Sequoia sempervirens:
+          adjusted_time: NA
+          median_time: 137.0
+  tax_classification:
+    species: Cryptomeria japonica
+    genus: Cryptomeria
+    family: Cupressaceae
+    class: Pinopsida
