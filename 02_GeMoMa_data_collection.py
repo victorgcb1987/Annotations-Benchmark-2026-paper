@@ -124,6 +124,8 @@ def load_species_divergences(fhand):
 def update_species_divergence_times(gemoma_benchmarks, species_divergence):
     for species_a, benchmark in gemoma_benchmarks.items():
         for method, features in benchmark.items():
+            if method == "tax_classification":
+                continue
             divergences = {}
             for species_b in features["species_involved"]:
                 print(species_a, species_b)
