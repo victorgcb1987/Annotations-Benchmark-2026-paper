@@ -54,6 +54,8 @@ def get_correct_pipeline_path(root_path):
 def add_species_contribution(benchmarks):
     for species, benchmark in benchmarks.items():
         for method, metadata in benchmark.items():
+            if method == "tax_classification":
+                continue
             root_path = Path(metadata["report"]).parents[1]
             path = get_correct_pipeline_path(root_path)
             contributions = get_contributions(open(path))
@@ -129,7 +131,7 @@ def update_species_divergence_times(gemoma_benchmarks, species_divergence):
             features["divergence_times"] = divergences
 
 
-def  update_contribution_percentage(gemoma_benchmarks):
+def update_contribution_percentage(gemoma_benchmarks):
     for species_a, benchmark in gemoma_benchmarks.items():
         for method, features in benchmark.items():
             ref_table = pd.read_csv(features["ref_table"], delimiter="\t")
