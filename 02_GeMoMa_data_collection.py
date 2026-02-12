@@ -85,6 +85,7 @@ def get_gemoma_benchmarks(yaml_fhand):
                     gemoma_annnots[species] = {method: metadata}
                 else:
                     gemoma_annnots[species][method] = metadata
+        gemoma_annnots[species]["tax_classification"] = get_taxonomic_data(species)
     return gemoma_annnots
 
 
@@ -160,13 +161,6 @@ def main():
     update_contribution_percentage(gemoma_benchmarks)
     with open('GeMoMA_metadata_2026_02_12.yaml', 'w') as outfile:
         yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False, sort_keys=False)     
-
-        
-
-
-
-    
-
 
 
 
