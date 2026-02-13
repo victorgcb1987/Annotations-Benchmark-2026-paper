@@ -133,7 +133,9 @@ def update_species_divergence_times(gemoma_benchmarks, species_divergence):
             features["divergence_times"] = divergences
 
 
-def update_contribution_percentage(gemoma_benchmarks):
+def update_contribution_percentage(gemoma_benchmarks, source_annot_stats):
+    with open(source_annot_stats) as fhand:
+        number_of_genes_source = {line.split()[0]: line.split([1]) for line in fhand if not line.starstwith("Species")}
     for species_a, benchmark in gemoma_benchmarks.items():
         for method, features in benchmark.items():
             if method == "tax_classification":
@@ -144,16 +146,19 @@ def update_contribution_percentage(gemoma_benchmarks):
             col_count = 0
             for colname in species_colunnames:
                 filter = ref_table[ref_table[colname].isnull() == False]
-                number_of_genes_annotated_by_species = filter.shape[0]
+                number_of_genes_annotated_by_species = number_of_genes_source[" ".join(species_a.split("_"))]
                 other_cols = [other_colname for other_colname in species_colunnames if other_colname != colname]
                 mask_empty = ref_table.isnull()  |  (ref_table == "")
                 unique_annots = int((~mask_empty[colname] & mask_empty[[c for c in other_cols if c != colname]].all(axis=1)).sum())
+                common_annotated = int(~mask_empty[species_colunnames].all(axis=1).sum()) 
 
                 features["species_involved"][col_count] = {"species": features["species_involved"][col_count],
                                                            "number_of_genes_annotated (N)": number_of_genes_annotated_by_species,
                                                            "number_of_genes_annotated (%)": (number_of_genes_annotated_by_species/number_of_genes_annotated) * 100,
                                                            "number_of_unique_genes_annotated (N)": unique_annots,
                                                            "number_of_unique_genes_annotated (%)": (unique_annots/number_of_genes_annotated) * 100,
+                                                           "number_of_common_genes_annotated (N)": common_annotated,
+                                                           "number_of_common_genes_annotated (%)": (common_annotated /number_of_genes_annotated)*100,
                                                            "tax_classification": get_taxonomic_data(features["species_involved"][col_count])}
                 col_count += 1
 
