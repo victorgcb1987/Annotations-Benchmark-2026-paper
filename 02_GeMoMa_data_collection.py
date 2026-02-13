@@ -135,9 +135,9 @@ def update_species_divergence_times(gemoma_benchmarks, species_divergence):
 
 def update_contribution_percentage(gemoma_benchmarks, source_annot_stats):
     with open(source_annot_stats) as fhand:
-        number_of_genes_source = {line.split()[0]: int(line.split()[1]) for line in fhand if not line.startswith("Species")}
+        number_of_genes_source_by_species = {line.split()[0]: int(line.split()[1]) for line in fhand if not line.startswith("Species")}
     for species_a, benchmark in gemoma_benchmarks.items():
-        number_of_genes_source = number_of_genes_source[species_a]
+        number_of_genes_source = number_of_genes_source_by_species[species_a]
         for method, features in benchmark.items():
             if method == "tax_classification":
                 continue
