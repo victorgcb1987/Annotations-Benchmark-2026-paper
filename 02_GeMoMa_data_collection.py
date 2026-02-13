@@ -147,7 +147,7 @@ def update_contribution_percentage(gemoma_benchmarks, source_annot_stats):
             for colname in species_colunnames:
                 other_cols = [other_colname for other_colname in species_colunnames if other_colname != colname]
                 mask_empty = ref_table.isnull()  |  (ref_table == "")
-                number_of_genes_annotated = int(ref_table[colname.notnull().sum()])
+                number_of_genes_annotated = int(ref_table[colname].notnull().sum())
                 unique_annots = int((~mask_empty[colname] & mask_empty[[c for c in other_cols if c != colname]].all(axis=1)).sum())
                 common_annotated = int(~mask_empty[species_colunnames].all(axis=1).sum()) 
                 features["species_involved"][col_count] = {"species": features["species_involved"][col_count],
