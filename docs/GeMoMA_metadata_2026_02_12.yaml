@@ -1412,7 +1412,7 @@ Anthoceros_agrestis:
         genus: Marchantia
         family: Marchantiaceae
         class: Marchantiopsida
-    - species: Physcomitrella patens
+    - species: Physcomitrium patens
       number_of_genes_annotated (N): 8754
       number_of_genes_annotated (%): 59.599673202614376
       number_of_unique_genes_annotated (N): 2921
@@ -1437,8 +1437,8 @@ Anthoceros_agrestis:
         Marchantia polymorpha:
           adjusted_time: 484.0
           median_time: 480.0
-      Physcomitrella patens:
-        Physcomitrella patens:
+      Physcomitrium patens:
+        Physcomitrium patens:
           adjusted_time: 484.0
           median_time: 488.0
       Sphagnum fallax:
