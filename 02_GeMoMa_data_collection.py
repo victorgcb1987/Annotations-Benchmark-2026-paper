@@ -154,9 +154,9 @@ def update_contribution_percentage(gemoma_benchmarks, source_annot_stats):
                                                            "number_of_genes_annotated (N)": number_of_genes_annotated,
                                                            "number_of_genes_annotated (%)": (number_of_genes_annotated/number_of_genes_source) * 100,
                                                            "number_of_unique_genes_annotated (N)": unique_annots,
-                                                           "number_of_unique_genes_annotated (%)": (unique_annots/number_of_genes_source) * 100,
+                                                           "number_of_unique_genes_annotated (%)": (unique_annots/len(ref_table)) * 100,
                                                            "number_of_common_genes_annotated (N)": common_annotated,
-                                                           "number_of_common_genes_annotated (%)": (common_annotated /number_of_genes_source)*100,
+                                                           "number_of_common_genes_annotated (%)": (common_annotated /len(ref_table))*100,
                                                            "tax_classification": get_taxonomic_data(features["species_involved"][col_count])}
                 col_count += 1
 
