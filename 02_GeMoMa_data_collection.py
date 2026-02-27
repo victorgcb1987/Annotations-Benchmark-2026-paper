@@ -83,8 +83,7 @@ def get_gemoma_benchmarks(yaml_fhand):
                         print(reference, annot)
                         if reference.is_file():
                             found = True
-                        else:
-                            start += 1
+                        start += 1
                     if not found:
                         print("Not found", reference)
                 metadata["ref_table"] = str(reference)
