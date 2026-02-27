@@ -122,7 +122,6 @@ def load_species_divergences(fhand):
             line = line.rstrip().replace(" MYA", "")
             divergence = json.loads(line)
             for species_a, species_b in divergence.items():
-                print(species_a, species_b)
                 for name, times in species_b.items():
                     if species_a not in divergences:
                         divergences[species_a] = {name: {key: (float(value) if value != "NA" else "NA") for key, value in times.items()}}
@@ -138,7 +137,6 @@ def update_species_divergence_times(gemoma_benchmarks, species_divergence):
                 continue
             divergences = {}
             for species_b in features["species_involved"]:
-                print(species_a, species_b)
                 divergences.update({species_b: species_divergence[" ".join(species_a.split("_"))][species_b]})
             features["divergence_times"] = divergences
 
@@ -147,6 +145,7 @@ def update_contribution_percentage(gemoma_benchmarks, source_annot_stats):
     with open(source_annot_stats) as fhand:
         number_of_genes_source_by_species = {line.split()[0]: int(line.split()[1]) for line in fhand if not line.startswith("Species")}
     for species_a, benchmark in gemoma_benchmarks.items():
+        print(species_a, benchmark)
         number_of_genes_source = number_of_genes_source_by_species[species_a]
         for method, features in benchmark.items():
             if method == "tax_classification":
@@ -175,7 +174,6 @@ def main():
     metadata = yaml.safe_load(open(argv[1], "r"))
     species_divergence = load_species_divergences(open(argv[2]))
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
-    print(gemoma_benchmarks)
     add_species_contribution(gemoma_benchmarks)
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
     update_contribution_percentage(gemoma_benchmarks, argv[3])
