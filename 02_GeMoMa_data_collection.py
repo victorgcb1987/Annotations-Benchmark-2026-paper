@@ -175,6 +175,7 @@ def main():
     metadata = yaml.safe_load(open(argv[1], "r"))
     species_divergence = load_species_divergences(open(argv[2]))
     gemoma_benchmarks = get_gemoma_benchmarks(metadata)
+    print(gemoma_benchmarks)
     add_species_contribution(gemoma_benchmarks)
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
     update_contribution_percentage(gemoma_benchmarks, argv[3])
