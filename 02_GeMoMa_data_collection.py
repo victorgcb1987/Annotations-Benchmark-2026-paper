@@ -8,7 +8,7 @@ from sys import argv
 from src.docs import SPECIES_BY_ANNOT, SOURCE_ANNOTS_FOR_GEMOMA
 from src.timetree import query_timetree
 from src.metadata import get_taxonomic_data
-from src.gffcompare import run_gffcompare
+
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
 PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT = "protocol_GeMoMaPipeline_{}.txt"

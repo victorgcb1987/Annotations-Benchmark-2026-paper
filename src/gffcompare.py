@@ -7,7 +7,6 @@ from subprocess import run
 # this function runs gffcompare using protein or transcript evidence, 
 # manages the output files and returns the result for each evidence
 def run_gffcompare(outbase, source_annotations, benchmarks):
-    for species, benchmark in benchmarks.items():
 
     # define the command template and create a dedicated 'gffcompare_results' directory
     cmd = "gffcompare -r {} -o {} {}"
