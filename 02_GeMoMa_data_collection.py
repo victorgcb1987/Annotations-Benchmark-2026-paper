@@ -76,9 +76,9 @@ def get_gemoma_benchmarks(yaml_fhand):
                 if not reference.is_file():
                     found = False
                     start = 1
+                    reference = ""
+                    annot = ""
                     while start < 10:
-                        reference = ""
-                        annot = ""
                         check_reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE_ATTEMPT.format(start)
                         check_annot = Path(metadata["report"]).parents[1] / GEMOMA_ANNOT_ATTEMPT.format(start)
                         if check_reference.is_file():
