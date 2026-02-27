@@ -145,9 +145,9 @@ def update_contribution_percentage(gemoma_benchmarks, source_annot_stats):
     with open(source_annot_stats) as fhand:
         number_of_genes_source_by_species = {line.split()[0]: int(line.split()[1]) for line in fhand if not line.startswith("Species")}
     for species_a, benchmark in gemoma_benchmarks.items():
-        print(species_a, benchmark)
         number_of_genes_source = number_of_genes_source_by_species[species_a]
         for method, features in benchmark.items():
+            print(method, features)
             if method == "tax_classification":
                 continue
             ref_table = pd.read_csv(features["ref_table"], delimiter="\t")
