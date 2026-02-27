@@ -34,3 +34,21 @@ SPECIES_BY_ANNOT = {"GCA_014529385.2_ASM1452938v2_genomic.gff": "Adiantum capill
 "Vvinifera_GCF_030704535.1_ASM3070453v1_genomic.gff3": "Vitis vinifera",
 "Vvinifera_PN4002_T2Tv5.1.genome.gff3": "Vitis vinifera",
 "Zmays_833_Zm-B73-REFERENCE-NAM-5.0.55.gene_exons.gff3": "Zea mays"}
+
+SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/00_GenomeSource/NCBI_GCA_014529385_2/GCA_014529385.2_ASM1452938v2_genomic.gff",
+                            "Aechmea_fasciata": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/03_AbInitioPredictions/04_EGAPX/Aechmea_fasciata_CATAS1997_v1_genome.egapx.gff3",
+                            "Alsophila_spinulosa": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/00_GenomeSource/Figshare_19125641/Alsophila_spinulosa_GeneModels.gff3",
+                            "Amborella_trichopoda": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/00_GenomeSource/Phytozome_727/Atrichopodavar_SantaCruz_75HAP1_727_v2.1.gene_exons.gff3",
+                            "Anthoceros_agrestis": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/00_GenomeSource/HWBASE_AnagrOXFv1/Anthoceros_agrestis_Oxford_gene_annotations.gff",
+                            "Antirrhinum_barrelieri": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/03_AbInitioPredictions/05_ANNEVO/Antirrhinum_barrelieri_VLCv1_genome.only_chromosomes.gene_models_ANNEVO.gff3",
+                            "Arabidopsis_thaliana": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/00_GenomeSource/Araport11/Athaliana_447_Araport11.gene_exons.gff3",
+                            "Cryptomeria_japonica": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/00_GenomeSource/NCBI_GCF_030272615_1/Cryptomeria_japonica_v1_genome.gene_models_ncbi.gff3",
+                            "Cucumis_sativus": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/00_GenomeSource/NCBI_GCF_030272615_1/Cryptomeria_japonica_v1_genome.gene_models_ncbi.gff3",
+                            "Lupinus_albus": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/00_GenomeSource/WhiteLupin_Lalbus_20171117r1/Lupinus_albus_AMIGAv1_20171117r1_genome.gene_models_public.gff3",
+                            "Nicotiana_benthamiana": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/00_GenomeSource/GuoLab/Nicotiana_benthamiana_GuoTTv1_genome.gene_models_publ.gff3",
+                            "Oryza sativa": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/00_GenomeSource/NCBI_GCF_034140825_1/GCF_034140825.1_ASM3414082v1_genomic.gff",
+                            "Phillyrea_angustifolia": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/03_AbInitioPredictions/04_EGAPX/Pangustifolia.egapx.results/complete.genomic.gff",
+                            "Prunus_persica": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/00_GenomeSource/NCBI_GCF_000346465_2/Prunus_persica_LovellV2_GCF000346465_genome.gene_models_ncbi.gff3",
+                            "Solanum_lycopersicum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/00_GenomeSource/Phytozome_796_ITAG5/Slycopersicum_796_ITAG5.0.gene_exons.gff3",
+                            "Solanum_melongena": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/00_GenomeSource/Solgenomics_EggplantV4/Solanum_melongena_V4.1_genome.gene_models_SGN.gff3",
+                            "Vitis_vinifera": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/00_GenomeSource/Grapedia_PN40024v4/v4_3_just_ref.gff3"}

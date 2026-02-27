@@ -5,14 +5,17 @@ import yaml
 from pathlib import Path
 from sys import argv
 
-from src.docs import SPECIES_BY_ANNOT
+from src.docs import SPECIES_BY_ANNOT, SOURCE_ANNOTS_FOR_GEMOMA
 from src.timetree import query_timetree
 from src.metadata import get_taxonomic_data
+from src.gffcompare import run_gffcompare
 
 PROTOCOL_GeMoMA_PROTOCOL = "protocol_GeMoMaPipeline.txt"
 PROTOCOL_GeMoMA_PROTOCOL_ATTEMPT = "protocol_GeMoMaPipeline_{}.txt"
 GEMOMA_REFERENCE_TABLE = "reference_gene_table.tabular"
 GEMOMA_REFERENCE_TABLE_ATTEMPT = "reference_gene_table_{}.tabular"
+GEMOMA_ANNOT = "final_annotation.gff"
+GEMOMA_ANNOT_ATTEMPT = "final_annotation_{}.gff"
 CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome"
 
 
@@ -69,11 +72,13 @@ def get_gemoma_benchmarks(yaml_fhand):
         for method, metadata in annot.items():
             if "GeMoMa" in method:
                 reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE
+                annot = Path(metadata["report"]).parents[1] / GEMOMA_ANNOT
                 if not reference.is_file():
                     found = False
                     start = 1
-                    while not found or start > 10:
+                    while start < 10:
                         reference = Path(metadata["report"]).parents[1] / GEMOMA_REFERENCE_TABLE_ATTEMPT.format(start)
+                        annot = Path(metadata["report"]).parents[1] / GEMOMA_ANNOT_ATTEMPT.format(start)
                         if reference.is_file():
                             found = True
                         else:
@@ -81,6 +86,7 @@ def get_gemoma_benchmarks(yaml_fhand):
                     if not found:
                         print("Not found", reference)
                 metadata["ref_table"] = str(reference)
+                metadata["annot_file"] = str(annot)
                 if species not in gemoma_annnots:
                     if species == "Vitis vinifera NCBI":
                         species = "Vitis vinifera"
@@ -159,7 +165,7 @@ def update_contribution_percentage(gemoma_benchmarks, source_annot_stats):
                                                            "number_of_common_genes_annotated (%)": (common_annotated /len(ref_table))*100,
                                                            "tax_classification": get_taxonomic_data(features["species_involved"][col_count])}
                 col_count += 1
-
+                
 
 def main():
     metadata = yaml.safe_load(open(argv[1], "r"))
@@ -169,8 +175,8 @@ def main():
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
     update_contribution_percentage(gemoma_benchmarks, argv[3])
     with open('GeMoMA_metadata_2026_02_13.yaml', 'w') as outfile:
-        yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False, sort_keys=False)     
-
+        yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False, sort_keys=False)
+    
 
 
 
