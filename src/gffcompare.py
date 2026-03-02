@@ -6,11 +6,11 @@ from subprocess import run
 
 # this function runs gffcompare using protein or transcript evidence, 
 # manages the output files and returns the result for each evidence
-def run_gffcompare(outbase, source_annotation, target_annotation):
+def run_gffcompare(outbase, source_annotation, target_annotation, name):
 
     # define the command template and create a dedicated 'gffcompare_results' directory
     cmd = "gffcompare -r {} -o {} {}"
-    outpath = outbase / "gffcompare_results"
+    outpath = outbase / name
     if not outpath.exists():
             outpath.mkdir(parents=True, exist_ok=True)
     # processing evidence
