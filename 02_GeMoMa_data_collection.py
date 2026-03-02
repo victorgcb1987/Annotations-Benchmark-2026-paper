@@ -177,7 +177,7 @@ def main():
     add_species_contribution(gemoma_benchmarks)
     update_species_divergence_times(gemoma_benchmarks, species_divergence)
     #update_contribution_percentage(gemoma_benchmarks, argv[3])
-    with open('GeMoMA_metadata_2026_02_27.yaml', 'w') as outfile:
+    with open('GeMoMA_metadata_2026_03_02.yaml', 'w') as outfile:
         yaml.dump(gemoma_benchmarks, outfile, default_flow_style=False, sort_keys=False)
     
 
