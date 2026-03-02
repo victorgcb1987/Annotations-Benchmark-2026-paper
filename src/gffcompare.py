@@ -6,7 +6,7 @@ from subprocess import run
 
 # this function runs gffcompare using protein or transcript evidence, 
 # manages the output files and returns the result for each evidence
-def run_gffcompare(outbase, source_annotations, benchmarks):
+def run_gffcompare(outbase, source_annotation, target_annotation):
 
     # define the command template and create a dedicated 'gffcompare_results' directory
     cmd = "gffcompare -r {} -o {} {}"
@@ -33,7 +33,7 @@ def run_gffcompare(outbase, source_annotations, benchmarks):
             # log the completion
             log_msg = "Gffcompare successfully done"
             results = {"outfile": outfile, "log_msg": log_msg,
-                      "returncode": cmd_results.returncode, "cmd": cmd_run}
+                       "returncode": cmd_results.returncode, "cmd": cmd_run}
                 # file relocation
             for suffix in suffixes:
                 ref_fpath = source_annotation.parent / out_prefix.format(target_annotation.name, suffix)
