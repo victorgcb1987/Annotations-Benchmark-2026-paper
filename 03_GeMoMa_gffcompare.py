@@ -28,7 +28,7 @@ def add_gffcompare_results(benchmarks, outbase):
                 continue
             name = "GeMoMa_{}-{}".format(species_a, annotation)
             results = run_gffcompare(outbase, SOURCE_ANNOTS_FOR_GEMOMA[species_a], Path(annotation_features["annot_file"]), name)
-            print(results)
+            print(results["log_msg"])
 
 
 
