@@ -35,7 +35,7 @@ SPECIES_BY_ANNOT = {"GCA_014529385.2_ASM1452938v2_genomic.gff": "Adiantum capill
 "Vvinifera_PN4002_T2Tv5.1.genome.gff3": "Vitis vinifera",
 "Zmays_833_Zm-B73-REFERENCE-NAM-5.0.55.gene_exons.gff3": "Zea mays"}
 
-SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/00_GenomeSource/NCBI_GCA_014529385_2/GCA_014529385.2_ASM1452938v2_genomic.gff",
+SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum_capillus-veneris":"/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/00_GenomeSource/NCBI_GCA_014529385_2/GCA_014529385.2_ASM1452938v2_genomic.gff",
                             "Aechmea_fasciata": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/03_AbInitioPredictions/04_EGAPX/Aechmea_fasciata_CATAS1997_v1_genome.egapx.gff3",
                             "Alsophila_spinulosa": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/00_GenomeSource/Figshare_19125641/Alsophila_spinulosa_GeneModels.gff3",
                             "Amborella_trichopoda": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/00_GenomeSource/Phytozome_727/Atrichopodavar_SantaCruz_75HAP1_727_v2.1.gene_exons.gff3",
