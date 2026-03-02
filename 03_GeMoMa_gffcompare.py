@@ -24,6 +24,8 @@ CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which c
 def add_gffcompare_results(benchmarks, outbase):
     for species_a, benchmark in benchmarks.items():
         for annotation, annotation_features in benchmark.items():
+            if annotation == "tax_classification":
+                continue
             print(annotation_features)
             results = run_gffcompare(outbase, SOURCE_ANNOTS_FOR_GEMOMA[species_a], Path(annotation_features["annot_file"]))
             print(results)
