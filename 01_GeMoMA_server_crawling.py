@@ -63,7 +63,7 @@ def main():
         if species_a not in annots:
             species_a = NAME_FIX.get(species_a, species_a)
             annots[species_a] = get_taxonomic_data(species_a)
-        pipeline =  str(list(filename.parent.glob("*GeMoMaPipeline*"))[0])
+        pipeline =  str(list(filename.parent.glob("*GeMoMaPipeline*")).sort(reverse=True)[0])
         with open(pipeline) as pipeline_fhand:
             contributions = get_contributions(pipeline_fhand)
             if len(contributions) == 1:
@@ -71,6 +71,8 @@ def main():
             else:
                 species_b = "comb_"+ "_".join(contributions)
             print(filename)
+            print(filename.parent.glob)
+            print(filename.parent.glob("*.tabular"))
             annots[species_a][species_b] = {"pipeline_log": pipeline,
                                             "ref_table": str(list(filename.parent.glob("*.tabular")).sort(reverse=True)[0]), 
                                             "annot_file": str(list(filename.parent.glob("final_annotation*.gff")).sort(reverse=True)[0]),
