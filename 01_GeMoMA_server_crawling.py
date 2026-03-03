@@ -62,6 +62,7 @@ def main():
         species_a = str(filename).split("/")[6]
         if species_a not in annots:
             species_a = NAME_FIX.get(species_a, species_a)
+            species_a = " ".join(species_a.split("_"))
             annots[species_a] = {}
         print(filename)
         pipeline =  str(sorted(list(filename.parent.glob("*GeMoMaPipeline*")),reverse=True)[0])
