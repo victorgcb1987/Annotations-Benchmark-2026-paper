@@ -93,4 +93,7 @@
 {"Amborella trichopoda": {"Solanum lycopersicum": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
 {"Nicotiana benthamiana": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
 {"Alsophila spinulosa": {"Adiantum capillus-veneris": {"adjusted_time": "NA", "median_time": "211 MYA"}}}
-{"Panicum miliaceum": {"Brachypodium distachyon": {"adjusted_time": "59", "median_time": "49 MYA"}}}
+{"Panicum miliaceum": {"Brachypodium distachyon": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
+{"Panicum miliaceum": {"Zea Mays": {"adjusted_time": "36.2 MYA", "median_time": "22.8  MYA"}}}
+{"Panicum miliaceum": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Panicum miliaceum": {"Oryza sativa": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
