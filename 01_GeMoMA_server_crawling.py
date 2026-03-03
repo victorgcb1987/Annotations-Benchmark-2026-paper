@@ -38,7 +38,7 @@ def load_species_divergences(fhand):
 
 
 def get_contributions(pipeline_fhand):
-    contributions = {"species_involved": []}
+    contributions = []
     for line in pipeline_fhand:
         if CONTRIBUTION_LINE in line:
             contribution = line.rstrip().split()[-1]
@@ -48,7 +48,7 @@ def get_contributions(pipeline_fhand):
                     contribution = "Vitis vinifera"
             else:
                 contribution = SPECIES_BY_ANNOT[contribution.rstrip().split("/")[-1]]
-            contributions["species_involved"].append(contribution)
+            contributions.append(contribution)
     return contributions
 
 
@@ -68,7 +68,7 @@ def main():
             if len(contributions) == 1:
                 species_b = contributions[0]
             else:
-                species_b = "comb_"+ str(filename).split("/")[7]
+                species_b = "comb_"+ "_".join(contributions)
             annots[species_a][species_b] = {"pipeline_log": pipeline,
                                             "ref_table": str(list(filename.parent.glob("*.tabular")).sort(reverse=True)[0]), 
                                             "annot_file": str(list(filename.parent.glob("final_annotation*.gff")).sort(reverse=True)[0]),
