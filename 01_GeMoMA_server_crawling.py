@@ -74,6 +74,7 @@ def main():
         print(filename)
         print(filename.parent)
         print(filename.parent.glob("*.tabular"))
+        print(species_a, species_b)
         annots[species_a][species_b] = {"pipeline_log": pipeline,
                                         "ref_table": str(sorted(list(filename.parent.glob("*tabular")),reverse=True)[0]), 
                                         "annot_file": str(sorted(list(filename.parent.glob("final_annotation*.gff")),reverse=True)[0]),
