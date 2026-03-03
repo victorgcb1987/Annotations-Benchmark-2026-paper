@@ -64,7 +64,7 @@ def main():
             species_a = NAME_FIX.get(species_a, species_a)
             annots[species_a] = get_taxonomic_data(species_a)
         print(filename)
-        pipeline =  str(sorted(list(a.parent.glob("*GeMoMaPipeline*")),reverse=True)[0])
+        pipeline =  str(sorted(list(filename.parent.glob("*GeMoMaPipeline*")),reverse=True)[0])
         with open(pipeline) as pipeline_fhand:
             contributions = get_contributions(pipeline_fhand)
             if len(contributions) == 1:
@@ -75,8 +75,8 @@ def main():
         print(filename.parent)
         print(filename.parent.glob("*.tabular"))
         annots[species_a][species_b] = {"pipeline_log": pipeline,
-                                        "ref_table": str(sorted(list(a.parent.glob("*tabular")),reverse=True)[0]), 
-                                        "annot_file": str(sorted(list(a.parent.glob("final_annotation*.gff")),reverse=True)[0]),
+                                        "ref_table": str(sorted(list(filename.parent.glob("*tabular")),reverse=True)[0]), 
+                                        "annot_file": str(sorted(list(filename.parent.glob("final_annotation*.gff")),reverse=True)[0]),
                                         }
         if "comb_" not in species_b:
             annots[species_a][species_b]["divergence_time"] = species_divergence[species_a][species_b]
