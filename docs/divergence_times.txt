@@ -97,4 +97,4 @@
 {"Panicum miliaceum": {"Zea mays": {"adjusted_time": "36.2 MYA", "median_time": "22.8  MYA"}}}
 {"Panicum miliaceum": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
 {"Panicum miliaceum": {"Oryza sativa": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
-{"Oryza sativa": {"Oryza sativa": {"adjusted_time": "0 MYA", "median_time": "0 MYA"}}}
+{"Oryza sativa": {"Oryza sativa PHZ": {"adjusted_time": "0 MYA", "median_time": "0 MYA"}}}
