@@ -58,6 +58,7 @@ def main():
     species_divergence = load_species_divergences(open(argv[1]))
     gemoma_annotations = list(SERVER_RESULTS_FPATH.rglob("final_annotation*.gff"))
     for filename in gemoma_annotations:
+        filename = Path(filename)
         species_a = str(filename).split("/")[5]
         if species_a not in annots:
             species_a = NAME_FIX.get(species_a, species_a)
