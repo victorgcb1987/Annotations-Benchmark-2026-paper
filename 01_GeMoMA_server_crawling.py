@@ -63,6 +63,7 @@ def main():
         if species_a not in annots:
             species_a = NAME_FIX.get(species_a, species_a)
             annots[species_a] = get_taxonomic_data(species_a)
+        print(filename)
         pipeline =  str(list(filename.parent.glob("*GeMoMaPipeline*")).sort(reverse=True)[0])
         with open(pipeline) as pipeline_fhand:
             contributions = get_contributions(pipeline_fhand)
