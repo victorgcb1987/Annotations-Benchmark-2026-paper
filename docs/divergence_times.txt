@@ -93,3 +93,4 @@
 {"Amborella trichopoda": {"Solanum lycopersicum": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
 {"Nicotiana benthamiana": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
 {"Alsophila spinulosa": {"Adiantum capillus-veneris": {"adjusted_time": "NA", "median_time": "211 MYA"}}}
+{"Panicum miliaceum": {"Brachypodium distachyon": {"adjusted_time": "59", "median_time": "49 MYA"}}}
