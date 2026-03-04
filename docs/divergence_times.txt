@@ -105,3 +105,4 @@
 {"Asimina triloba": {"Oryza sativa": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Asimina triloba": {"Solanum lycopersicum": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Asimina triloba": {"Vitis vinifera": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Asimina triloba": {"Cinnamomum chago": {"adjusted_time": "124 MYA", "median_time": "124 MYA"}}}
