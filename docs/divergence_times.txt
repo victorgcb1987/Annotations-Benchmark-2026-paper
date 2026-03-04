@@ -120,3 +120,7 @@
 {"Cenchrus americanus": {"Brachypodium distachyon": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
 {"Cenchrus americanus": {"Oryza sativa": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
 {"Cenchrus americanus": {"Zea mays": {"adjusted_time": "36.2 MYA", "median_time": "22.8 MYA"}}}
+{"Isoetes sinensis": {"Selaginella moellendorffii": {"adjusted_time": "NA", "median_time": "344 MYA"}}}
+{"Isoetes sinensis": {"Arabidopsis thaliana": {"adjusted_time": "429 MYA", "median_time": "429 MYA"}}}
+{"Isoetes sinensis": {"Diphasiastrum complanatum": {"adjusted_time": "NA", "median_time": "386 MYA"}}}
+{"Isoetes sinensis": {"Marchantia polymorpha": {"adjusted_time": "484 MYA", "median_time": "480 MYA"}}}
