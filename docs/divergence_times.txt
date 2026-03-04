@@ -146,7 +146,7 @@
 {"Persea americana": {"Amborella trichopoda": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
 {"Persea americana": {"Arabidopsis thaliana": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Persea americana": {"Cinnamomum chago": {"adjusted_time": "NA", "median_time": "NA"}}}
-{"Persea americana": {"Magnolia sinica: {"adjusted_time": "NA", "median_time": "124 MYA"}}}
+{"Persea americana": {"Magnolia sinica": {"adjusted_time": "NA", "median_time": "124 MYA"}}}
 {"Persea americana": {"Oryza sativa": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Persea americana": {"Solanum lycopersicum": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Persea americana": {"Vitis vinifera": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
