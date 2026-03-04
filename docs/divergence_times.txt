@@ -155,4 +155,3 @@
 {"Bryum argenteum": {"Sphagnum fallax": {"adjusted_time": "330 MYA", "median_time": "293 MYA"}}}
 {"Bryum argenteum": {"Physcomitrella patens": {"adjusted_time": "185 MYA", "median_time": "194 MYA"}}}
 
-
