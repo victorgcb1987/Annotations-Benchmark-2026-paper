@@ -109,4 +109,4 @@
 {"Sorghum bicolor": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
 {"Sorghum bicolor": {"Brachypodium distachyon": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Sorghum bicolor": {"Oryza sativa": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
-{"Sorghum bicolor": {"Zea Mays": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Sorghum bicolor": {"Zea mays": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
