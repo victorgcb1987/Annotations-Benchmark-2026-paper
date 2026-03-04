@@ -154,3 +154,6 @@
 {"Bryum argenteum": {"Marchantia polymorpha": {"adjusted_time": "488 MYA", "median_time": "488 MYA"}}}
 {"Bryum argenteum": {"Sphagnum fallax": {"adjusted_time": "330 MYA", "median_time": "293 MYA"}}}
 {"Bryum argenteum": {"Physcomitrella patens": {"adjusted_time": "185 MYA", "median_time": "194 MYA"}}}
+{"Zea mays": {"Oryza sativa": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
+{"Zea mays": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Zea mays": {"Brachypodium distachyon": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
