@@ -98,10 +98,10 @@
 {"Panicum miliaceum": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
 {"Panicum miliaceum": {"Oryza sativa": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
 {"Oryza sativa": {"Oryza sativa PHZ": {"adjusted_time": "0 MYA", "median_time": "0 MYA"}}}
-{"Asimina sativa": {"Arabidopsis thaliana": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
-{"Asimina sativa": {"Amborella trichopoda": {"adjusted_time": "NA", "median_time": "169 MYA"}}}
-{"Asimina sativa": {"Magnolia sinica": {"adjusted_time": "104 MYA", "median_time": "104 MYA"}}}
-{"Asimina sativa": {"Persea americana": {"adjusted_time": "NA", "median_time": "124 MYA"}}}
-{"Asimina sativa": {"Oryza sativa": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
-{"Asimina sativa": {"Solanum lycopersicum": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
-{"Asimina sativa": {"Vitis vinifera": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Asimina triloba": {"Arabidopsis thaliana": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Asimina triloba": {"Amborella trichopoda": {"adjusted_time": "NA", "median_time": "169 MYA"}}}
+{"Asimina triloba": {"Magnolia sinica": {"adjusted_time": "104 MYA", "median_time": "104 MYA"}}}
+{"Asimina triloba": {"Persea americana": {"adjusted_time": "NA", "median_time": "124 MYA"}}}
+{"Asimina triloba": {"Oryza sativa": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Asimina triloba": {"Solanum lycopersicum": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Asimina triloba": {"Vitis vinifera": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
