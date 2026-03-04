@@ -64,7 +64,6 @@ def main():
             species_a = NAME_FIX.get(species_a, species_a)
             species_a = " ".join(species_a.split("_"))
             annots[species_a] = {}
-        print(filename)
         pipeline =  str(sorted(list(filename.parent.glob("*GeMoMaPipeline*")),reverse=True)[0])
         with open(pipeline) as pipeline_fhand:
             contributions = get_contributions(pipeline_fhand)
@@ -72,20 +71,19 @@ def main():
                 species_b = contributions[0]
             else:
                 species_b = "comb_"+ "_".join(contributions)
-        print(filename)
         print(filename.parent)
-        print(filename.parent.glob("*.tabular"))
+        #print(filename.parent.glob("*.tabular"))
         print(species_a, species_b)
         annots[species_a][species_b] = {"pipeline_log": pipeline,
                                         "ref_table": str(sorted(list(filename.parent.glob("*tabular")),reverse=True)[0]), 
                                         "annot_file": str(sorted(list(filename.parent.glob("final_annotation*.gff")),reverse=True)[0]),
                                         }
-        if "comb_" not in species_b:
-            annots[species_a][species_b]["divergence_time"] = species_divergence[species_a][species_b]
+        #if "comb_" not in species_b:
+        #    annots[species_a][species_b]["divergence_time"] = species_divergence[species_a][species_b]
 
 
-    with open('GeMoMA_metadata_2026_03_03.yaml', 'w') as outfile:
-        yaml.dump(annots, outfile, default_flow_style=False, sort_keys=False)
+    #with open('GeMoMA_metadata_2026_03_03.yaml', 'w') as outfile:
+    #    yaml.dump(annots, outfile, default_flow_style=False, sort_keys=False)
         
 
 
