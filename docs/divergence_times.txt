@@ -13,6 +13,9 @@
 {"Arabidopsis thaliana": {"Arabidopsis arenosa": {"adjusted_time": "NA", "median_time": "6.2 MYA"}}}
 {"Nicotiana benthamiana": {"Nicotiana sylvestris": {"adjusted_time": "9.0 MYA", "median_time": "9.2 MYA"}}}
 {"Cryptomeria japonica": {"Thuja plicata": {"adjusted_time": "116 MYA", "median_time": "116 MYA"}}}
+{"Cryptomeria japonica": {"Arabidopsis thaliana": {"adjusted_time": "NA", "median_time": "330 MYA"}}}
+{"Cryptomeria japonica": {"Cycas panzhihuaensis": {"adjusted_time": "301 MYA", "median_time": "299 MYA"}}}
+{"Cryptomeria japonica": {"Sequoia sempervirens": {"adjusted_time": "NA", "median_time": "137 MYA"}}}
 {"Antirrhinum barrelieri": {"Antirrhinum majus": {"adjusted_time": "22.6 MYA", "median_time": "18.5 MYA"}}}
 {"Solanum melongena": {"Solanum tuberosum": {"adjusted_time": "9.5 MYA", "median_time": "14.6 MYA"}}}
 {"Lupinus albus": {"Arachis duranensis": {"adjusted_time": "56 MYA", "median_time": "51 MYA"}}}
