@@ -157,3 +157,4 @@
 {"Zea mays": {"Oryza sativa": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
 {"Zea mays": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
 {"Zea mays": {"Brachypodium distachyon": {"adjusted_time": "59 MYA", "median_time": "49 MYA"}}}
+{"Zea mays": {"Sorghum bicolor": {"adjusted_time": "16.3  MYA", "median_time": "11.2 MYA"}}}
