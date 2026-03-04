@@ -106,3 +106,7 @@
 {"Asimina triloba": {"Solanum lycopersicum": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Asimina triloba": {"Vitis vinifera": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Asimina triloba": {"Cinnamomum chago": {"adjusted_time": "124 MYA", "median_time": "124 MYA"}}}
+{"Sorghum bicolor": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Sorghum bicolor": {"Brachypodium distachyon": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Sorghum bicolor": {"Oryza sativa": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Sorghum bicolor": {"Zea Mays": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
