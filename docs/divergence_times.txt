@@ -28,6 +28,12 @@
 {"Solanum melongena": {"Solanum lycopersicum": {"adjusted_time": "9.5 MYA", "median_time": "14.6 MYA"}}}
 {"Nicotiana benthamiana": {"Nicotiana attenuata": {"adjusted_time": "NA", "median_time": "8.1 MYA"}}}
 {"Vitis vinifera": {"Fragaria vesca": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
+{"Vitis vinifera": {"Vitis vinifera": {"adjusted_time": "0 MYA", "median_time": "0 MYA"}}}
+{"Vitis vinifera": {"Amborella trichopoda": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
+{"Vitis vinifera": {"Arabidopsis thaliana": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
+{"Vitis vinifera": {"Cucumis sativus": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
+{"Vitis vinifera": {"Oryza sativa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Vitis vinifera": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
 {"Solanum melongena": {"Capsicum annuum": {"adjusted_time": "21.3 MYA", "median_time": "18.1 MYA"}}}
 {"Prunus persica": {"Vitis vinifera": {"adjusted_time": "123 MYA", "median_time": "117 MYA"}}}
 {"Prunus persica": {"Solanum lycopersicum": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
