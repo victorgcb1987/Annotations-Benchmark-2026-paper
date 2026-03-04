@@ -150,3 +150,9 @@
 {"Persea americana": {"Oryza sativa": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Persea americana": {"Solanum lycopersicum": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
 {"Persea americana": {"Vitis vinifera": {"adjusted_time": "163 MYA", "median_time": "163 MYA"}}}
+{"Bryum argenteum": {"Arabidopsis thaliana": {"adjusted_time": "488 MYA", "median_time": "488 MYA"}}}
+{"Bryum argenteum": {"Marchantia polymorpha": {"adjusted_time": "488 MYA", "median_time": "488 MYA"}}}
+{"Bryum argenteum": {"Sphagnum fallax": {"adjusted_time": "330 MYA", "median_time": "293 MYA"}}}
+{"Bryum argenteum": {"Physcomitrella patens": {"adjusted_time": "185 MYA", "median_time": "194 MYA"}}}
+
+
