@@ -18,7 +18,7 @@ GEMOMA_REFERENCE_TABLE_ATTEMPT = "reference_gene_table_{}.tabular"
 GEMOMA_ANNOT = "final_annotation.gff"
 GEMOMA_ANNOT_ATTEMPT = "final_annotation_{}.gff"
 CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome"
-IGNORE = ["Sorghum bicolor"]
+IGNORE = ["Sorghum bicolor", "Zea mays"]
 
 
 #run_gffcompare(outbase, source_annotation, target_annotation)
