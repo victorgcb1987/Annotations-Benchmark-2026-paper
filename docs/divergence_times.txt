@@ -177,3 +177,13 @@
 {"Ananas comosus": {"Curcuma longa": {"adjusted_time": "113 MYA", "median_time": "111 MYA"}}}
 {"Ananas comosus": {"Oryza sativa": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
 {"Ananas comosus": {"Zea mays": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
+{"Ligustrum vulgare": {"Abeliophyllum distichum": {"adjusted_time": "NA", "median_time": "52 MYA"}}}
+{"Ligustrum vulgare": {"Amborella trichopoda": {"adjusted_time": "NA", "median_time": "196 MYA"}}}
+{"Ligustrum vulgare": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Ligustrum vulgare": {"Capsicum annuum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Ligustrum vulgare": {"Forsythia ovata": {"adjusted_time": "NA", "median_time": "52 MYA"}}}
+{"Ligustrum vulgare": {"Nicotiana attenuata": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Ligustrum vulgare": {"Olea europaea": {"adjusted_time": "31 MYA", "median_time": "40 MYA"}}}
+{"Ligustrum vulgare": {"Oryza sativa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Ligustrum vulgare": {"Solanum lycopersicum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Ligustrum vulgare": {"Solanum tuberosum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
