@@ -62,4 +62,5 @@ SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bomb
                             "Persea americana": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/00_GenomeSource/IBMCP_Peame106/Peame105_genome.BR7_gene_models.gff",
                             "Bryum argenteum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/03_AbInitioPredictions/05_ANNEVO/Bryum_argenteum_DToL_v1_genome.gene_models_ANNEVO.gff3",
                             "Volvox carteri": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/00_GenomeSource/Phytozome_317/Vcarteri_317_v2.1.gene_exons.gff3",
-                            }
+                            "Ligustrum vulgare": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/03_AbInitioPredictions/04_EGAPX/Ligustrum_vulgare_EDTOL00064v1_GCA963555705_genome.gene_models_EGv1.gff3",
+                            "Oryza rufipogon": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/03_AbInitioPredictions/00_HELIXER/Oryza_rufipogon_Y476_V1_genome.helixer.gff3"}
