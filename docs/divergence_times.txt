@@ -187,3 +187,4 @@
 {"Ligustrum vulgare": {"Oryza sativa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
 {"Ligustrum vulgare": {"Solanum lycopersicum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
 {"Ligustrum vulgare": {"Solanum tuberosum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Selaginella kraussiana": {"Arabidopsis thaliana": {"adjusted_time": "429 MYA", "median_time": "429 MYA"}}}
