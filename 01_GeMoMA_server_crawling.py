@@ -60,9 +60,9 @@ def main():
     for filename in gemoma_annotations:
         filename = Path(filename)
         species_a = str(filename).split("/")[6]
+        species_a = NAME_FIX.get(species_a, species_a)
+        species_a = " ".join(species_a.split("_"))
         if species_a not in annots:
-            species_a = NAME_FIX.get(species_a, species_a)
-            species_a = " ".join(species_a.split("_"))
             annots[species_a] = {}
         pipeline =  str(sorted(list(filename.parent.glob("*GeMoMaPipeline*")),reverse=True)[0])
         with open(pipeline) as pipeline_fhand:
