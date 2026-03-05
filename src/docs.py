@@ -8,7 +8,7 @@ SPECIES_BY_ANNOT = {"GCA_014529385.2_ASM1452938v2_genomic.gff": "Adiantum capill
 "Bdistachyon_556_v3.2.gene_exons.gff3": "Brachypodium distachyon",
 "CreinhardtiiCC_4532_707_v6.1.gene_exons.gff3": "Chlamydomonas reinhardtii",
 "Cycas_panzhihuaensis_genome_V1.gene_models.gff": "Cycas panzhihuaensis",
-"Dunaliella_salina_Dunsal1v2_genome.gff": "Dunaliella_salina",
+"Dunaliella_salina_Dunsal1v2_genome.gff": "Dunaliella salina",
 "Fvesca_677_v4.0.a2.gene_exons.gff3": "Fragaria vesca",
 "GCA_020310875.1_C.richardii_v2_genomic.gff": "Ceratopteris richardii",
 "GCA_029204225.1_Diphasiastrum_complanatum_v3.1_genomic.gff": "Diphasiastrum complanatum",
