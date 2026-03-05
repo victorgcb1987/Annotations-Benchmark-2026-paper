@@ -51,4 +51,6 @@ SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bomb
                             "Prunus persica": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/00_GenomeSource/NCBI_GCF_000346465_2/Prunus_persica_LovellV2_GCF000346465_genome.gene_models_ncbi.gff3",
                             "Solanum lycopersicum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/00_GenomeSource/Phytozome_796_ITAG5/Slycopersicum_796_ITAG5.0.gene_exons.gff3",
                             "Solanum melongena": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/00_GenomeSource/Solgenomics_EggplantV4/Solanum_melongena_V4.1_genome.gene_models_SGN.gff3",
-                            "Vitis vinifera": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/00_GenomeSource/Grapedia_PN40024v4/v4_3_just_ref.gff3"}
+                            "Vitis vinifera": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/00_GenomeSource/Grapedia_PN40024v4/v4_3_just_ref.gff3",
+                            "Panicum miliaceum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/03_AbInitioPredictions/00_Helixer/Panicum_miliaceum_V1_genome.helixer.gff3",
+                            }
