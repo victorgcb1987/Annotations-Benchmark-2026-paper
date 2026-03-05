@@ -76,6 +76,7 @@ def main():
                                         "annot_file": str(sorted(list(filename.parent.glob("final_annotation*.gff")),reverse=True)[0]),
                                         }
         if "comb_" not in species_b:
+            continue
             annots[species_a][species_b]["divergence_time"] = species_divergence[species_a][species_b]
 
 
