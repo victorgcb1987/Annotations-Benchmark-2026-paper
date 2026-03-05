@@ -1,0 +1,2365 @@
+Cucumis sativus:
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Citrullus lanatus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Clanatus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Clanatus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Clanatus/final_annotation.gff
+    divergence_time:
+      Citrullus lanatus:
+        adjusted_time: 19.3
+        median_time: 20.4
+    tax_classification:
+      species: Citrullus lanatus
+      genus: Citrullus
+      family: Cucurbitaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Vitis vinifera:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Vvinifera/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Vvinifera/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Vvinifera/final_annotation.gff
+    divergence_time:
+      Vitis vinifera:
+        adjusted_time: 123.0
+        median_time: 117.0
+    tax_classification:
+      species: Vitis vinifera
+      genus: Vitis
+      family: Vitaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 121.0
+        median_time: 108.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Cucumis melo:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Cmelo/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Cmelo/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cucumis_sativus/02_ProteinEvidence/Cucumis_sativus_GeMoMa_Cmelo/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 9.0
+    tax_classification:
+      species: Cucumis melo
+      genus: Cucumis
+      family: Cucurbitaceae
+      class: Magnoliopsida
+Panicum miliaceum:
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      adjusted_time: 59.0
+      median_time: 49.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+  Zea mays:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Zmays/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Zmays/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Zmays/final_annotation.gff
+    divergence_time:
+      Zea mays:
+        adjusted_time: 36.2
+        median_time: 22.8
+    tax_classification:
+      species: Zea mays
+      genus: Zea
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/02_ProteinEvidence/Pamil_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+Arabidopsis thaliana:
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/protocol_GeMoMaPipeline_1.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/reference_gene_table_1.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Athaliana/final_annotation_1.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 0.0
+        median_time: 0.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Brassica rapa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/protocol_GeMoMaPipeline_2.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/reference_gene_table_2.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Brapa/final_annotation_2.gff
+    divergence_time:
+      Brassica rapa:
+        adjusted_time: 20.6
+        median_time: 26.0
+    tax_classification:
+      species: Brassica rapa
+      genus: Brassica
+      family: Brassicaceae
+      class: Magnoliopsida
+  Arabidopsis arenosa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Arabidopsis_thaliana/02_ProteinEvidence/Arabidopsis_thaliana_GeMoMa_Aarenosa/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 6.2
+    tax_classification:
+      species: Arabidopsis arenosa
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Oryza sativa:
+  Zea mays:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Zmays/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Zmays/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Zmays/final_annotation.gff
+    divergence_time:
+      Zea mays:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Zea mays
+      genus: Zea
+      family: Poaceae
+      class: Magnoliopsida
+  Sorghum bicolor:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Sbicolor/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Sbicolor/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Sbicolor/final_annotation.gff
+    divergence_time:
+      Sorghum bicolor:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Sorghum bicolor
+      genus: Sorghum
+      family: Poaceae
+      class: Magnoliopsida
+  Brassica rapa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Brapa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Brapa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Brapa/final_annotation.gff
+    divergence_time:
+      Brassica rapa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Brassica rapa
+      genus: Brassica
+      family: Brassicaceae
+      class: Magnoliopsida
+  Arabidopsis arenosa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Aarenosa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Aarenosa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Aarenosa/final_annotation.gff
+    divergence_time:
+      Arabidopsis arenosa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Arabidopsis arenosa
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/99_old_analysis/Orsat_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      adjusted_time: 57.0
+      median_time: 47.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+  Oryza sativa PHZ:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_OsativaPHZ/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_OsativaPHZ/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_OsativaPHZ/final_annotation.gff
+    divergence_time:
+      Oryza sativa PHZ:
+        adjusted_time: 0.0
+        median_time: 0.0
+    tax_classification: null
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_sativa/02_ProteinEvidence/Oryza_sativa_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+Asimina triloba:
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Cinnamomum chago:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Cchago/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Cchago/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Cchago/final_annotation.gff
+    divergence_time:
+      Cinnamomum chago:
+        adjusted_time: 124.0
+        median_time: 124.0
+    tax_classification:
+      species: Cinnamomum chago
+      genus: Cinnamomum
+      family: Lauraceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Vitis vinifera:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Vvinifera/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Vvinifera/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Vvinifera/final_annotation.gff
+    divergence_time:
+      Vitis vinifera:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Vitis vinifera
+      genus: Vitis
+      family: Vitaceae
+      class: Magnoliopsida
+  Amborella trichopoda:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Atrichopoda/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Atrichopoda/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Atrichopoda/final_annotation.gff
+    divergence_time:
+      Amborella trichopoda:
+        adjusted_time: NA
+        median_time: 169.0
+    tax_classification:
+      species: Amborella trichopoda
+      genus: Amborella
+      family: Amborellaceae
+      class: Magnoliopsida
+  Persea americana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Pamericana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Pamericana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Pamericana/final_annotation.gff
+    divergence_time:
+      Persea americana:
+        adjusted_time: NA
+        median_time: 124.0
+    tax_classification:
+      species: Persea americana
+      genus: Persea
+      family: Lauraceae
+      class: Magnoliopsida
+  Magnolia sinica:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Msinica/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Msinica/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Msinica/final_annotation.gff
+    divergence_time:
+      Magnolia sinica:
+        adjusted_time: 104.0
+        median_time: 104.0
+    tax_classification:
+      species: Magnolia sinica
+      genus: Magnolia
+      family: Magnoliaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/02_ProteinEvidence/GeMoMa_Asimina_triloba_SingleSpecies_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 163.0
+      median_time: 163.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Prunus persica:
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Amborella trichopoda:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Atrichopoda/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Atrichopoda/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Atrichopoda/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 196.0
+    tax_classification:
+      species: Amborella trichopoda
+      genus: Amborella
+      family: Amborellaceae
+      class: Magnoliopsida
+  Fragaria vesca:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Fvesca/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Fvesca/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Fvesca/final_annotation.gff
+    divergence_time:
+      Fragaria vesca:
+        adjusted_time: 69.0
+        median_time: 61.0
+    tax_classification:
+      species: Fragaria vesca
+      genus: Fragaria
+      family: Rosaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 121.0
+        median_time: 108.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Vitis vinifera:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Vvinifera/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Vvinifera/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Vvinifera/final_annotation.gff
+    divergence_time:
+      Vitis vinifera:
+        adjusted_time: 123.0
+        median_time: 117.0
+    tax_classification:
+      species: Vitis vinifera
+      genus: Vitis
+      family: Vitaceae
+      class: Magnoliopsida
+  Cucumis sativus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Csativus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Csativus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Prunus_persica/02_ProteinEvidence/Prunus_persica_GeMoMa_Csativus/final_annotation.gff
+    divergence_time:
+      Cucumis sativus:
+        adjusted_time: NA
+        median_time: 103.0
+    tax_classification:
+      species: Cucumis sativus
+      genus: Cucumis
+      family: Cucurbitaceae
+      class: Magnoliopsida
+Phillyrea angustifolia:
+  Fraxinus pennsylvanica:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Fpennsylvanica/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Fpennsylvanica/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Fpennsylvanica/final_annotation.gff
+    divergence_time:
+      Fraxinus pennsylvanica:
+        adjusted_time: 29.0
+        median_time: 34.0
+    tax_classification:
+      species: Fraxinus pennsylvanica
+      genus: Fraxinus
+      family: Oleaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 89.0
+        median_time: 84.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Olea europaea:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Oeuropaea/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Oeuropaea/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Oeuropaea/final_annotation.gff
+    divergence_time:
+      Olea europaea:
+        adjusted_time: 29.0
+        median_time: 34.0
+    tax_classification:
+      species: Olea europaea
+      genus: Olea
+      family: Oleaceae
+      class: Magnoliopsida
+  Abeliophyllum distichum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Adistichum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Adistichum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Phillyrea_angustifolia/02_ProteinEvidence/Phillyrea_angustifolia_AGP1v1_genome_GeMoMa_Adistichum/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 52.0
+    tax_classification:
+      species: Abeliophyllum distichum
+      genus: Abeliophyllum
+      family: Oleaceae
+      class: Magnoliopsida
+Sorghum bicolor:
+  Zea mays:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Zmays/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Zmays/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Zmays/final_annotation.gff
+    divergence_time:
+      Zea mays:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Zea mays
+      genus: Zea
+      family: Poaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Sorghum_bicolor/02_ProteinEvidence/Sobic_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 160.0
+      median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Nicotiana tabacum:
+  Nicotiana tomentosiformis:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Ntomentosiformis/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Ntomentosiformis/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Ntomentosiformis/final_annotation.gff
+    divergence_time:
+      Nicotiana tomentosiformis:
+        adjusted_time: 8.0
+        median_time: 9.2
+    tax_classification:
+      species: Nicotiana tomentosiformis
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+  Nicotiana attenuata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Nattenuatta/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Nattenuatta/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Nattenuatta/final_annotation.gff
+    divergence_time:
+      Nicotiana attenuata:
+        adjusted_time: 9.0
+        median_time: 9.2
+    tax_classification:
+      species: Nicotiana attenuata
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: NA
+        median_time: 23.9
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Nicotiana sylvestris:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Nsylvestris/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Nsylvestris/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/02_ProteinEvidence/NtK326IBMCPv1_GeMoMa_Nsylvestris/final_annotation.gff
+    divergence_time:
+      Nicotiana sylvestris:
+        adjusted_time: NA
+        median_time: 1.4
+    tax_classification:
+      species: Nicotiana sylvestris
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+Nicotiana benthamiana:
+  Nicotiana attenuata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_attenuata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_attenuata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_attenuata/final_annotation.gff
+    divergence_time:
+      Nicotiana attenuata:
+        adjusted_time: NA
+        median_time: 8.1
+    tax_classification:
+      species: Nicotiana attenuata
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+  Nicotiana tomentosiformis:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_tomentosiformis/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_tomentosiformis/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_tomentosiformis/final_annotation.gff
+    divergence_time:
+      Nicotiana tomentosiformis:
+        adjusted_time: 9.0
+        median_time: 9.2
+    tax_classification:
+      species: Nicotiana tomentosiformis
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+  Nicotiana sylvestris:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_sylvestris/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_sylvestris/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Nicotiana_sylvestris/final_annotation.gff
+    divergence_time:
+      adjusted_time: 9.0
+      median_time: 9.2
+    tax_classification:
+      species: Nicotiana sylvestris
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Arabidopsis_thaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Arabidopsis_thaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Arabidopsis_thaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Solanum_lycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Solanum_lycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Solanum_lycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: NA
+        median_time: 23.9
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Capsicum annuum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Capsicum_annuum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Capsicum_annuum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Capsicum_annuum/final_annotation.gff
+    divergence_time:
+      Capsicum annuum:
+        adjusted_time: NA
+        median_time: 23.9
+    tax_classification:
+      species: Capsicum annuum
+      genus: Capsicum
+      family: Solanaceae
+      class: Magnoliopsida
+  Solanum tuberosum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Solanum_tuberosum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Solanum_tuberosum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_benthamiana/02_ProteinEvidence/N_benthamiana_GeMoMaPrediction_Solanum_tuberosum/final_annotation.gff
+    divergence_time:
+      Solanum tuberosum:
+        adjusted_time: NA
+        median_time: 23.9
+    tax_classification:
+      species: Solanum tuberosum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+Cenchrus americanus:
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Zea mays:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Zmays/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Zmays/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Zmays/final_annotation.gff
+    divergence_time:
+      Zea mays:
+        adjusted_time: 36.2
+        median_time: 22.8
+    tax_classification:
+      species: Zea mays
+      genus: Zea
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 160.0
+      median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/02_ProteinEvidence/Ceame_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+Isoetes sinensis:
+  Selaginella moellendorffii:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Smoellendorffii/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Smoellendorffii/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Smoellendorffii/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 344.0
+    tax_classification:
+      species: Selaginella moellendorffii
+      genus: Selaginella
+      family: Selaginellaceae
+      class: Lycopodiopsida
+  Marchantia polymorpha:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Mpolymorpha/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Mpolymorpha/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Mpolymorpha/final_annotation.gff
+    divergence_time:
+      Marchantia polymorpha:
+        adjusted_time: 484.0
+        median_time: 480.0
+    tax_classification:
+      species: Marchantia polymorpha
+      genus: Marchantia
+      family: Marchantiaceae
+      class: Marchantiopsida
+  Diphasiastrum complanatum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Dcomplanatum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Dcomplanatum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Dcomplanatum/final_annotation.gff
+    divergence_time:
+      Diphasiastrum complanatum:
+        adjusted_time: NA
+        median_time: 386.0
+    tax_classification:
+      species: Diphasiastrum complanatum
+      genus: Diphasiastrum
+      family: Lycopodiaceae
+      class: Lycopodiopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/02_ProteinEvidence/Issin_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 429.0
+        median_time: 429.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Anthoceros agrestis:
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 451.0
+        median_time: 451.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Physcomitrella patens:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Ppatens/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Ppatens/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Ppatens/final_annotation.gff
+    divergence_time:
+      Physcomitrella patens:
+        adjusted_time: 484.0
+        median_time: 488.0
+    tax_classification:
+      species: Physcomitrium patens
+      genus: Physcomitrium
+      family: Funariaceae
+      class: Bryopsida
+  Marchantia polymorpha:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Mpolymorpha_v7.1/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Mpolymorpha_v7.1/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Mpolymorpha_v7.1/final_annotation.gff
+    divergence_time:
+      Marchantia polymorpha:
+        adjusted_time: 484.0
+        median_time: 480.0
+    tax_classification:
+      species: Marchantia polymorpha
+      genus: Marchantia
+      family: Marchantiaceae
+      class: Marchantiopsida
+  Sphagnum fallax:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Sfallax/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Sfallax/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Anthoceros_agrestis/02_ProteinEvidence/AnagrOXF_GeMoMa_Sfallax/final_annotation.gff
+    divergence_time:
+      adjusted_time: 484.0
+      median_time: 488.0
+    tax_classification:
+      species: Sphagnum fallax
+      genus: Sphagnum
+      family: Sphagnaceae
+      class: Sphagnopsida
+Aechmea fasciata:
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: 110.0
+        median_time: 106.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      adjusted_time: 110.0
+      median_time: 106.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Ananas comosus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Acomusus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Acomusus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Aechmea_fasciata/02_ProteinEvidence/Aefas_GeMoMa_Acomusus/final_annotation.gff
+    divergence_time:
+      Ananas comosus:
+        adjusted_time: 13.7
+        median_time: 7.7
+    tax_classification:
+      species: Ananas comosus
+      genus: Ananas
+      family: Bromeliaceae
+      class: Magnoliopsida
+Vitis vinifera:
+  Fragaria vesca:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyFrves/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyFrves/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyFrves/final_annotation.gff
+    divergence_time:
+      Fragaria vesca:
+        adjusted_time: 123.0
+        median_time: 117.0
+    tax_classification:
+      species: Fragaria vesca
+      genus: Fragaria
+      family: Rosaceae
+      class: Magnoliopsida
+  Vitis vinifera:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyVivin/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyVivin/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyVivin/final_annotation.gff
+    divergence_time:
+      Vitis vinifera:
+        adjusted_time: 0.0
+        median_time: 0.0
+    tax_classification:
+      species: Vitis vinifera
+      genus: Vitis
+      family: Vitaceae
+      class: Magnoliopsida
+  Cucumis sativus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyCusat/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyCusat/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyCusat/final_annotation.gff
+    divergence_time:
+      Cucumis sativus:
+        adjusted_time: 123.0
+        median_time: 117.0
+    tax_classification:
+      species: Cucumis sativus
+      genus: Cucumis
+      family: Cucurbitaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyOrsat/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyOrsat/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyOrsat/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Amborella trichopoda:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyAmtri/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyAmtri/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyAmtri/final_annotation.gff
+    divergence_time:
+      Amborella trichopoda:
+        adjusted_time: NA
+        median_time: 196.0
+    tax_classification:
+      species: Amborella trichopoda
+      genus: Amborella
+      family: Amborellaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyArtha/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyArtha/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlyArtha/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 123.0
+        median_time: 117.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlySolyc/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlySolyc/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/02_ProteinEvidence/Vvinifera_T2Tv5.genome.GeMoMa.OnlySolyc/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+Panicum virgatum:
+  Zea mays:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Zmays/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Zmays/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Zmays/final_annotation.gff
+    divergence_time:
+      adjusted_time: 36.2
+      median_time: 22.8
+    tax_classification:
+      species: Zea mays
+      genus: Zea
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/02_ProteinEvidence/Pavir_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+Solanum melongena:
+  Capsicum annuum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Cannum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Cannum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Cannum/final_annotation.gff
+    divergence_time:
+      Capsicum annuum:
+        adjusted_time: 21.3
+        median_time: 18.1
+    tax_classification:
+      species: Capsicum annuum
+      genus: Capsicum
+      family: Solanaceae
+      class: Magnoliopsida
+  Nicotiana attenuata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Nattenuata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Nattenuata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Nattenuata/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 23.9
+    tax_classification:
+      species: Nicotiana attenuata
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+  Solanum tuberosum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Stuberosum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Stuberosum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Stuberosum/final_annotation.gff
+    divergence_time:
+      Solanum tuberosum:
+        adjusted_time: 9.5
+        median_time: 14.6
+    tax_classification:
+      species: Solanum tuberosum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_melongena/02_ProteinEvidence/Solanum_melongena_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 9.5
+        median_time: 14.6
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+Cryptomeria japonica:
+  Thuja plicata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Tplicata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Tplicata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Tplicata/final_annotation.gff
+    divergence_time:
+      adjusted_time: 116.0
+      median_time: 116.0
+    tax_classification:
+      species: Thuja plicata
+      genus: Thuja
+      family: Cupressaceae
+      class: Pinopsida
+  Sequoia sempervirens:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Ssempervirens/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Ssempervirens/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Ssempervirens/final_annotation.gff
+    divergence_time:
+      Sequoia sempervirens:
+        adjusted_time: NA
+        median_time: 137.0
+    tax_classification:
+      species: Sequoia sempervirens
+      genus: Sequoia
+      family: Cupressaceae
+      class: Pinopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: NA
+        median_time: 330.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Cycas panzhihuaensis:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Cpanzhihuensis/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Cpanzhihuensis/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cryptomeria_japonica/02_ProteinEvidence/Crjap_GeMoMa_Cpanzhihuensis/final_annotation.gff
+    divergence_time:
+      Cycas panzhihuaensis:
+        adjusted_time: 301.0
+        median_time: 299.0
+    tax_classification:
+      species: Cycas panzhihuaensis
+      genus: Cycas
+      family: Cycadaceae
+      class: Cycadopsida
+Eleochari dulcis:
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: NA
+        median_time: NA
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: NA
+        median_time: NA
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/02_ProteinEvidence/Eldul_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: NA
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+Persea americana:
+  Magnolia sinica:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Msinica/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Msinica/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Msinica/final_annotation.gff
+    divergence_time:
+      Magnolia sinica:
+        adjusted_time: NA
+        median_time: 124.0
+    tax_classification:
+      species: Magnolia sinica
+      genus: Magnolia
+      family: Magnoliaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Amborella trichopoda:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Atrichopoda/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Atrichopoda/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Atrichopoda/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 196.0
+    tax_classification:
+      species: Amborella trichopoda
+      genus: Amborella
+      family: Amborellaceae
+      class: Magnoliopsida
+  Cinnamomum chago:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Cchago/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Cchago/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Cchago/final_annotation.gff
+    divergence_time:
+      Cinnamomum chago:
+        adjusted_time: NA
+        median_time: NA
+    tax_classification:
+      species: Cinnamomum chago
+      genus: Cinnamomum
+      family: Lauraceae
+      class: Magnoliopsida
+  Vitis vinifera:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Vvinifera/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Vvinifera/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Vvinifera/final_annotation.gff
+    divergence_time:
+      Vitis vinifera:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Vitis vinifera
+      genus: Vitis
+      family: Vitaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/02_ProteinEvidence/GeMoMa_Persea_americana_SingleSpecies_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 163.0
+        median_time: 163.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Amborella trichopoda:
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: NA
+        median_time: 196.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 196.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Amborella_trichopoda/02_ProteinEvidence/Amtri_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: NA
+        median_time: 196.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Lupinus albus:
+  Lupinus angustifolius:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Langustifolius/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Langustifolius/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Langustifolius/final_annotation.gff
+    divergence_time:
+      Lupinus angustifolius:
+        adjusted_time: NA
+        median_time: 8.5
+    tax_classification:
+      species: Lupinus angustifolius
+      genus: Lupinus
+      family: Fabaceae
+      class: Magnoliopsida
+  Vicia faba:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vfaba/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vfaba/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vfaba/final_annotation.gff
+    divergence_time:
+      Vicia faba:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Vicia faba
+      genus: Vicia
+      family: Fabaceae
+      class: Magnoliopsida
+  Cajanus cajan:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ccajan/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ccajan/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ccajan/final_annotation.gff
+    divergence_time:
+      Cajanus cajan:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Cajanus cajan
+      genus: Cajanus
+      family: Fabaceae
+      class: Magnoliopsida
+  Cicer arietinum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Carietinum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Carietinum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Carietinum/final_annotation.gff
+    divergence_time:
+      Cicer arietinum:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Cicer arietinum
+      genus: Cicer
+      family: Fabaceae
+      class: Magnoliopsida
+  Arachis duranensis:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Aduranensis/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Aduranensis/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Aduranensis/final_annotation.gff
+    divergence_time:
+      Arachis duranensis:
+        adjusted_time: 56.0
+        median_time: 51.0
+    tax_classification:
+      species: Arachis duranensis
+      genus: Arachis
+      family: Fabaceae
+      class: Magnoliopsida
+  Trifolium repens:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Trepens/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Trepens/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Trepens/final_annotation.gff
+    divergence_time:
+      Trifolium repens:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Trifolium repens
+      genus: Trifolium
+      family: Fabaceae
+      class: Magnoliopsida
+  Vicia villosa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vvillosa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vvillosa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vvillosa/final_annotation.gff
+    divergence_time:
+      Vicia villosa:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Vicia villosa
+      genus: Vicia
+      family: Fabaceae
+      class: Magnoliopsida
+  Canavalia gladiata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Cgladiata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Cgladiata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Cgladiata/final_annotation.gff
+    divergence_time:
+      Canavalia gladiata:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Canavalia gladiata
+      genus: Canavalia
+      family: Fabaceae
+      class: Magnoliopsida
+  Pisum sativum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Psativum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Psativum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Psativum/final_annotation.gff
+    divergence_time:
+      Pisum sativum:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Lathyrus oleraceus
+      genus: Lathyrus
+      family: Fabaceae
+      class: Magnoliopsida
+  Medicago truncatula:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Mtruncatula/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Mtruncatula/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Mtruncatula/final_annotation.gff
+    divergence_time:
+      Medicago truncatula:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Medicago truncatula
+      genus: Medicago
+      family: Fabaceae
+      class: Magnoliopsida
+  Glycine soja:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Gsoja/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Gsoja/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Gsoja/final_annotation.gff
+    divergence_time:
+      Glycine soja:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Glycine soja
+      genus: Glycine
+      family: Fabaceae
+      class: Magnoliopsida
+  Vigna mungo:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vmungo/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vmungo/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vmungo/final_annotation.gff
+    divergence_time:
+      Vigna mungo:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Vigna mungo
+      genus: Vigna
+      family: Fabaceae
+      class: Magnoliopsida
+  Glycine max:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Gmax/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Gmax/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Gmax/final_annotation.gff
+    divergence_time:
+      Glycine max:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Glycine max
+      genus: Glycine
+      family: Fabaceae
+      class: Magnoliopsida
+  Bauhinia variegata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Bvariegata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Bvariegata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Bvariegata/final_annotation.gff
+    divergence_time:
+      Bauhinia variegata:
+        adjusted_time: 93.0
+        median_time: 68.0
+    tax_classification:
+      species: Bauhinia variegata
+      genus: Bauhinia
+      family: Fabaceae
+      class: Magnoliopsida
+  Vigna angularis:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vangularis/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vangularis/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vangularis/final_annotation.gff
+    divergence_time:
+      Vigna angularis:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Vigna angularis
+      genus: Vigna
+      family: Fabaceae
+      class: Magnoliopsida
+  Lotus japonicus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ljaponicus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ljaponicus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ljaponicus/final_annotation.gff
+    divergence_time:
+      adjusted_time: 57.0
+      median_time: 56.0
+    tax_classification:
+      species: Lotus japonicus
+      genus: Lotus
+      family: Fabaceae
+      class: Magnoliopsida
+  Phaseolus vulgaris:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Pvulgaris/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Pvulgaris/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Pvulgaris/final_annotation.gff
+    divergence_time:
+      Phaseolus vulgaris:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Phaseolus vulgaris
+      genus: Phaseolus
+      family: Fabaceae
+      class: Magnoliopsida
+  Vigna radiata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vradiata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vradiata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vradiata/final_annotation.gff
+    divergence_time:
+      Vigna radiata:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Vigna radiata
+      genus: Vigna
+      family: Fabaceae
+      class: Magnoliopsida
+  Arachis hypogaea:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ahypogaea/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ahypogaea/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Ahypogaea/final_annotation.gff
+    divergence_time:
+      Arachis hypogaea:
+        adjusted_time: 56.0
+        median_time: 51.0
+    tax_classification:
+      species: Arachis hypogaea
+      genus: Arachis
+      family: Fabaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 121.0
+        median_time: 108.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Vigna unguiculata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vunguiculata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vunguiculata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Vunguiculata/final_annotation.gff
+    divergence_time:
+      Vigna unguiculata:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Vigna unguiculata
+      genus: Vigna
+      family: Fabaceae
+      class: Magnoliopsida
+  Lathyrus sativus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Lsativus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Lsativus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Lupinus_albus/02_ProteinEvidence/Lupinus_albus_AMIGAv1_genome_GeMoMa_Lsativus/final_annotation.gff
+    divergence_time:
+      Lathyrus sativus:
+        adjusted_time: 57.0
+        median_time: 56.0
+    tax_classification:
+      species: Lathyrus sativus
+      genus: Lathyrus
+      family: Fabaceae
+      class: Magnoliopsida
+Bryum argenteum:
+  Marchantia polymorpha:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Mpolymorpha/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Mpolymorpha/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Mpolymorpha/final_annotation.gff
+    divergence_time:
+      Marchantia polymorpha:
+        adjusted_time: 488.0
+        median_time: 488.0
+    tax_classification:
+      species: Marchantia polymorpha
+      genus: Marchantia
+      family: Marchantiaceae
+      class: Marchantiopsida
+  Physcomitrella patens:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Ppatens/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Ppatens/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Ppatens/final_annotation.gff
+    divergence_time:
+      Physcomitrella patens:
+        adjusted_time: 185.0
+        median_time: 194.0
+    tax_classification:
+      species: Physcomitrium patens
+      genus: Physcomitrium
+      family: Funariaceae
+      class: Bryopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 488.0
+      median_time: 488.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Sphagnum fallax:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Sfallax/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Sfallax/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/02_ProteinEvidence/Brarg_GeMoMa_Sfallax/final_annotation.gff
+    divergence_time:
+      Sphagnum fallax:
+        adjusted_time: 330.0
+        median_time: 293.0
+    tax_classification:
+      species: Sphagnum fallax
+      genus: Sphagnum
+      family: Sphagnaceae
+      class: Sphagnopsida
+Zea mays:
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      adjusted_time: 59.0
+      median_time: 49.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Sorghum bicolor:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Sbicolor/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Sbicolor/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Sbicolor/final_annotation.gff
+    divergence_time:
+      Sorghum bicolor:
+        adjusted_time: 16.3
+        median_time: 11.2
+    tax_classification:
+      species: Sorghum bicolor
+      genus: Sorghum
+      family: Poaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Zea_mays/02_ProteinEvidence/Zemay_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Antirrhinum barrelieri:
+  Antirrhinum hispanicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Ahispanicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Ahispanicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Ahispanicum/final_annotation.gff
+    divergence_time:
+      Antirrhinum hispanicum:
+        adjusted_time: 1.44
+        median_time: 1.44
+    tax_classification:
+      species: Antirrhinum hispanicum
+      genus: Antirrhinum
+      family: Plantaginaceae
+      class: Magnoliopsida
+  Antirrhinum majus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Amajus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Amajus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Amajus/final_annotation.gff
+    divergence_time:
+      adjusted_time: 22.6
+      median_time: 18.5
+    tax_classification:
+      species: Antirrhinum majus
+      genus: Antirrhinum
+      family: Plantaginaceae
+      class: Magnoliopsida
+  Penstemon smallii:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Psmallii/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Psmallii/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Psmallii/final_annotation.gff
+    divergence_time:
+      Penstemon smallii:
+        adjusted_time: 46.0
+        median_time: 44.0
+    tax_classification:
+      species: Penstemon smallii
+      genus: Penstemon
+      family: Plantaginaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Antirrhinum_barrelieri/02_ProteinEvidence/Antirrhinum_barrelieri_GeMoMa_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 89.0
+        median_time: 84.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+Alsophila spinulosa:
+  Selaginella moellendorffii:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Smoellendorffii/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Smoellendorffii/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Smoellendorffii/final_annotation.gff
+    divergence_time:
+      Selaginella moellendorffii:
+        adjusted_time: 429.0
+        median_time: 429.0
+    tax_classification:
+      species: Selaginella moellendorffii
+      genus: Selaginella
+      family: Selaginellaceae
+      class: Lycopodiopsida
+  Ceratopteris richardii:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Crichardi/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Crichardi/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Crichardi/final_annotation.gff
+    divergence_time:
+      Ceratopteris richardii:
+        adjusted_time: NA
+        median_time: 211.0
+    tax_classification:
+      species: Ceratopteris richardii
+      genus: Ceratopteris
+      family: Pteridaceae
+      class: Polypodiopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 405.0
+        median_time: 405.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Adiantum capillus-veneris:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Acapillus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Acapillus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Alsophila_spinulosa/02_ProteinEvidence/Alsophila_spinulosa_genome_GeMoMa_Acapillus/final_annotation.gff
+    divergence_time:
+      Adiantum capillus-veneris:
+        adjusted_time: 211.0
+        median_time: 211.0
+    tax_classification:
+      species: Adiantum capillus-veneris
+      genus: Adiantum
+      family: Pteridaceae
+      class: Polypodiopsida
+Volvox carteri:
+  Dunaliella salina:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Dsalina/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Dsalina/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Dsalina/final_annotation.gff
+    divergence_time:
+      adjusted_time: 480.0
+      median_time: 600.0
+    tax_classification:
+      species: Dunaliella salina
+      genus: Dunaliella
+      family: Dunaliellaceae
+      class: Chlorophyceae
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 992.0
+        median_time: 936.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Chlamydomonas reinhardtii:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Creinhardtii/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Creinhardtii/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Creinhardtii/final_annotation.gff
+    divergence_time:
+      Chlamydomonas reinhardtii:
+        adjusted_time: 185.0
+        median_time: 88.0
+    tax_classification:
+      species: Chlamydomonas reinhardtii
+      genus: Chlamydomonas
+      family: Chlamydomonadaceae
+      class: Chlorophyceae
+  Haematococcus lacustris:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Hlacustris/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Hlacustris/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/02_ProteinEvidence/Vocar_GeMoMa_Hlacustris/final_annotation.gff
+    divergence_time:
+      Haematococcus lacustris:
+        adjusted_time: 480.0
+        median_time: 600.0
+    tax_classification:
+      species: Haematococcus lacustris
+      genus: Haematococcus
+      family: Haematococcaceae
+      class: Chlorophyceae
+Solanum lycopersicum:
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 125.0
+      median_time: 118.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Olea europaea:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Oeuropaea/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Oeuropaea/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Oeuropaea/final_annotation.gff
+    divergence_time:
+      Olea europaea:
+        adjusted_time: 89.0
+        median_time: 84.0
+    tax_classification:
+      species: Olea europaea
+      genus: Olea
+      family: Oleaceae
+      class: Magnoliopsida
+  Capsicum annuum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Cannuum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Cannuum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Cannuum/final_annotation.gff
+    divergence_time:
+      Capsicum annuum:
+        adjusted_time: 21.3
+        median_time: 18.1
+    tax_classification:
+      species: Capsicum annuum
+      genus: Capsicum
+      family: Solanaceae
+      class: Magnoliopsida
+  Solanum tuberosum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Stuberosum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Stuberosum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Stuberosum/final_annotation.gff
+    divergence_time:
+      Solanum tuberosum:
+        adjusted_time: 7.1
+        median_time: 8.0
+    tax_classification:
+      species: Solanum tuberosum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Nicotiana attenuata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Nattenuata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Nattenuata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Solanum_lycopersicum/02_ProteinEvidence/Solanum_lycopersicum_HeinzITAG5_genome_GeMoMa_Nattenuata/final_annotation.gff
+    divergence_time:
+      Nicotiana attenuata:
+        adjusted_time: NA
+        median_time: 23.9
+    tax_classification:
+      species: Nicotiana attenuata
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+Ananas comosus:
+  Curcuma longa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Clonga/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Clonga/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Clonga/final_annotation.gff
+    divergence_time:
+      Curcuma longa:
+        adjusted_time: 113.0
+        median_time: 111.0
+    tax_classification:
+      species: Curcuma longa
+      genus: Curcuma
+      family: Zingiberaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: 110.0
+        median_time: 106.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
+  Zea mays:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Zmays/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Zmays/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Zmays/final_annotation.gff
+    divergence_time:
+      Zea mays:
+        adjusted_time: 110.0
+        median_time: 106.0
+    tax_classification:
+      species: Zea mays
+      genus: Zea
+      family: Poaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 160.0
+      median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ananas_comosus/02_ProteinEvidence/Ananas_comosus_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 110.0
+        median_time: 106.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+Adiantum capillus-veneris:
+  Ceratopteris richardii:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Crichardii/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Crichardii/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Crichardii/final_annotation.gff
+    divergence_time:
+      Ceratopteris richardii:
+        adjusted_time: 83.0
+        median_time: 105.0
+    tax_classification:
+      species: Ceratopteris richardii
+      genus: Ceratopteris
+      family: Pteridaceae
+      class: Polypodiopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 405.0
+        median_time: 405.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Anthoceros punctatus:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Apunctuatus/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Apunctuatus/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Apunctuatus/final_annotation.gff
+    divergence_time:
+      Anthoceros punctatus:
+        adjusted_time: 451.0
+        median_time: 451.0
+    tax_classification:
+      species: Anthoceros punctatus
+      genus: Anthoceros
+      family: Anthocerotaceae
+      class: Anthocerotopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 405.0
+        median_time: 405.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Alsophila spinulosa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Aspinulosa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Aspinulosa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Adiantum_capillusveneris/02_ProteinEvidence/Adiantum_capillusveneris_GeMoMa_Aspinulosa/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 211.0
+    tax_classification:
+      species: Alsophila spinulosa
+      genus: Alsophila
+      family: Cyatheaceae
+      class: Polypodiopsida
+Ligustrum vulgare:
+  Amborella trichopoda:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Atrichopoda/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Atrichopoda/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Atrichopoda/final_annotation.gff
+    divergence_time:
+      Amborella trichopoda:
+        adjusted_time: NA
+        median_time: 196.0
+    tax_classification:
+      species: Amborella trichopoda
+      genus: Amborella
+      family: Amborellaceae
+      class: Magnoliopsida
+  Nicotiana attenuata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Nattenuata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Nattenuata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Nattenuata/final_annotation.gff
+    divergence_time:
+      Nicotiana attenuata:
+        adjusted_time: 89.0
+        median_time: 84.0
+    tax_classification:
+      species: Nicotiana attenuata
+      genus: Nicotiana
+      family: Solanaceae
+      class: Magnoliopsida
+  Olea europaea:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Oeuropaea/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Oeuropaea/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Oeuropaea/final_annotation.gff
+    divergence_time:
+      Olea europaea:
+        adjusted_time: 31.0
+        median_time: 40.0
+    tax_classification:
+      species: Olea europaea
+      genus: Olea
+      family: Oleaceae
+      class: Magnoliopsida
+  Solanum lycopersicum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Slycopersicum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Slycopersicum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Slycopersicum/final_annotation.gff
+    divergence_time:
+      Solanum lycopersicum:
+        adjusted_time: 89.0
+        median_time: 84.0
+    tax_classification:
+      species: Solanum lycopersicum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Abeliophyllum distichum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Adistichum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Adistichum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Adistichum/final_annotation.gff
+    divergence_time:
+      adjusted_time: NA
+      median_time: 52.0
+    tax_classification:
+      species: Abeliophyllum distichum
+      genus: Abeliophyllum
+      family: Oleaceae
+      class: Magnoliopsida
+  Solanum tuberosum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Stuberosum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Stuberosum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Stuberosum/final_annotation.gff
+    divergence_time:
+      Solanum tuberosum:
+        adjusted_time: 89.0
+        median_time: 84.0
+    tax_classification:
+      species: Solanum tuberosum
+      genus: Solanum
+      family: Solanaceae
+      class: Magnoliopsida
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Athaliana/final_annotation.gff
+    divergence_time:
+      Arabidopsis thaliana:
+        adjusted_time: 125.0
+        median_time: 118.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: 160.0
+        median_time: 160.0
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Capsicum annuum:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Cannuum/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Cannuum/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Cannuum/final_annotation.gff
+    divergence_time:
+      Capsicum annuum:
+        adjusted_time: 89.0
+        median_time: 84.0
+    tax_classification:
+      species: Capsicum annuum
+      genus: Capsicum
+      family: Solanaceae
+      class: Magnoliopsida
+  Forsythia ovata:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Fovata/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Fovata/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Ligustrum_vulgare/02_ProteinEvidence/GeMoMa_Ligustrum_vulgare_SingleSpecies_Fovata/final_annotation.gff
+    divergence_time:
+      Forsythia ovata:
+        adjusted_time: NA
+        median_time: 52.0
+    tax_classification:
+      species: Forsythia ovata
+      genus: Forsythia
+      family: Oleaceae
+      class: Magnoliopsida
+Selaginella kraussiana:
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Selaginella_kraussiana/02_ProteinEvidence/Selaginella_kraussiana_XulinSIPPEv2_genome_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Selaginella_kraussiana/02_ProteinEvidence/Selaginella_kraussiana_XulinSIPPEv2_genome_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Selaginella_kraussiana/02_ProteinEvidence/Selaginella_kraussiana_XulinSIPPEv2_genome_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 429.0
+      median_time: 429.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+Oryza rufipogon:
+  Arabidopsis thaliana:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Athaliana/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Athaliana/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Athaliana/final_annotation.gff
+    divergence_time:
+      adjusted_time: 160.0
+      median_time: 160.0
+    tax_classification:
+      species: Arabidopsis thaliana
+      genus: Arabidopsis
+      family: Brassicaceae
+      class: Magnoliopsida
+  Oryza sativa:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Osativa/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Osativa/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Osativa/final_annotation.gff
+    divergence_time:
+      Oryza sativa:
+        adjusted_time: NA
+        median_time: 0.72
+    tax_classification:
+      species: Oryza sativa
+      genus: Oryza
+      family: Poaceae
+      class: Magnoliopsida
+  Zea mays:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Zmays/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Zmays/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Zmays/final_annotation.gff
+    divergence_time:
+      Zea mays:
+        adjusted_time: 59.0
+        median_time: 49.0
+    tax_classification:
+      species: Zea mays
+      genus: Zea
+      family: Poaceae
+      class: Magnoliopsida
+  Brachypodium distachyon:
+    pipeline_log: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Bdistachyon/protocol_GeMoMaPipeline.txt
+    ref_table: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Bdistachyon/reference_gene_table.tabular
+    annot_file: /data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Oryza_rufipogon/02_ProteinEvidence/Orruf_GeMoMa_Bdistachyon/final_annotation.gff
+    divergence_time:
+      Brachypodium distachyon:
+        adjusted_time: 57.0
+        median_time: 47.0
+    tax_classification:
+      species: Brachypodium distachyon
+      genus: Brachypodium
+      family: Poaceae
+      class: Magnoliopsida
