@@ -75,7 +75,8 @@ def main():
             annots[species_a][species_b]= {"pipeline_log": pipeline,
                                             "ref_table": str(sorted(list(filename.parent.glob("*tabular")),reverse=True)[0]), 
                                             "annot_file": str(sorted(list(filename.parent.glob("final_annotation*.gff")),reverse=True)[0]),
-                                            "divergence_time": species_divergence[species_a][species_b]}
+                                            "divergence_time": species_divergence[species_a][species_b],
+                                            "tax_classification": get_taxonomic_data(species_b)}
 
 
     with open('GeMoMA_metadata_2026_03_03.yaml', 'w') as outfile:
