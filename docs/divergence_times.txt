@@ -43,6 +43,11 @@
 {"Phillyrea angustifolia": {"Solanum lycopersicum": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
 {"Lupinus albus": {"Pisum sativum": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Solanum lycopersicum": {"Arabidopsis thaliana": {"adjusted_time": "125 MYA", "median_time": "118 MYA"}}}
+{"Solanum lycopersicum": {"Nicotiana attenuata": {"adjusted_time": "NA", "median_time": "23.9 MYA"}}}
+{"Solanum lycopersicum": {"Olea europaea": {"adjusted_time": "89 MYA", "median_time": "84 MYA"}}}
+{"Solanum lycopersicum": {"Oryza sativa": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Solanum lycopersicum": {"Solanum tuberosum": {"adjusted_time": "7.1 MYA", "median_time": "8 MYA"}}}
+{"Solanum lycopersicum": {"Capsicum annuum": {"adjusted_time": "21.3 MYA", "median_time": "18.1 MYA"}}}
 {"Lupinus albus": {"Arabidopsis thaliana": {"adjusted_time": "121 MYA", "median_time": "108 MYA"}}}
 {"Nicotiana benthamiana": {"Solanum tuberosum": {"adjusted_time": "NA", "median_time": "23.9 MYA"}}}
 {"Prunus persica": {"Fragaria vesca": {"adjusted_time": "69 MYA", "median_time": "61 MYA"}}}
