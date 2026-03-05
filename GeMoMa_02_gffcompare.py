@@ -18,11 +18,14 @@ GEMOMA_REFERENCE_TABLE_ATTEMPT = "reference_gene_table_{}.tabular"
 GEMOMA_ANNOT = "final_annotation.gff"
 GEMOMA_ANNOT_ATTEMPT = "final_annotation_{}.gff"
 CONTRIBUTION_LINE = "annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome"
+IGNORE = ["Sorghum bicolor"]
 
 
 #run_gffcompare(outbase, source_annotation, target_annotation)
 def add_gffcompare_results(benchmarks, outbase):
     for species_a, annotations in benchmarks.items():
+        if species_a in IGNORE:
+            continue
         for species_b, annotation_features in annotations.items():
             name = "GeMoMa_{}-{}".format(species_a, species_b)
             results = run_gffcompare(outbase, SOURCE_ANNOTS_FOR_GEMOMA[species_a], Path(annotation_features["annot_file"]), name)
