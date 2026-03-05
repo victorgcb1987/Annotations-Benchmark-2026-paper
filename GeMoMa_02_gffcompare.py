@@ -27,7 +27,7 @@ def add_gffcompare_results(benchmarks, outbase):
         if species_a in IGNORE:
             continue
         for species_b, annotation_features in annotations.items():
-            name = "GeMoMa_{}-{}".format(species_a, species_b)
+            name = "GeMoMa_{}-{}".format("_".join(species_a.split()), "_".join(species_b.split()))
             results = run_gffcompare(outbase, SOURCE_ANNOTS_FOR_GEMOMA[species_a], Path(annotation_features["annot_file"]), name)
             
 
