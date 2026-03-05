@@ -170,3 +170,8 @@
 {"Volvox carteri": {"Arabidopsis thaliana": {"adjusted_time": "992 MYA", "median_time": "936 MYA"}}}
 {"Volvox carteri": {"Chlamydomonas reinhardtii": {"adjusted_time": "185 MYA", "median_time": "88 MYA"}}}
 {"Volvox carteri": {"Haematococcus lacustris": {"adjusted_time": "480 MYA", "median_time": "600 MYA"}}}
+{"Ananas comosus": {"Arabidopsis thaliana": {"adjusted_time": "160 MYA", "median_time": "160 MYA"}}}
+{"Ananas comosus": {"Brachypodium distachyon": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
+{"Ananas comosus": {"Curcuma longa": {"adjusted_time": "113 MYA", "median_time": "111 MYA"}}}
+{"Ananas comosus": {"Oryza sativa": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
+{"Ananas comosus": {"Zea mays": {"adjusted_time": "110 MYA", "median_time": "106 MYA"}}}
