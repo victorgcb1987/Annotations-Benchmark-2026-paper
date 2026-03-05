@@ -56,5 +56,5 @@ SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bomb
                             "Asimina triloba": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/03_AbInitioPredictions/05_ANNEVO/Astri106_genome.gene_models_ANNEVO.gff3",
                             "Nicotiana tabacum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/03_AbInitioPredictions/05_ANNEVO/gene_models_ANv1.gff3",
                             "Cenchrus americanus": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/03_AbInitioPredictions/00_Helixer/Cenchrus_americanus_TiftPM23_V1_genome.helixer.gff3",
-                            "Isoetes cinensis": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/00_GenomeSource/CNGB_CNA0072254/Isoetes_sinensis_V1_genome.gene_models.fixed.gff3",
+                            "Isoetes sinensis": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/00_GenomeSource/CNGB_CNA0072254/Isoetes_sinensis_V1_genome.gene_models.fixed.gff3",
                             }
