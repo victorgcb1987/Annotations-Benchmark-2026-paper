@@ -61,5 +61,5 @@ SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bomb
                             "Eleochari dulcis": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/03_AbInitioPredictions/00_Helixer/Eleochari_dulcis_V1_genome.helixer.gff3",
                             "Persea americana": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/00_GenomeSource/IBMCP_Peame106/Peame105_genome.BR7_gene_models.gff",
                             "Bryum argenteum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Bryum_argenteum/03_AbInitioPredictions/05_ANNEVO/Bryum_argenteum_DToL_v1_genome.gene_models_ANNEVO.gff3",
-                            "Zea mays": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/00_GenomeSource/Phytozome_317/Vcarteri_317_v2.1.gene_exons.gff3",
+                            "Volvox carteri": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Volvox_carteri/00_GenomeSource/Phytozome_317/Vcarteri_317_v2.1.gene_exons.gff3",
                             }
