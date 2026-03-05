@@ -26,6 +26,7 @@
 {"Adiantum capillus-veneris": {"Oryza sativa": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
 {"Adiantum capillus-veneris": {"Ceratopteris richardii": {"adjusted_time": "83 MYA", "median_time": "105 MYA"}}}
 {"Adiantum capillus-veneris": {"Anthoceros punctatus": {"adjusted_time": "451 MYA", "median_time": "451 MYA"}}}
+{"Adiantum capillus-veneris": {"Arabidopsis thaliana": {"adjusted_time": "405 MYA", "median_time": "405 MYA"}}}
 {"Lupinus albus": {"Lupinus angustifolius": {"adjusted_time": "NA", "median_time": "8.5 MYA"}}}
 {"Lupinus albus": {"Vicia villosa": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
 {"Lupinus albus": {"Vigna unguiculata": {"adjusted_time": "57 MYA", "median_time": "56 MYA"}}}
