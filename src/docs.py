@@ -54,4 +54,6 @@ SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bomb
                             "Vitis vinifera": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Vitis_vinifera/00_GenomeSource/Grapedia_PN40024v4/v4_3_just_ref.gff3",
                             "Panicum miliaceum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_miliaceum/03_AbInitioPredictions/00_Helixer/Panicum_miliaceum_V1_genome.helixer.gff3",
                             "Asimina triloba": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Asimina_triloba/03_AbInitioPredictions/05_ANNEVO/Astri106_genome.gene_models_ANNEVO.gff3",
-                            "Nicotiana tabacum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/03_AbInitioPredictions/05_ANNEVO/gene_models_ANv1.gff3"}
+                            "Nicotiana tabacum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Nicotiana_tabacum/03_AbInitioPredictions/05_ANNEVO/gene_models_ANv1.gff3",
+                            "Cencrhus americanus": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Cenchrus_americanus/03_AbInitioPredictions/00_Helixer/Cenchrus_americanus_TiftPM23_V1_genome.helixer.gff3",
+                            }
