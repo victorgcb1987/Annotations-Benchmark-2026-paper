@@ -59,4 +59,5 @@ SOURCE_ANNOTS_FOR_GEMOMA = {"Adiantum capillus-veneris":"/data/shared_space/bomb
                             "Isoetes sinensis": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Isoetes_sinensis/00_GenomeSource/CNGB_CNA0072254/Isoetes_sinensis_V1_genome.gene_models.fixed.gff3",
                             "Panicum virgatum": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Panicum_virgatum/00_GenomeSource/NCBI_GCF_016808335_1/GCF_016808335.1_P.virgatum_v5_genomic.clean.gff",
                             "Eleochari dulcis": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Eleochari_dulcis/03_AbInitioPredictions/00_Helixer/Eleochari_dulcis_V1_genome.helixer.gff3",
+                            "Persea americana": "/data/shared_space/bombarely_lab/AnnotationBenchmarkProject/BySpecies/Persea_americana/00_GenomeSource/IBMCP_Peame106/Peame105_genome.BR7_gene_models.gff",
                             }
